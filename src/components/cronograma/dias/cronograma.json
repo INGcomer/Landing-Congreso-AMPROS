@@ -1,0 +1,62 @@
+{
+    "primer_dia": [
+        {
+            "inicio": "9:00",
+            "fin": "12:30",
+            "eventos": [
+                "pre-congreso-1"
+            ]
+        },
+        {
+            "inicio": "12:30",
+            "fin": "14:30",
+            "eventos": [
+                "Almuerzo"
+            ]
+        },
+        {
+            "inicio": "14:30",
+            "fin": "18:00",
+            "eventos": [
+                "Feria"
+            ]
+        },
+        {
+            "inicio": "18:00",
+            "fin": "19:30",
+            "eventos": [
+                "Acto de Apertura"
+            ]
+        },
+        {
+            "inicio": "19:30",
+            "fin": "23:00",
+            "eventos": [
+                "Coctel de Bienvenida"
+            ]
+        }
+    ],
+    "segundo_dia": [
+        {
+            "inicio": "9:00",
+            "fin": "10:30",
+            "eventos": [
+                "Conferencia A", "Conferencia B", "Conferencia C"
+            ]
+        },
+        {
+            "inicio": "10:00",
+            "fin": "11:30",
+            "eventos": [
+                "Tres Topic A", "Tres Topic B", "Tres Topic C"
+            ]
+        },
+        {
+            "inicio": "10:00",
+            "fin": "11:30",
+            "eventos": [
+                "Conferencia de industria A", "Conferencia de industria B", "Conferencia de industria C"
+            ]
+        }
+    ]
+}

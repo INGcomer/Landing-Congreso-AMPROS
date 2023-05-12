@@ -11,13 +11,13 @@ export default function Navbar() {
 
             <div className="nav_sections">
                 <a href="#Tematica"> Tematica </a>
-                <a href=""> seccion 2</a>
+                <a href="#Entrada"> Entrada </a>
                 <a href=""> seccion 3</a>
                 <a href=""> seccion 4</a>
             </div>
 
             <div className="CallToAccion_container">
-                <a href="" className="CallToAccion"> INSCRIVIRSE </a>
+                <a href="" className="CallToAccion"> INSCRIBIRSE </a>
             </div>
         </nav>
     )

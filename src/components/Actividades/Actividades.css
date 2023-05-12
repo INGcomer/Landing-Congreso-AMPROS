@@ -1,0 +1,37 @@
+#Actividades{
+    padding-top: 70px;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#Actividades .flag_container{
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: space-around;
+}
+#Actividades .flag{
+    width: 300px;
+    height: 80%;
+
+    background-color: var(--VerdeMedio);
+    color: white;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+#Actividades .flag p{
+    height: 40%;
+}
+#Actividades .flag svg{
+    width: 40%;
+    height: auto;
+}

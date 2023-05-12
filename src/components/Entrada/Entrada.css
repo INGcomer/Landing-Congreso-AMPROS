@@ -1,0 +1,86 @@
+#Entrada {
+    height: 100vh;
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+
+    padding-top: 20px;
+}
+
+#Entrada h1 {
+    width: 100%;
+
+    text-align: center;
+}
+
+#Entrada .entrada {
+    width: 60%;
+    height: 35%;
+
+    background-color: var(--VerdeMedio);
+    color: white;
+
+    display: flex;
+}
+
+#Entrada .entrada.izquierda{
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+#Entrada .entrada.derecha{
+    margin-left: 40%;
+
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+
+    flex-direction: row-reverse;
+}
+
+#Entrada .entrada .texto {
+    height: 100%;
+    width: 70%;
+}
+
+#Entrada .entrada .texto h2{
+    width: 100%;
+
+    text-align: center;
+    font-size: 2rem;
+}
+/* #Entrada .entrada.derecha .texto h2{
+    text-align: left;
+}
+#Entrada .entrada.izquierda .texto h2{
+    text-align: right;
+} */
+
+#Entrada .entrada .texto .items{
+    display: flex;
+
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#Entrada .entrada .texto .items li{
+   text-align: left;
+}
+
+#Entrada .entrada .texto ul{
+    width: 100%;
+
+    text-align: center;
+    font-size: 1.3rem;
+}
+#Entrada .entrada .precio {
+    height: 100%;
+    width: 30%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#Entrada .entrada .precio h3{
+    font-size: 2.5rem;
+}
