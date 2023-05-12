@@ -40,3 +40,18 @@
 
     z-index: 1;
 } */
+
+@media (max-width: 1400px) {
+    #header .fondo{
+        height: 2500px;
+        width: 2500px;
+    
+        top: -200%;
+        left: -90%;
+    }
+
+    #header .logo{
+        top: 35%;
+        left: 30%;
+    }
+}
