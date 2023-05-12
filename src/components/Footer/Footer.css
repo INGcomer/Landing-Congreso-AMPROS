@@ -1,0 +1,13 @@
+footer{
+    /* height: 200px; */
+    margin-left: 70px;
+    margin-bottom: 20px;
+    /* background-color: red; */
+
+    position: fixed;
+    bottom: 0;
+}
+
+footer img{
+    height: 100px;
+}

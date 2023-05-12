@@ -1,33 +1,27 @@
-// MUI
-import Button from '@mui/material/Button';
-// icons
-import SendIcon from '@mui/icons-material/Send';
 // custom css
 import './App.css';
 // Components
-import Navbar from './components/Nabvar';
+import Navbar from './components/Nabvar/Nabvar';
+import Header from './components/Header/Header';
 import Cronograma from './components/cronograma/Cronograma';
+import Tematica from './components/Tematica/Tematica';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
     <div className="App">
       <Navbar />
-      <section id='header'>
-        <div className='derecha'>
 
-        </div>
-        <div className='izquierda'>
-          <h1> gancho comercial </h1>
-          <p> Este es el primer congreso de salud mental organizado por AMPROS  </p>
-          <Button variant="contained" endIcon={<SendIcon />}>
-            Inscrivirse
-          </Button>
-        </div>
-      </section>
+      <Header/>
 
-      <section id='Cronograma'>
+      <Tematica/>
+      
+
+      {/* <section id='Cronograma'>
         <Cronograma/>
-      </section>
+      </section> */}
+
+      <Footer/>
     </div>
   );
 }

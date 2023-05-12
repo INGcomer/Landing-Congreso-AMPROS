@@ -1,0 +1,23 @@
+#Tematica{
+    height: 100vh;
+    /* width: 90vw; */
+
+    /* padding-top: 20px; */
+    padding-left: 50px;
+    padding-right: 50px;
+
+    overflow: hidden;
+}
+#Tematica h1{
+    color: var(--VerdeOscuro);
+
+    font-size: 6rem;
+}
+
+#Tematica .container{
+  display: flex;
+}
+
+#Tematica .container p{
+ font-size: 1.5rem;
+}

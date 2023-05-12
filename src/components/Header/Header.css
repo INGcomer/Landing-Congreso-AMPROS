@@ -1,0 +1,42 @@
+#header{
+    height: 100vh;
+    width: auto;
+
+    overflow: hidden;
+}
+
+#header .fondo{
+    height: 3000px;
+    width: 3000px;
+
+    transform: rotate(170deg);
+
+    position: relative;
+    top: -170%;
+    left: -60%;
+
+    z-index: -2;
+}
+#header .logo{
+    height: 300px;
+    width: auto;
+
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    z-index: -1;
+}
+
+#header .content{
+    height: 100%;
+    width: 100%;
+}
+
+/* #header img{
+    position: relative;
+
+    height: 300px;
+    width: 300px;
+
+    z-index: 1;
+} */
