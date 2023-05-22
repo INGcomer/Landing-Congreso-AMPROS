@@ -1,5 +1,5 @@
-{
-    "primer_dia":[
+[
+    [
         {
             "nombre": "Pre-congreso",
             "inicio": "9:00",
@@ -41,44 +41,88 @@
             ]
         }
     ],
-    "segundo_dia":{
-        "Tanda de conferencias 1": {
-            "conferencia_1": {
-                "inicio": "9:00",
-                "fin": "10:30",
-                "sala": "sala a"
-            },
-            "conferencia_2": {
-                "inicio": "9:00",
-                "fin": "10:30",
-                "sala": "sala b"
-            },
-            "conferencia_3": {
-                "inicio": "9:00",
-                "fin": "10:30",
-                "sala": "sala c"
-            }
+    [
+        {
+            "nombre": "Pre-congreso",
+            "inicio": "9:00",
+            "fin": "12:30",
+            "eventos": [
+                "pre-congreso-1", "pre-congreso-2", "pre-congreso-3"
+            ]
         },
-        "Tanda de tres topic 1": {
-            "Tres_Topic_1": {
-                "inicio": "10:00",
-                "fin": "11:30",
-                "sala": "sala a"
-            },
-            "Tres_Topic_2": {
-                "inicio": "10:00",
-                "fin": "11:30",
-                "sala": "sala c"
-            },
-            "Tres_Topic_3": {
-                "inicio": "10:00",
-                "fin": "11:30",
-                "sala": "sala 3"
-            }
+        {
+            "nombre": "Almuerzo",
+            "inicio": "12:30",
+            "fin": "14:30",
+            "eventos": [
+                "pre-congreso-1"
+            ]
         },
-        "conferencias de la industria": {
-            
+        {
+            "nombre": "Feria",
+            "inicio": "14:30",
+            "fin": "18:00",
+            "eventos": [
+                "pre-congreso-1", "pre-congreso-2", "pre-congreso-3"
+            ]
+        },
+        {
+            "nombre": "Acto de Apertura",
+            "inicio": "18:00",
+            "fin": "19:30",
+            "eventos": [
+                "pre-congreso-1", "pre-congreso-2", "pre-congreso-3"
+            ]
+        },
+        {
+            "nombre": "Coctel de Bienvenida",
+            "inicio": "19:30",
+            "fin": "23:00",
+            "eventos": [
+                "pre-congreso-1"
+            ]
         }
-        
-    }
-}
+    ],
+    [
+        {
+            "nombre": "Pre-congreso",
+            "inicio": "9:00",
+            "fin": "12:30",
+            "eventos": [
+                "pre-congreso-1", "pre-congreso-2", "pre-congreso-3"
+            ]
+        },
+        {
+            "nombre": "Almuerzo",
+            "inicio": "12:30",
+            "fin": "14:30",
+            "eventos": [
+                "pre-congreso-1"
+            ]
+        },
+        {
+            "nombre": "Feria",
+            "inicio": "14:30",
+            "fin": "18:00",
+            "eventos": [
+                "pre-congreso-1", "pre-congreso-2", "pre-congreso-3"
+            ]
+        },
+        {
+            "nombre": "Acto de Apertura",
+            "inicio": "18:00",
+            "fin": "19:30",
+            "eventos": [
+                "pre-congreso-1", "pre-congreso-2", "pre-congreso-3"
+            ]
+        },
+        {
+            "nombre": "Coctel de Bienvenida",
+            "inicio": "19:30",
+            "fin": "23:00",
+            "eventos": [
+                "pre-congreso-1"
+            ]
+        }
+    ]
+]

@@ -1,10 +1,9 @@
 import JSON from "./dias.json"
 
-import "./secciones_cronograma.css"
+// import "./secciones_cronograma.css"
 
-var actividades = JSON.primer_dia
-
-function PrimerDia() {
+export default function Dias({dia}) {
+  const actividades = JSON[dia]
   return (
     <div className="PrimerDia">
       <div className="cronograma">
@@ -45,5 +44,3 @@ function Evento() {
     </div>
   )
 }
-
-export default PrimerDia;

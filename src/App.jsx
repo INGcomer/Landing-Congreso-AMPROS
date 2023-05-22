@@ -17,14 +17,15 @@ function App() {
       <Header/>
 
       <Tematica/>
+      <section id='Cronograma'>
+        <Cronograma/>
+      </section>
 
       <Entrada/>
       
       <Actividades/>
 
-      {/* <section id='Cronograma'>
-        <Cronograma/>
-      </section> */}
+      
 
       <Footer/>
     </div>

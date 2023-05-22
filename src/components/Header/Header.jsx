@@ -28,7 +28,8 @@ export default function Header() {
             </div> */}
 
             <img src={logo_completo} alt="" className="logo" />
-            <img src={fondo} alt="" className="fondo" />
+            {/* <img src={fondo} alt="" className="fondo" /> */}
+            <div className="fondo"></div>
         </section>
     )
 }

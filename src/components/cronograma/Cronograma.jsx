@@ -5,7 +5,9 @@ import Tab from '@mui/material/Tab';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 
-import PrimerDia from './dias/PrimerDia';
+import Dias from './dias/PrimerDia';
+
+import "./Cronograma.css"
 
 function TabPanel(props) {
     const { children, value, index, ...other } = props;
@@ -48,31 +50,41 @@ export default function BasicTabs() {
     };
 
     return (
-        <Box sx={{ width: '100%' }}>
-            <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
-                <Tabs
-                    value={value}
-                    onChange={handleChange}
-                    aria-label="basic tabs example"
-                    textColor="secondary"
-                    indicatorColor="secondary"
-                    variant="fullWidth"
-                    centered
-                >
-                    <Tab label="20 de septiembre" {...a11yProps(0)} />
-                    <Tab label="21 de septiembre" {...a11yProps(1)} />
-                    <Tab label="22 de septiembre" {...a11yProps(2)} />
-                </Tabs>
+        <section id='Cronograma'>
+            <Box sx={{ width: '100%' }}>
+                <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
+                    <Tabs
+                        value={value}
+                        onChange={handleChange}
+                        aria-label="basic tabs example"
+                        textColor="secondary"
+                        indicatorColor="secondary"
+                        variant="fullWidth"
+                        centered
+                    >
+                        <Tab label="20 de septiembre" {...a11yProps(0)} sx={{
+                            color: "white"
+                        }}/>
+                        <Tab label="21 de septiembre" {...a11yProps(1)} 
+                        sx={{
+                            color: "white"
+                        }}/>
+                        <Tab label="22 de septiembre" {...a11yProps(2)} 
+                        sx={{
+                            color: "white"
+                        }}/>
+                    </Tabs>
+                </Box>
+                <TabPanel value={value} index={0}>
+                    <Dias dia={0}/>
+                </TabPanel>
+                <TabPanel value={value} index={1}>
+                    <Dias dia={1}/>
+                </TabPanel>
+                <TabPanel value={value} index={2}>
+                    <Dias dia={2}/>
+                </TabPanel>
             </Box>
-            <TabPanel value={value} index={0}>
-                <PrimerDia/>
-            </TabPanel>
-            <TabPanel value={value} index={1}>
-                Item Two
-            </TabPanel>
-            <TabPanel value={value} index={2}>
-                Item Three
-            </TabPanel>
-        </Box>
+        </section>
     );
 }
