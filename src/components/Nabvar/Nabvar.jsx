@@ -11,9 +11,9 @@ export default function Navbar() {
 
             <div className="nav_sections">
                 <a href="#Tematica"> Tematica </a>
+                <a href="#Cronograma"> Cronograma </a>
+                <a href="#Actividades"> Actividades </a>
                 <a href="#Entrada"> Entrada </a>
-                <a href=""> seccion 3</a>
-                <a href=""> seccion 4</a>
             </div>
 
             <div className="CallToAccion_container">

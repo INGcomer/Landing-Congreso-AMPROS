@@ -51,7 +51,8 @@ export default function BasicTabs() {
 
     return (
         <section id='Cronograma'>
-            <Box sx={{ width: '100%' }}>
+            <div className="fondo arriba"></div>
+            <Box sx={{ width: '100%' }} className="cronograma_box">
                 <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
                     <Tabs
                         value={value}
@@ -85,6 +86,7 @@ export default function BasicTabs() {
                     <Dias dia={2}/>
                 </TabPanel>
             </Box>
+            {/* <div className="fondo abajo"></div> */}
         </section>
     );
 }

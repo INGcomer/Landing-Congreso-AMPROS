@@ -3,6 +3,32 @@
     color: white;
 }
 
+#Cronograma .fondo{
+    width: 0; 
+    height: 0; 
+    border-left: 17vw solid transparent;
+    border-right: 40vw solid transparent;
+  
+    border-top: 100px solid white;
+
+    position: relative;
+    bottom: 9%;
+
+    z-index: 0;
+
+    background-color: var(--Oscuro);
+}
+
+#Cronograma .fondo.abajo{
+    border-top: 100px solid var(--Oscuro);
+
+    background-color: white;
+}
+
+#Cronograma .cronograma_box{
+    margin-top: 20px;
+}
+
 .css-1pweck2-MuiButtonBase-root-MuiTab-root.Mui-selected{
     color: var(--Intermedio);
 }
