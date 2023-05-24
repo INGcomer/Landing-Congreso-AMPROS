@@ -1,11 +1,11 @@
 // CSS
 import "./Header.css"
 // MUI
-import Button from '@mui/material/Button';
+// import Button from '@mui/material/Button';
 // icons
-import SendIcon from '@mui/icons-material/Send';
+// import SendIcon from '@mui/icons-material/Send';
 // IMGs
-import fondo from "./imgs/fondo.svg"
+// import fondo from "./imgs/fondo.svg"
 // import fondo from "./imgs/fondo_sin_gradient.svg"
 import logo_completo from "./imgs/logo congreso completo.svg"
 

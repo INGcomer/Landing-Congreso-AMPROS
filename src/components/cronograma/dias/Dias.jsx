@@ -1,4 +1,4 @@
-import JSON from "./dias.json"
+import JSON from "./cronograma.json"
 
 // import "./secciones_cronograma.css"
 

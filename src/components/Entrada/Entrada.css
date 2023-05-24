@@ -1,11 +1,13 @@
 #Entrada {
     height: 100vh;
 
+    padding-top: 20px;
+
+    background-color: var(--Claro);
+
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
-
-    padding-top: 20px;
 }
 
 #Entrada h1 {

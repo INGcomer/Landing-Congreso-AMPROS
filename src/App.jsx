@@ -8,6 +8,9 @@ import Tematica from './components/Tematica/Tematica';
 import Actividades from './components/Actividades/Actividades';
 import Entrada from './components/Entrada/Entrada';
 import Footer from './components/Footer/Footer';
+import FooterSection from './components/Footer_section/Footer';
+import Ubicacion from './components/donde/ubicacion/Ubicacion';
+import Salon from './components/donde/salon/Salon';
 
 function App() {
   return (
@@ -20,9 +23,15 @@ function App() {
 
       <Cronograma/>
 
-      <Actividades/>
-      
-      <Entrada/>      
+      <Actividades/>  
+
+      <Salon/> 
+
+      {/* <Ubicacion/> */}
+
+      <Entrada/>   
+
+      <FooterSection/>
 
       <Footer/>
     </div>

@@ -5,7 +5,7 @@ import Tab from '@mui/material/Tab';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 
-import Dias from './dias/PrimerDia';
+import Dias from './dias/Dias';
 
 import "./Cronograma.css"
 

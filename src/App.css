@@ -1,5 +1,7 @@
 html{
   scroll-behavior: smooth;
+
+  background-color: var(--Claro);
 }
 
 :root{
@@ -11,7 +13,9 @@ html{
   /* colores nuevos */
   --Oscuro: #12284C;
   --Intermedio: #7BA0C4;
-  --Claro: #A39383;
+  /* --Claro: #A39383; */
+  /* --Claro: #EBE5E3; */
+  --Claro: #EEE0CB;
 }
 
 ::-webkit-scrollbar-track

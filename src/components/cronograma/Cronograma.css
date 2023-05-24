@@ -1,15 +1,16 @@
-#Cronograma{
+#Cronograma {
     background-color: var(--Oscuro);
+    /* background-color: var(--Claro); */
     color: white;
 }
 
-#Cronograma .fondo{
-    width: 0; 
-    height: 0; 
+#Cronograma .fondo {
+    width: 0;
+    height: 0;
     border-left: 17vw solid transparent;
     border-right: 40vw solid transparent;
-  
-    border-top: 100px solid white;
+
+    border-top: 100px solid var(--Claro);
 
     position: relative;
     bottom: 9%;
@@ -19,36 +20,36 @@
     background-color: var(--Oscuro);
 }
 
-#Cronograma .fondo.abajo{
+#Cronograma .fondo.abajo {
     border-top: 100px solid var(--Oscuro);
 
-    background-color: white;
+    background-color: var(--Claro);
 }
 
-#Cronograma .cronograma_box{
-    margin-top: 20px;
+#Cronograma .cronograma_box {
+    margin-top: 50px;
 }
 
-.css-1pweck2-MuiButtonBase-root-MuiTab-root.Mui-selected{
+.MuiButtonBase-root.MuiTab-root.MuiTab-textColorSecondary.Mui-selected.css-1pweck2-MuiButtonBase-root-MuiTab-root {
     color: var(--Intermedio);
 }
 
-.css-11yukd5-MuiTabs-indicator{
+.MuiTabs-indicator.css-11yukd5-MuiTabs-indicator {
     background-color: var(--Intermedio);
 }
 
-.franja_horaria{
-    /* background-color: red; */
-
+.franja_horaria {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    font-size: 1.5rem;
 }
 
-.franja_horaria .hora, .franja_horaria .eventos  .evento {
-    height: 30px;
+.franja_horaria .hora,
+.franja_horaria .eventos .evento {
+    height: 45px;
 
     border-radius: 50px;
     border-style: solid;
@@ -58,18 +59,26 @@
     display: flex;
     align-items: center;
     justify-content: center;
+/* 
+    background: rgba(18, 40, 76, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3); */
 }
 
-.franja_horaria .hora{
+.franja_horaria .hora {
     width: 15%;
 }
-.franja_horaria .eventos{
+
+.franja_horaria .eventos {
     width: 85%;
 
     display: flex;
     justify-content: space-evenly;
 }
-.franja_horaria .eventos .evento{
+
+.franja_horaria .eventos .evento {
     width: 100%;
 
     margin-left: 10px;
