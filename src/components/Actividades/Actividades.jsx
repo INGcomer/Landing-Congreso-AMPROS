@@ -1,3 +1,4 @@
+import { motion } from "framer-motion"
 // CSS
 import "./Actividades.css"
 // img
@@ -13,27 +14,52 @@ export default function Actividades() {
         <section id="Actividades">
             <h1> Actividades Academicas </h1>
             <div className="flag_container">
-                <div className="flag conferencias">
+                <motion.div
+                    className='flag conferencias'
+                    initial={{ height: '25%' }}
+                    whileInView={{ height: '80%' }}
+                    transition={{ duration: 2, delay: 0}}
+                >
+                    {/* <div className="flag conferencias"> */}
                     <h2> Conferencias </h2>
                     <p>
                         Esto es una conferencia
                     </p>
-                    <CampaignIcon/>
-                </div>
-                <div className="flag tres_topic">
+                    <CampaignIcon />
+                    {/* </div> */}
+                </motion.div>
+
+                <motion.div
+                    className='flag tres_topic'
+                    initial={{ height: '25%' }}
+                    whileInView={{ height: '80%' }}
+                    transition={{ duration: 2, delay: 0.5 }}
+
+                >
+                    {/* <div className="flag tres_topic"> */}
                     <h2> Tres Topic </h2>
                     <p>
                         Esto es un tres topic
                     </p>
-                    <Groups2Icon/>
-                </div>
-                <div className="flag mesas">
+                    <Groups2Icon />
+                    {/* </div> */}
+                </motion.div>
+
+                <motion.div
+                    className='flag mesas'
+                    initial={{ height: '25%' }}
+                    whileInView={{ height: '80%' }}
+                    transition={{ duration: 2, delay: 1 }}
+
+                >
+                    {/* <div className="flag mesas"> */}
                     <h2> Mesas de trabajo </h2>
                     <p>
                         esto es una mesa de trabajo
                     </p>
-                    <HistoryEduIcon/>
-                </div>
+                    <HistoryEduIcon />
+                    {/* </div> */}
+                </motion.div>
             </div>
         </section>
     )

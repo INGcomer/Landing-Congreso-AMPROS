@@ -1,15 +1,18 @@
+import { motion } from "framer-motion"
 // CSS
 import "./Entrada.css"
 // img
-// import Logo from "./imgs/logo congreso.svg"
-
-// ICONS
 
 export default function Entrada() {
     return (
         <section id="Entrada">
             <h1> ¿Que Inclulle mi entrada? </h1>
-            <div className="entrada izquierda">
+            <motion.div 
+                className="entrada izquierda"
+                initial={{ x: '-100%' }}
+                whileInView={{ x: '0%' }}
+                transition={{ duration: 0.5}}
+            >
                 <div className="texto">
                     <h2> Entrada general </h2>
                     <div className="items">
@@ -28,9 +31,14 @@ export default function Entrada() {
                 <div className="precio">
                     <h3> $xx.xxx </h3>
                 </div>
-            </div>
+            </motion.div>
 
-            <div className="entrada derecha">
+            <motion.div 
+                className="entrada derecha"
+                initial={{ x: '100%' }}
+                whileInView={{ x: '0%' }}
+                transition={{ duration: 0.5}}
+            >
                 <div className="texto">
                     <h2> Entrada general afiliados </h2>
                     <div className="items">
@@ -49,7 +57,7 @@ export default function Entrada() {
                 <div className="precio">
                     <h3> $xx.xxx </h3>
                 </div>
-            </div>
+            </motion.div>
         </section>
     )
 }

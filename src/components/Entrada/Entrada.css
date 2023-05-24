@@ -8,6 +8,8 @@
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
+
+    overflow: hidden;
 }
 
 #Entrada h1 {

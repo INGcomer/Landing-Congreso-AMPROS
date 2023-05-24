@@ -1,3 +1,4 @@
+import { motion } from "framer-motion"
 // CSS
 import "./Salon.css"
 // img
@@ -7,10 +8,16 @@ import salon from "./imgs/pexels-steven-hylands-1650904.jpg"
 export default function Salon() {
     return (
         <section id="Salon">
-            <a href="https://goo.gl/maps/skvER97HX9PmEx758" className="texto">
+            <motion.a 
+                href="https://goo.gl/maps/skvER97HX9PmEx758" 
+                className="texto"
+                initial={{ x: '-100%' }}
+                whileInView={{ x: '0%' }}
+                transition={{ duration: 0.5}}
+            >
                 <h1> ¿Donde se realizara el evento? </h1>
                 <p> El ampros construllo un salon de eventos buenisimo y quieren que todos lo vean </p>
-            </a>
+            </motion.a>
             <div className="mainImg">
                 <img src={salon} alt="" />
             </div>
