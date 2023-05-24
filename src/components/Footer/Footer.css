@@ -13,3 +13,16 @@ footer{
 footer img{
     height: 100px;
 }
+
+
+@media (max-width: 500px) {
+    footer{
+        margin-left: 30px;
+        margin-bottom: 10px;
+    }
+    
+    footer img{
+        height: 70px;
+    }    
+       
+}

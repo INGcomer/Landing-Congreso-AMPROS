@@ -59,12 +59,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-/* 
-    background: rgba(18, 40, 76, 0.2);
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
-    border: 1px solid rgba(255, 255, 255, 0.3); */
 }
 
 .franja_horaria .hora {
@@ -83,4 +77,36 @@
 
     margin-left: 10px;
     margin-right: 10px;
+}
+
+@media (max-width: 500px) {
+    #Cronograma .fondo { 
+        border-top: 50px solid var(--Claro);
+    }
+
+    .MuiBox-root.css-19kzrtu{
+        padding: 10px;
+        padding-top: 25px;
+    }
+    .franja_horaria .hora{
+        width: 80px;
+    }
+
+    .franja_horaria .hora,
+    .franja_horaria .eventos .evento {
+        border-radius: 25px;
+    }
+
+    .franja_horaria {
+        font-size: 0.7rem;
+
+        text-align: center;
+    }
+
+    .franja_horaria .eventos .evento {
+        width: 100%;
+
+        margin-left: 5px;
+        margin-right: 5px;
+    }
 }

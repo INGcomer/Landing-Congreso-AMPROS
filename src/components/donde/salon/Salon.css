@@ -77,13 +77,6 @@
     align-items: center;
 }
 
-#Ubicacion h1 {
-  position: relative;
-  bottom: 85%;
-
-  z-index: 4;
-}
-
 #Ubicacion .container{
     height: 100%;
     width: 100%;
@@ -95,8 +88,31 @@
     align-items: center;
 }
 
-#Ubicacion h1 {
-    width: 100%;
 
-    text-align: center;
+@media (max-width: 500px) {
+    #Salon .mainImg{
+        display: none;
+    }
+
+    #Ubicacion {
+        height: 80%;
+        width: 100%;
+    
+        position: inherit;
+    }
+
+    #Salon .texto{
+        width: 90%;
+    
+        color:  var(--Oscuro);
+        background-color: var(--Claro);
+    }
+
+    #Salon .texto h1{
+        color: var(--Oscuro);
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    
 }

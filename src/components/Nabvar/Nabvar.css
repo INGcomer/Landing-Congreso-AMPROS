@@ -34,21 +34,22 @@ nav .logo_container {
     border-bottom-right-radius: 100px;
 }
 
-nav .logo_container .st0{
-    display:none;fill:#1B998B;
+nav .logo_container .st0 {
+    display: none;
+    fill: #1B998B;
 }
 
-nav .logo_container .st1{
-    fill:var(--Intermedio);
+nav .logo_container .st1 {
+    fill: var(--Intermedio);
     transition: all 0.4s;
 }
 
-nav .logo_container svg{
+nav .logo_container svg {
     height: 80%;
     width: 100%;
 }
 
-nav .logo_container svg:hover .st1{
+nav .logo_container svg:hover .st1 {
     fill: white;
 }
 
@@ -84,7 +85,7 @@ nav a {
     transition: all 0.4s;
 }
 
-nav a:hover{
+nav a:hover {
     color: white;
     /* font-size: 1.7rem; */
 }
@@ -134,4 +135,26 @@ nav .CallToAccion_container .CallToAccion {
 nav .CallToAccion_container .CallToAccion:hover {
     color: white;
     /* font-size: 1.9rem; */
+}
+
+@media (max-width: 500px) {
+    nav {
+        background: rgba(255, 255, 255, 0.2);
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+    }
+
+    nav .logo_container, nav .CallToAccion_container {
+        background: none;
+        box-shadow: none;
+        backdrop-filter: none;
+        -webkit-backdrop-filter: none;
+        border: none;
+    }
+
+    nav .nav_sections {
+        display: none;
+    }
 }

@@ -45,3 +45,18 @@
     width: 40%;
     height: auto;
 }
+
+@media (max-width: 500px) {
+    #Actividades .flag_container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #Actividades .flag_container .flag {
+        margin-bottom: 25px;
+    }
+
+    #Actividades .flag svg{
+        width: 30%;
+    }
+}
