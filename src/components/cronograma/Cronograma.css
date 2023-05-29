@@ -79,16 +79,28 @@
     margin-right: 10px;
 }
 
+@media (max-width: 1400px) {
+    .franja_horaria .hora,
+    .franja_horaria .eventos .evento {
+        height: 30px;
+    }
+    .franja_horaria {
+        margin-bottom: 20px;
+        font-size: 1.2rem;
+    }
+}
+
 @media (max-width: 500px) {
-    #Cronograma .fondo { 
+    #Cronograma .fondo {
         border-top: 50px solid var(--Claro);
     }
 
-    .MuiBox-root.css-19kzrtu{
+    .MuiBox-root.css-19kzrtu {
         padding: 10px;
         padding-top: 25px;
     }
-    .franja_horaria .hora{
+
+    .franja_horaria .hora {
         width: 80px;
     }
 

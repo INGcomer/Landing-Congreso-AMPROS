@@ -134,7 +134,12 @@ nav .CallToAccion_container .CallToAccion {
 
 nav .CallToAccion_container .CallToAccion:hover {
     color: white;
-    /* font-size: 1.9rem; */
+}
+
+@media (max-width: 1400px) {
+    nav a {
+        font-size: 1.3rem;
+    }
 }
 
 @media (max-width: 500px) {
