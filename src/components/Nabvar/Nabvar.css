@@ -1,5 +1,5 @@
 nav {
-    height: 80px;
+    height: 60px;
     width: 100%;
 
     position: fixed;
@@ -10,7 +10,8 @@ nav {
     justify-content: space-between;
     align-items: center;
 
-    --ColorFondo: var(--Oscuro)
+    --ColorFondo: var(--Oscuro);
+    background-color: var(--Claro);
 }
 
 nav .logo_container {
@@ -25,11 +26,11 @@ nav .logo_container {
 
     /* background-color: var(--ColorFondo); */
     /* From https://css.glass */
-    background: rgba(255, 255, 255, 0.2);
+    /* background: rgba(255, 255, 255, 0.2);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
-    border: 1px solid rgba(255, 255, 255, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.3); */
 
     border-bottom-right-radius: 100px;
 }
@@ -63,21 +64,21 @@ nav .nav_sections {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--ColorFondo);
+    /* background-color: var(--ColorFondo); */
 
     /* From https://css.glass */
-    background: rgba(255, 255, 255, 0.2);
+    /* background: rgba(255, 255, 255, 0.2);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
-    border: 1px solid rgba(255, 255, 255, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.3); */
 }
 
 nav a {
     margin-left: 20px;
     margin-right: 20px;
 
-    color: var(--Intermedio);
+    color: var(--Oscuro);
 
     text-decoration: none;
     font-size: 1.5rem;
@@ -106,12 +107,12 @@ nav .CallToAccion_container {
     align-items: center;
     justify-content: center;
 
-    /* From https://css.glass */
+    /* From https://css.glass
     background: rgba(255, 255, 255, 0.2);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
-    border: 1px solid rgba(255, 255, 255, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.3); */
 }
 
 nav .CallToAccion_container .CallToAccion {

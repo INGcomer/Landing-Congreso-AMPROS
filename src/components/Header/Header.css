@@ -39,6 +39,86 @@
 #header .content{
     height: 100%;
     width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+
+    overflow: hidden;
+}
+
+#header .content .card.derecha{
+    position: absolute;
+    left: 90%;
+    height: 40%;
+    width: 50%;
+
+    background-color: green;
+
+    transition: all 1s;
+}
+
+#uno{
+    z-index: 3;
+}
+#dos{
+    z-index: 2;
+}
+#tres{
+    z-index: 1;
+}
+
+#header .content .card.izquierda{
+    position: absolute;
+    left: -40%;
+    height: 40%;
+    width: 50%;
+
+    transition: all 1s;
+    background-color: orange;
+}
+
+#header .content .card.centro{
+    position: absolute;
+    left: 20%;
+    height: 50%;
+    width: 60%;
+
+    transition: all 1s;
+    background-color: red;
+}
+/* #header .content .cards_container{
+    position: absolute;
+    height: 50%;
+    width: 60%;
+
+    transition: all 1s;
+    background-color: red;
+} */
+
+#header .logos_container{
+    height: 70px;
+    width: 100%;
+
+    background-color: var(--Claro);
+
+    display: flex;
+    justify-content: center;
+}
+
+#header .logos_container .ampros{
+    height: 100px;
+    width: 100px;
+
+    position: relative;
+    top: -50px;
+
+    /* background-color: yellow; */
+}
+#header .logos_container .ampros img{
+    height: 100%;
+    width: auto;
 }
 
 @media (max-width: 1400px) {

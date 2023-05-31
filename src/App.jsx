@@ -33,7 +33,7 @@ function App() {
 
       <FooterSection/>
 
-      <Footer/>
+      {/* <Footer/> */}
     </div>
   );
 }
