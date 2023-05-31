@@ -42,30 +42,57 @@
 
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     flex-direction: row;
 
     overflow: hidden;
+}
+
+#header .content .carrucel{
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+
+    overflow: hidden;
+}
+
+#header .content button{
+    height: 100%;
+    width: 30%;
+
+    z-index: 999999;
+
+    background-color: transparent;
+    border: none;
 }
 
 #header .content .card.derecha{
     position: absolute;
     left: 90%;
     height: 40%;
-    width: 50%;
+    width: 10%;
 
     background-color: green;
 
     transition: all 1s;
+
+    z-index: 1;
 }
 
 #uno{
-    z-index: 3;
+    z-index: 4;
 }
 #dos{
-    z-index: 2;
+    z-index: 3;
 }
 #tres{
+    z-index: 2;
+}
+#cuatro{
     z-index: 1;
 }
 
@@ -77,6 +104,8 @@
 
     transition: all 1s;
     background-color: orange;
+
+    z-index: 3;
 }
 
 #header .content .card.centro{
@@ -87,6 +116,7 @@
 
     transition: all 1s;
     background-color: red;
+    z-index: 3;
 }
 /* #header .content .cards_container{
     position: absolute;

@@ -32,10 +32,10 @@ export default function Header() {
                 <div className={"card active" + clas} onClick={()=> setClas(!clas)}> 3 </div>
                 <div className={"card active" + clas} onClick={()=> setClas(!clas)}> 4 </div> */}
 
-                {/* <Carrucel/> */}
-                <Card text={'kk'}/>
-                <Card text={'2'}/>
-                <Card text={'3'}/>
+                <Carrucel/>
+                {/* <Card text={'kk'}/> */}
+
+
             </div>
 
             <div className="logos_container">
@@ -51,61 +51,90 @@ export default function Header() {
 }
 
 function Card({text}) {
-    const [isActive, setIsActive] = useState(1);
+    const [Position, setPosition] = useState(0);
 
     const [class1, setClass1] = useState('');
 
     useEffect(() => {
-        if (class1 == "") {
+        if (Position > 2) {
+            setPosition(0)
+        }
+        if (Position < 0) {
+            setPosition(2)
+        }
+        if (Position == 0) {
             setClass1("derecha")
         }
-        if (class1 == "derecha") {
+        if (Position == 1) {
             setClass1("centro")
         }
-        if (class1 == "centro") {
+        if (Position == 2) {
             setClass1("izquierda")
         }
-        if (class1 == "izquierda") {
-            setClass1("centro")
-        }
-    },[isActive]);
+    },[Position]);
 
     return(
-        <div className={"card " + class1} onClick={()=> setIsActive(isActive + 1)}> {text} </div>
+        <>
+            <button className='left' onClick={()=> setPosition(Position - 1)}></button>
+            <div className={"card " + class1}> {text} </div>
+            <button className='right' onClick={()=> setPosition(Position + 1)}></button>
+        </>
     )
 }
 
 
 function Carrucel(){
+    const [Position, setPosition] = useState(0);
+
     const [isActive, setIsActive] = useState(1);
 
     const [class1, setClass1] = useState("derecha");
     const [class2, setClass2] = useState("derecha");
     const [class3, setClass3] = useState("derecha");
+    const [class4, setClass4] = useState("derecha");
 
     useEffect(() => {
-        if (isActive == 1) {
+        if (Position == 0) {
             setClass1("centro")
+            setClass2("derecha")
+            setClass3("derecha")
+            setClass4("derecha")
         }
-        if (isActive == 2) {
+        if (Position == 1) {
             setClass1("izquierda")
             setClass2("centro")
+            setClass3("derecha")
+            setClass4("derecha")
         }
-        if (isActive == 3) {
+        if (Position == 2) {
+            setClass1("izquierda")
             setClass2("izquierda")
             setClass3("centro")
+            setClass4("derecha")
         }
-        if (isActive == 4) {
-            setIsActive(1)
+        if (Position == 3) {
+            setClass1("derecha")
+            setClass2("derecha")
+            setClass3("izquierda")
+            setClass4("centro")
         }
-    },[isActive]);
+        if (Position > 3) {
+            setPosition(0)
+        }
+        if (Position < 0) {
+            setPosition(3)
+        }
+    },[Position]);
 
 
     return(
-        <>
-            <div className={"card " + class1} id='uno' onClick={()=> setIsActive(isActive + 1)}> 1 </div>
-            <div className={"card " + class2} id='dos' onClick={()=> setIsActive(isActive + 1)}> 2 </div>
-            <div className={"card " + class3} id='tres' onClick={()=> setIsActive(isActive + 1)}> 3 </div>
-        </>
+        <div className='carrucel'>
+            <button className='left' onClick={()=> setPosition(Position - 1)}></button>
+            <div className={"card " + class1} id='uno'> 1 </div>
+            <div className={"card " + class2} id='dos'> 2 </div>
+            <div className={"card " + class3} id='tres'> 3 </div>
+            <div className={"card " + class4} id='cuatro'> 4 </div>
+            <button className='right' onClick={()=> setPosition(Position + 1)}></button>
+        </div>
     )
 }
