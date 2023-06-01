@@ -3,12 +3,20 @@ import { motion } from "framer-motion"
 // CSS
 import "./Header.css"
 // IMGs
-import logo_completo from "./imgs/logo congreso completo.svg"
+import logo_completo from "./imgs/logo grande.svg"
 import logo_ampros from "./imgs/logo ampros.png"
-export default function Header() {
+import APREM from "./imgs/Logos/APREM.png"
+import APSIM from "./imgs/Logos/APSIM..png"
+import EOL from "./imgs/Logos/EOL.png"
+import SPM from "./imgs/Logos/SPM.png"
 
-    
-    
+
+import Fondo from "./imgs/fondo_lineas.svg"
+import Fondo_card_1 from "./imgs/pexels-1.jpg"
+
+
+
+export default function Header() {
     return (
         <section id='header'>
 
@@ -39,13 +47,22 @@ export default function Header() {
             </div>
 
             <div className="logos_container">
-                <div className="logos"></div>
+                <div className="logos izquierda">
+                    <img src={APREM} alt="" />
+                    <img src={APSIM} alt="" />
+                </div>
                 <div className="ampros">
                     <img src={logo_ampros} alt="" />
+                </div>
+                <div className="logos derecha">
+                    <img src={EOL} alt="" />
+                    <img src={SPM} alt="" />
                 </div>
             </div>
             
             {/* <div className="fondo"></div> */}
+
+            <img src={Fondo} alt="" className='fondo'/>
         </section>
     )
 }
@@ -130,7 +147,10 @@ function Carrucel(){
     return(
         <div className='carrucel'>
             <button className='left' onClick={()=> setPosition(Position - 1)}></button>
-            <div className={"card " + class1} id='uno'> 1 </div>
+            <div className={"card " + class1} id='uno'> 
+                <img src={Fondo_card_1} alt="" className='fondo_targeta_1' />
+                <img src={logo_completo} alt="" className='logo'/>
+            </div>
             <div className={"card " + class2} id='dos'> 2 </div>
             <div className={"card " + class3} id='tres'> 3 </div>
             <div className={"card " + class4} id='cuatro'> 4 </div>

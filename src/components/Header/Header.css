@@ -13,19 +13,17 @@
 }
 
 #header .fondo{
-    width: 0; 
-    height: 0; 
-    border-left: 49.75vw solid transparent;
-    border-right: 49.75vw solid transparent;
-  
-    border-top: 200px solid var(--Oscuro);
+    position: absolute;
 
-    position: relative;
-    bottom: 0%;
+    left: 0%;
+    top: -25%;
 
-    z-index: 0;
+    height: 1500px;
+    width: auto;
 
-    background-color: var(--Claro);
+    transform: rotate(-30deg);
+
+    /* z-index: 999999999999999999999; */
 }
 #header .logo{
     height: 300px;
@@ -64,7 +62,7 @@
     height: 100%;
     width: 30%;
 
-    z-index: 999999;
+    z-index: 99;
 
     background-color: transparent;
     border: none;
@@ -80,11 +78,23 @@
 
     transition: all 1s;
 
-    z-index: 1;
+    /* z-index: 1; */
 }
 
 #uno{
     z-index: 4;
+    overflow: hidden;
+}
+#uno .fondo_targeta_1{
+    width: 100%;
+    height: auto;
+    z-index: 1;
+}
+#uno .logo{
+    position: relative;
+    top: -140%;
+    left: 20%;
+    z-index: 2;
 }
 #dos{
     z-index: 3;
@@ -105,7 +115,7 @@
     transition: all 1s;
     background-color: orange;
 
-    z-index: 3;
+    /* z-index: 3; */
 }
 
 #header .content .card.centro{
@@ -116,7 +126,7 @@
 
     transition: all 1s;
     background-color: red;
-    z-index: 3;
+    /* z-index: 3; */
 }
 /* #header .content .cards_container{
     position: absolute;
@@ -128,26 +138,42 @@
 } */
 
 #header .logos_container{
-    height: 70px;
+    height: 100px;
     width: 100%;
 
     background-color: var(--Claro);
 
     display: flex;
     justify-content: center;
+
+    z-index: 2;
 }
 
 #header .logos_container .ampros{
-    height: 100px;
-    width: 100px;
+    height: 120px;
+    width: 120px;
 
     position: relative;
-    top: -50px;
+    top: -60px;
 
     /* background-color: yellow; */
 }
 #header .logos_container .ampros img{
     height: 100%;
+    width: auto;
+}
+
+#header .logos_container .logos{
+    height: 100%;
+    width: 40%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+#header .logos_container .logos img{
+    height: 80%;
     width: auto;
 }
 
