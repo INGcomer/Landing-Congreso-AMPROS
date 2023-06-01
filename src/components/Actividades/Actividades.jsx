@@ -16,9 +16,9 @@ export default function Actividades() {
             <div className="flag_container">
                 <motion.div
                     className='flag conferencias'
-                    initial={{ height: '30%' }}
-                    whileInView={{ height: '80%' }}
-                    transition={{ duration: 2, delay: 0}}
+                    initial={{ x: '300%' }}
+                    whileInView={{ x: '0%' }}
+                    transition={{ duration: 0.5, delay: 0}}
                 >
                     {/* <div className="flag conferencias"> */}
                     <h2> Conferencias </h2>
@@ -31,9 +31,9 @@ export default function Actividades() {
 
                 <motion.div
                     className='flag tres_topic'
-                    initial={{ height: '30%' }}
-                    whileInView={{ height: '80%' }}
-                    transition={{ duration: 2, delay: 0.5 }}
+                    initial={{ x: '260%' }}
+                    whileInView={{ x: '0%' }}
+                    transition={{ duration: 0.5, delay: 0.5 }}
 
                 >
                     {/* <div className="flag tres_topic"> */}
@@ -47,9 +47,9 @@ export default function Actividades() {
 
                 <motion.div
                     className='flag mesas'
-                    initial={{ height: '30%' }}
-                    whileInView={{ height: '80%' }}
-                    transition={{ duration: 2, delay: 1 }}
+                    initial={{ x: '120%' }}
+                    whileInView={{ x: '0%' }}
+                    transition={{ duration: 0.5, delay: 1 }}
 
                 >
                     {/* <div className="flag mesas"> */}
