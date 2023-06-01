@@ -1,4 +1,5 @@
 #Tematica {
+  position: relative;
   height: 100vh;
   /* width: 90vw; */
 
@@ -8,6 +9,8 @@
 
   overflow: hidden;
   background-color: var(--Claro);
+
+  z-index: 10;
 }
 
 #Tematica h1 {
@@ -22,6 +25,21 @@
 
 #Tematica .container p {
   font-size: 1.5rem;
+  width: 50%;
+}
+
+#Tematica .forma{
+  position: relative;
+  top: -90%;
+  left: 40%;
+}
+#Tematica .forma svg{
+  height: 1300px;
+  width: 1300px;
+
+  position: relative;
+  /* top: -30%;
+  left: 10%; */
 }
 
 @media (max-width: 1400px) {
