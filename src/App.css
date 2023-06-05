@@ -4,6 +4,10 @@ html{
   background-color: var(--Claro);
 }
 
+.app{
+  overflow: hidden;
+}
+
 :root{
   /* colores biejos */
   --Celeste: #78CDD7;

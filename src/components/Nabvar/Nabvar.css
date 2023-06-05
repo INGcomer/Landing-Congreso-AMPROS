@@ -11,7 +11,9 @@ nav {
     align-items: center;
 
     --ColorFondo: var(--Oscuro);
-    background-color: var(--Claro);
+    /* background-color: var(--Intermedio_2); */
+    /* background-color: var(--Oscuro); */
+    background-color: white;
 }
 
 nav .logo_container {
@@ -21,18 +23,12 @@ nav .logo_container {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+nav .logo_container img{
+    height: 70%;
+    width: auto;
 
-    /* margin-left: 100px; */
-
-    /* background-color: var(--ColorFondo); */
-    /* From https://css.glass */
-    /* background: rgba(255, 255, 255, 0.2);
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
-    border: 1px solid rgba(255, 255, 255, 0.3); */
-
-    border-bottom-right-radius: 100px;
+    margin-right: 20px;
 }
 
 nav .logo_container .st0 {
@@ -56,7 +52,7 @@ nav .logo_container svg:hover .st1 {
 
 nav .nav_sections {
     height: 100%;
-    width: 40%;
+    width: 60%;
 
     border-bottom-left-radius: 100px;
     border-bottom-right-radius: 100px;
@@ -64,17 +60,9 @@ nav .nav_sections {
     display: flex;
     align-items: center;
     justify-content: center;
-    /* background-color: var(--ColorFondo); */
-
-    /* From https://css.glass */
-    /* background: rgba(255, 255, 255, 0.2);
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
-    border: 1px solid rgba(255, 255, 255, 0.3); */
 }
 
-nav a {
+nav a, nav span {
     margin-left: 20px;
     margin-right: 20px;
 
@@ -83,11 +71,13 @@ nav a {
     text-decoration: none;
     font-size: 1.5rem;
 
+    cursor: pointer;
+
     transition: all 0.4s;
 }
 
-nav a:hover {
-    color: white;
+nav a:hover, nav span:hover{
+    color: var(--Acento);
     /* font-size: 1.7rem; */
 }
 
@@ -106,13 +96,6 @@ nav .CallToAccion_container {
     display: flex;
     align-items: center;
     justify-content: center;
-
-    /* From https://css.glass
-    background: rgba(255, 255, 255, 0.2);
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
-    border: 1px solid rgba(255, 255, 255, 0.3); */
 }
 
 nav .CallToAccion_container .CallToAccion {
@@ -125,16 +108,17 @@ nav .CallToAccion_container .CallToAccion {
     align-items: center;
     justify-content: center;
 
-    color: var(--Intermedio);
+    color: var(--Acento);
 
     text-decoration: none;
-    font-size: 1.7rem;
+    font-size: 1.9rem;
+    font-weight: 600;
 
     transition: all 0.4s;
 }
 
 nav .CallToAccion_container .CallToAccion:hover {
-    color: white;
+    color: var(--Oscuro);
 }
 
 @media (max-width: 1400px) {

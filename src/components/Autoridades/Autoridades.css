@@ -1,0 +1,63 @@
+#Autoridades{
+    position: relative;
+
+    height: 140vh;
+
+    background-color: var(--Claro);
+
+    overflow: hidden;
+    z-index: 10;
+}
+#Autoridades .comicion_cientifica, #Autoridades .comicion_directiva{
+    position: relative;
+    z-index: 11;
+}
+#Autoridades .fondo{
+    position: relative;
+    top: -2000px;
+    left: 400px;
+
+    height: 3000px;
+    width: auto;
+
+    transform: rotate(50deg);
+    z-index: 10;
+}
+#Autoridades h1{
+    margin-top: 70px;
+    width: 100%;
+
+    text-align: center;
+    font-size: 3rem;
+}
+#Autoridades .comicion_directiva{
+    width: 100%;
+
+    margin-bottom: 70px;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+#Autoridades .comicion_directiva img{
+    height: 300px;
+}
+
+#Autoridades .comicion_cientifica{
+    width: 100%;
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#Autoridades .comicion_cientifica .pichi{
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+
+    width: 200px;
+}
+#Autoridades .comicion_cientifica .pichi img{
+    height: 200px;
+}

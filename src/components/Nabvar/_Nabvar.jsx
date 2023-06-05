@@ -1,27 +1,20 @@
 // animaciones
 import { motion } from "framer-motion"
 
-// MUI
-import Informacion from "./menus/info.jsx"
-import CargaTrabajo from "./menus/Carga.jsx"
-import Programa from "./menus/Programa.jsx"
 // CSS
 import "./Nabvar.css"
-import "./menus/dropdowns/DropDown.css"
-// imgs
-import Logo from './imgs/nuevo logo congreso.svg'
 export default function Navbar() {
 	return (
 		<motion.nav
-			initial={{ y: '-100%' }}
-			whileInView={{ y: '0%' }}
-			transition={{ duration: 0.3, delay: 0 }}
-		>
-			{/* <nav> */}
+                    initial={{ y: '-100%' }}
+                    whileInView={{ y: '0%' }}
+                    transition={{ duration: 0.3, delay: 0}}
+                >
+		 {/* <nav> */}
 			<a href="#header" className="logo_container">
-				<img src={Logo} alt="" />
+				{/* <img src={Logo} alt="" /> */}
 
-				{/* <svg viewBox="0 0 736.3 301.3">
+				<svg viewBox="0 0 736.3 301.3">
 					<polygon class="st0" points="0,0 734.8,0 734.8,301.3 0,301.3 " />
 					<g>
 						<path class="st1" d="M102.9,288.7c2.4-1,3.6-2.8,3.6-5.6c0-1.4-0.3-2.5-0.9-3.4c-0.7-0.9-1.5-1.5-2.6-1.9c-1.1-0.4-2.2-0.6-3.5-0.6
@@ -230,40 +223,15 @@ export default function Navbar() {
 		c-7.6,0-13.8-6.2-13.8-13.8c0-7.6,6.2-13.8,13.8-13.8c7.6,0,13.8,6.2,13.8,13.8C672.4,131.7,666.3,137.9,658.6,137.9z"/>
 						<polygon class="st1" points="549.3,175.1 549.3,175.7 549,175.7 	" />
 					</g>
-				</svg> */}
+				</svg>
 
 				Inicio
 
 			</a>
 
 			<div className="nav_sections">
-				<div class="dropdown">
-					<span className="dropbtn"> Informacion </span>
-					<div class="dropdown-content">
-						<a href="#Autoridades"> Autoridades </a>
-						<a href="#"> Auspicious </a>
-						<a href="#Tematica"> Informacion general </a>
-					</div>
-				</div>
-				<div class="dropdown">
-					<span className="dropbtn"> Carga de trabajo </span>
-					<div class="dropdown-content">
-						<a href="#Actividades"> Ejes </a>
-						<a href="#"> Reglamento </a>
-					</div>
-				</div>
-				<div class="dropdown">
-					<span className="dropbtn"> Programa cientifico </span>
-					<div class="dropdown-content">
-						<a href="#"> Disertantes </a>
-						<a href="#Cronograma"> Programa </a>
-						<a href="#"> Simpocio </a>
-					</div>
-				</div>
-
-
-				{/* <a href="#Tematica"> Tematica </a> */}
-				{/* <a href="#Cronograma"> Cronograma </a> */}
+				<a href="#Tematica"> Tematica </a>
+				<a href="#Cronograma"> Cronograma </a>
 				<a href="#Salon"> Ubicacion </a>
 				<a href="#Entrada"> Entrada </a>
 			</div>
@@ -271,7 +239,7 @@ export default function Navbar() {
 			<div className="CallToAccion_container">
 				<a href="" className="CallToAccion"> INSCRIBIRSE </a>
 			</div>
-			{/* </nav> */}
+		{/* </nav> */}
 		</motion.nav>
 	)
 }

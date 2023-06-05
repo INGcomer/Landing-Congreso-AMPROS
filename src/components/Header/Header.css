@@ -59,15 +59,20 @@
 }
 
 #header .content button{
-    height: 100%;
-    width: 30%;
+    height: 50%;
+    width: 15%;
 
     z-index: 99;
 
     background-color: transparent;
     border: none;
+
+    cursor: pointer;
 }
 
+#header .content .card{
+    overflow: hidden;
+}
 #header .content .card.derecha{
     position: absolute;
     left: 90%;
@@ -81,29 +86,37 @@
     /* z-index: 1; */
 }
 
-#uno{
-    z-index: 4;
-    overflow: hidden;
-}
-#uno .fondo_targeta_1{
-    width: 100%;
+.fondo_targeta_1{
+    position: relative;
+    top: -30%;
+    /* width: 100%; */
     height: auto;
     z-index: 1;
 }
-#uno .logo{
-    position: relative;
-    top: -140%;
-    left: 20%;
-    z-index: 2;
+
+#uno{
+    z-index: 4;
+}
+#uno.izquierda{
+    z-index: 1;
 }
 #dos{
     z-index: 3;
 }
+#dos.izquierda{
+    z-index: 2;
+}
 #tres{
+    z-index: 2;
+}
+#tres.izquierda{
     z-index: 2;
 }
 #cuatro{
     z-index: 1;
+}
+#cuatro.izquierda{
+    z-index: 4;
 }
 
 #header .content .card.izquierda{

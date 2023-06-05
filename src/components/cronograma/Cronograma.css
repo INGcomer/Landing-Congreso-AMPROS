@@ -15,9 +15,9 @@
     position: relative;
     bottom: 9%;
 
-    z-index: 0;
+    z-index: 1;
 
-    background-color: var(--Oscuro);
+    /* background-color: var(--Oscuro); */
 }
 
 #Cronograma .fondo.abajo {
@@ -27,7 +27,9 @@
 }
 
 #Cronograma .cronograma_box {
+    position: relative;
     margin-top: 50px;
+    z-index: 5;
 }
 
 .MuiButtonBase-root.MuiTab-root.MuiTab-textColorSecondary.Mui-selected.css-1pweck2-MuiButtonBase-root-MuiTab-root {

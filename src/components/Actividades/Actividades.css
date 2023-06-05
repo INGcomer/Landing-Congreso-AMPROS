@@ -11,8 +11,19 @@
 
     background-color: var(--Oscuro);
 }
+#Actividades .fondo{
+    position: absolute;
+    top: 3200px;
+    /* left: 700px; */
+
+    height: 2000px;
+    left: -200px;
+
+    transform: rotate(30deg);
+}
 #Actividades h1{
     color: white;
+    z-index: 5;
 }
 #Actividades h2{
     color: var(--Acento);
@@ -23,10 +34,14 @@
 
     display: flex;
     justify-content: space-around;
+
+    /* overflow: hidden; */
+
+    z-index: 5;
 }
 #Actividades .flag{
     width: 450px;
-    height: 80%;
+    height: 800px;
 
     background-color: var(--Intermedio_2);
     /* background-color: var(--Claro); */
@@ -43,10 +58,14 @@
 }
 
 #Actividades .flag p{
-    height: 40%;
+    height: 50%;
+    margin: 30px;
+    margin-top: 0;
+
+    font-size: 1.3rem;
 }
 #Actividades .flag svg{
-    width: 40%;
+    width: 30%;
     height: auto;
 }
 

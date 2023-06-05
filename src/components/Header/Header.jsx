@@ -13,6 +13,8 @@ import SPM from "./imgs/Logos/SPM.png"
 
 import Fondo from "./imgs/fondo_lineas.svg"
 import Fondo_card_1 from "./imgs/pexels-1.jpg"
+import Fondo_card_2 from "./imgs/grupo de amigos.jpg"
+import fondo_log from "./imgs/grupo de amigos con logo.png"
 
 
 
@@ -52,7 +54,9 @@ export default function Header() {
                     <img src={APSIM} alt="" />
                 </div>
                 <div className="ampros">
-                    <img src={logo_ampros} alt="" />
+                    <a href="https://www.ampros.org.ar/">
+                        <img src={logo_ampros} alt="" />
+                    </a>
                 </div>
                 <div className="logos derecha">
                     <img src={EOL} alt="" />
@@ -103,7 +107,10 @@ function Card({text}) {
 function Carrucel(){
     const [Position, setPosition] = useState(0);
 
-    const [isActive, setIsActive] = useState(1);
+    const [display1, setDisplay1] = useState();
+    const [display2, setDisplay2] = useState();
+    const [display3, setDisplay3] = useState();
+    const [display4, setDisplay4] = useState();
 
     const [class1, setClass1] = useState("derecha");
     const [class2, setClass2] = useState("derecha");
@@ -148,12 +155,18 @@ function Carrucel(){
         <div className='carrucel'>
             <button className='left' onClick={()=> setPosition(Position - 1)}></button>
             <div className={"card " + class1} id='uno'> 
-                <img src={Fondo_card_1} alt="" className='fondo_targeta_1' />
-                <img src={logo_completo} alt="" className='logo'/>
+                <img src={fondo_log} alt="" className='fondo_targeta_1' />
+                {/* <img src={logo_completo} alt="" className='logo'/> */}
             </div>
-            <div className={"card " + class2} id='dos'> 2 </div>
-            <div className={"card " + class3} id='tres'> 3 </div>
-            <div className={"card " + class4} id='cuatro'> 4 </div>
+            <div className={"card " + class2} id='dos'>
+                <img src={Fondo_card_1} alt="" className='fondo_targeta_1' />
+            </div>
+            <div className={"card " + class3} id='tres'>
+                <img src={Fondo_card_2} alt="" className='fondo_targeta_1' />
+            </div>
+            <div className={"card " + class4} id='cuatro'>
+                <img src={Fondo_card_1} alt="" className='fondo_targeta_1' />
+            </div>
             <button className='right' onClick={()=> setPosition(Position + 1)}></button>
         </div>
     )

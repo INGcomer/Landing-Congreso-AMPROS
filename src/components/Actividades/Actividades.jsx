@@ -3,7 +3,7 @@ import { motion } from "framer-motion"
 import "./Actividades.css"
 // img
 // import Logo from "./imgs/logo congreso.svg"
-
+import fondo from "./imgs/fondo_lineas.svg"
 // ICONS
 import Groups2Icon from '@mui/icons-material/Groups2';
 import CampaignIcon from '@mui/icons-material/Campaign';
@@ -12,7 +12,7 @@ import HistoryEduIcon from '@mui/icons-material/HistoryEdu';
 export default function Actividades() {
     return (
         <section id="Actividades">
-            <h1> Actividades Academicas </h1>
+            <h1> Ejes tematicos </h1>
             <div className="flag_container">
                 <motion.div
                     className='flag conferencias'
@@ -21,9 +21,13 @@ export default function Actividades() {
                     transition={{ duration: 0.5, delay: 0}}
                 >
                     {/* <div className="flag conferencias"> */}
-                    <h2> Conferencias </h2>
+                    <h2> Insituciones y Salud Mental </h2>
                     <p>
-                        Esto es una conferencia
+                        1) Escenarios Postpandémicos en las instituciones.  <br /> <br />
+                        2) Aplicación de la ley de salud mental en las instituciones de la provincia de Mendoza.  <br /><br />
+                        3) Las instituciones frente a las problemáticas de la salud mental. <br /> <br />
+                        4) El desafío de un sistema integrado de Salud.  <br /> <br />
+                        5) Práctica institucionales y Salud Mental.
                     </p>
                     <CampaignIcon />
                     {/* </div> */}
@@ -37,9 +41,16 @@ export default function Actividades() {
 
                 >
                     {/* <div className="flag tres_topic"> */}
-                    <h2> Tres Topic </h2>
+                    <h2> Comunidad y Salud Mental </h2>
                     <p>
-                        Esto es un tres topic
+                        1) Escenarios Postpandémicos en las comunidades.  <br /><br />
+                        2) Diversidades.  <br /><br />
+                        3) Géneros.  <br /><br />
+                        4) Infancias, adolescencias y juventudes.  <br /><br />
+                        5) Abordaje poblecional en Salud Mental. <br /><br />
+                        6) Nuevas Comunidades. <br /><br />
+                        7) Perspectivas del consumo hoy.  <br /><br />
+                        8) Implementación de la ley de salud mental en la comunidad.
                     </p>
                     <Groups2Icon />
                     {/* </div> */}
@@ -53,14 +64,19 @@ export default function Actividades() {
 
                 >
                     {/* <div className="flag mesas"> */}
-                    <h2> Mesas de trabajo </h2>
+                    <h2> Profecionales y Salud Mental </h2>
                     <p>
-                        esto es una mesa de trabajo
+                        1) Prácticas profecionales en el escenario postpandémico.  <br /><br />
+                        2) La formación de los profecionales en Salud Mental. Nuevos abordajes.  <br /><br />
+                        3) Los equipos de Salud y políticas públicas.  <br /><br />
+                        4) Profesionales de la Salud y derechos laborales.  <br /><br />
                     </p>
                     <HistoryEduIcon />
                     {/* </div> */}
                 </motion.div>
             </div>
+
+            <img src={fondo} alt="" className="fondo"/>
         </section>
     )
 }
