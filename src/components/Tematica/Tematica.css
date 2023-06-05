@@ -30,16 +30,16 @@
 
 #Tematica .forma{
   position: relative;
-  top: -90%;
-  left: 40%;
+  top: -65%;
+  left: 55%;
 }
-#Tematica .forma svg{
-  height: 1300px;
-  width: 1300px;
-
+#Tematica img{
   position: relative;
-  /* top: -30%;
-  left: 10%; */
+  height: 700px;
+  width: auto;
+
+  /* left: -40%;
+  top: -350px; */
 }
 
 @media (max-width: 1400px) {
