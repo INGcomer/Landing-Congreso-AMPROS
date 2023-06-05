@@ -61,3 +61,21 @@
 #Autoridades .comicion_cientifica .pichi img{
     height: 200px;
 }
+
+
+@media (max-width: 1400px) {
+    #Autoridades .fondo{
+        position: relative;
+        top: -2000px;
+        left: 200px;
+    
+        height: 2000px;
+        width: auto;
+    
+        transform: rotate(50deg);
+        z-index: 10;
+    }
+    #Autoridades .comicion_directiva img{
+        height: 200px;
+    }
+}

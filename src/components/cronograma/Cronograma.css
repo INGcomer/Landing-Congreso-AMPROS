@@ -30,6 +30,14 @@
     position: relative;
     margin-top: 50px;
     z-index: 5;
+
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    /* border: 1px solid rgba(255, 255, 255, 0.3); */
 }
 
 .MuiButtonBase-root.MuiTab-root.MuiTab-textColorSecondary.Mui-selected.css-1pweck2-MuiButtonBase-root-MuiTab-root {
@@ -82,10 +90,12 @@
 }
 
 @media (max-width: 1400px) {
+
     .franja_horaria .hora,
     .franja_horaria .eventos .evento {
         height: 30px;
     }
+
     .franja_horaria {
         margin-bottom: 20px;
         font-size: 1.2rem;

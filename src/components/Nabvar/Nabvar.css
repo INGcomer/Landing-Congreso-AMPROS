@@ -24,7 +24,8 @@ nav .logo_container {
     align-items: center;
     justify-content: center;
 }
-nav .logo_container img{
+
+nav .logo_container img {
     height: 70%;
     width: auto;
 
@@ -62,7 +63,8 @@ nav .nav_sections {
     justify-content: center;
 }
 
-nav a, nav span {
+nav a,
+nav span {
     margin-left: 20px;
     margin-right: 20px;
 
@@ -76,7 +78,8 @@ nav a, nav span {
     transition: all 0.4s;
 }
 
-nav a:hover, nav span:hover{
+nav a:hover,
+nav span:hover {
     color: var(--Acento);
     /* font-size: 1.7rem; */
 }
@@ -122,8 +125,10 @@ nav .CallToAccion_container .CallToAccion:hover {
 }
 
 @media (max-width: 1400px) {
-    nav a {
-        font-size: 1.3rem;
+
+    nav a,
+    nav span {
+        font-size: 1rem;
     }
 }
 
@@ -136,7 +141,8 @@ nav .CallToAccion_container .CallToAccion:hover {
         border: 1px solid rgba(255, 255, 255, 0.3);
     }
 
-    nav .logo_container, nav .CallToAccion_container {
+    nav .logo_container,
+    nav .CallToAccion_container {
         background: none;
         box-shadow: none;
         backdrop-filter: none;

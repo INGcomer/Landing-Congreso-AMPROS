@@ -40,7 +40,7 @@ export default function Autoridades() {
             </div>
             <motion.div 
                 className="comicion_cientifica"
-                initial={{ y: '50%' }}
+                initial={{ y: '20%' }}
                 whileInView={{ y: '0%' }}
                 transition={{ duration: 0.5 }}
             >

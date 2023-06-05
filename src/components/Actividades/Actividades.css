@@ -69,6 +69,40 @@
     height: auto;
 }
 
+@media (max-width: 1400px) {
+    #Actividades .fondo{
+        position: absolute;
+        top: 2100px;
+        /* left: 700px; */
+    
+        height: 1600px;
+        left: -200px;
+    
+        transform: rotate(30deg);
+    }
+    #Actividades h2{
+        margin-top: 30px;
+    }
+    #Actividades .flag p{
+        margin-top: -20%;
+        font-size: 0.95rem;
+    }
+    #Actividades .flag{
+        width: 350px;
+        height: 500px;
+
+        justify-content: space-between;
+
+        border-bottom-right-radius: 50px;
+        border-top-right-radius: 50px;
+    }
+    #Actividades .flag svg {
+        width: 20%;
+        height: auto;
+    }
+
+}
+
 @media (max-width: 500px) {
     #Actividades .flag_container {
         flex-direction: column;

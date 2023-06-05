@@ -59,6 +59,19 @@
   #Tematica .container p {
     font-size: 1rem;
   }
+  #Tematica .forma{
+    position: relative;
+    top: -90%;
+    left: 40%;
+  }
+  #Tematica .forma svg{
+    height: 900px;
+    width: 900px;
+  
+    position: relative;
+    /* top: -30%;
+    left: 10%; */
+  }
 }
 
 @media (max-width: 500px) {

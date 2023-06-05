@@ -35,7 +35,7 @@ export default function Actividades() {
 
                 <motion.div
                     className='flag tres_topic'
-                    initial={{ x: '260%' }}
+                    initial={{ x: '200%' }}
                     whileInView={{ x: '0%' }}
                     transition={{ duration: 0.5, delay: 0.5 }}
 
@@ -58,7 +58,7 @@ export default function Actividades() {
 
                 <motion.div
                     className='flag mesas'
-                    initial={{ x: '120%' }}
+                    initial={{ x: '110%' }}
                     whileInView={{ x: '0%' }}
                     transition={{ duration: 0.5, delay: 1 }}
 

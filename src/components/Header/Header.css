@@ -191,10 +191,26 @@
 }
 
 @media (max-width: 1400px) {
+    #header .fondo{
+        position: absolute;
+    
+        left: 0%;
+        top: -25%;
+    
+        height: 1000px;
+        width: auto;
+    
+        transform: rotate(-30deg);
+    }
     #header .logo{
         height: 200px;
 
         margin-bottom: 0%;
+    }
+    #header .card img{
+        height: 200%;
+        left: -5%;
+        top: -35%;
     }
 }
 
