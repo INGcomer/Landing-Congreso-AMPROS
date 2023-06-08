@@ -39,13 +39,16 @@
     -webkit-backdrop-filter: blur(5px);
     /* border: 1px solid rgba(255, 255, 255, 0.3); */
 }
+.MuiButtonBase-root.MuiTab-root{
+    font-size: 1.5rem;
+}
 
 .MuiButtonBase-root.MuiTab-root.MuiTab-textColorSecondary.Mui-selected.css-1pweck2-MuiButtonBase-root-MuiTab-root {
-    color: var(--Intermedio);
+    color: var(--Acento);
 }
 
 .MuiTabs-indicator.css-11yukd5-MuiTabs-indicator {
-    background-color: var(--Intermedio);
+    background-color: var(--Acento);
 }
 
 .franja_horaria {

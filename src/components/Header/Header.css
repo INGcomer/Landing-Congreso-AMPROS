@@ -154,7 +154,8 @@
     height: 100px;
     width: 100%;
 
-    background-color: var(--Claro);
+    /* background-color: var(--Claro); */
+    background-color: white;
 
     display: flex;
     justify-content: center;
@@ -188,6 +189,10 @@
 #header .logos_container .logos img{
     height: 80%;
     width: auto;
+    
+    background-color: white;
+
+    border-radius: 50px;
 }
 
 @media (max-width: 1400px) {

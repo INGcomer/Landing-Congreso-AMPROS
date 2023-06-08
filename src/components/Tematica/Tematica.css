@@ -14,7 +14,7 @@
 }
 
 #Tematica h1 {
-  color: var(--Oscuro);
+  color: var(--Acento);
 
   font-size: 6rem;
 }
@@ -60,17 +60,8 @@
     font-size: 1rem;
   }
   #Tematica .forma{
-    position: relative;
-    top: -90%;
-    left: 40%;
-  }
-  #Tematica .forma svg{
-    height: 900px;
-    width: 900px;
-  
-    position: relative;
-    /* top: -30%;
-    left: 10%; */
+    top: -70%;
+    left: 60%;
   }
 }
 

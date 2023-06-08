@@ -112,6 +112,8 @@ function Carrucel(){
     const [display3, setDisplay3] = useState();
     const [display4, setDisplay4] = useState();
 
+    const [IsHovering, setIsHovering] = useState(false);
+
     const [class1, setClass1] = useState("derecha");
     const [class2, setClass2] = useState("derecha");
     const [class3, setClass3] = useState("derecha");
@@ -150,20 +152,33 @@ function Carrucel(){
         }
     },[Position]);
 
+    useEffect(() => {
+        if (!IsHovering) {
+            setTimeout(() => {
+                setPosition(Position + 1)
+                console.log("Delayed for 1 second.");
+            }, "60000");
+        }
+    });
+
 
     return(
         <div className='carrucel'>
             <button className='left' onClick={()=> setPosition(Position - 1)}></button>
+            {/* <div className={"card " + class1} id='uno' onMouseOver={()=>setIsHovering(true)} onMouseOut={()=>setIsHovering(false)}>  */}
             <div className={"card " + class1} id='uno'> 
                 <img src={fondo_log} alt="" className='fondo_targeta_1' />
                 {/* <img src={logo_completo} alt="" className='logo'/> */}
             </div>
+            {/* <div className={"card " + class2} id='dos' onMouseOver={()=>setIsHovering(true)} onMouseOut={()=>setIsHovering(false)}> */}
             <div className={"card " + class2} id='dos'>
                 <img src={Fondo_card_1} alt="" className='fondo_targeta_1' />
             </div>
+            {/* <div className={"card " + class3} id='tres' onMouseOver={()=>setIsHovering(true)} onMouseOut={()=>setIsHovering(false)}> */}
             <div className={"card " + class3} id='tres'>
                 <img src={Fondo_card_2} alt="" className='fondo_targeta_1' />
             </div>
+            {/* <div className={"card " + class4} id='cuatro' onMouseOver={()=>setIsHovering(true)} onMouseOut={()=>setIsHovering(false)}> */}
             <div className={"card " + class4} id='cuatro'>
                 <img src={Fondo_card_1} alt="" className='fondo_targeta_1' />
             </div>
