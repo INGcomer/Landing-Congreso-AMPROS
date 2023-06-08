@@ -102,7 +102,11 @@
     }
 
     #Salon .texto{
-        width: 90%;
+        width: 100%;
+
+        padding-left: 0px;
+
+        text-align: center;
     
         color:  var(--Oscuro);
         background-color: var(--Claro);

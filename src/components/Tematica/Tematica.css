@@ -77,4 +77,8 @@
   #Tematica img {
     display: none;
   }
+
+  #Tematica .container p {
+    width: 100%;
+}
 }

@@ -220,17 +220,20 @@
 }
 
 @media (max-width: 500px) {
-    #header{
-        height: 50vh;
-    }
     #header .logo{
         height: 130px;
     }
 
     #header .fondo{
-        border-left: 50vw solid transparent;
-        border-right: 50vw solid transparent;
-      
-        border-top: 100px solid var(--Oscuro);
+        position: absolute;
+    
+        left: -55%;
+        top: 1%;
+    
+        height: 800px;
+        width: auto;
+
+
+        transform: rotate(-5deg);
     }
 }

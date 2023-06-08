@@ -12,7 +12,7 @@ export default function Autoridades() {
             <div className="comicion_directiva">
                 <motion.div
                     className="precidente"
-                    initial={{ x: '-150%' }}
+                    initial={{ x: '-50%' }}
                     whileInView={{ x: '0%' }}
                     transition={{ duration: 0.5 }}
                 >
@@ -26,7 +26,7 @@ export default function Autoridades() {
                 </motion.div>
                 <motion.div 
                     className="viceprecidente"
-                    initial={{ x: '150%' }}
+                    initial={{ x: '50%' }}
                     whileInView={{ x: '0%' }}
                     transition={{ duration: 0.5 }}
                 >
@@ -40,7 +40,7 @@ export default function Autoridades() {
             </div>
             <motion.div 
                 className="comicion_cientifica"
-                initial={{ y: '20%' }}
+                initial={{ y: '10%' }}
                 whileInView={{ y: '0%' }}
                 transition={{ duration: 0.5 }}
             >

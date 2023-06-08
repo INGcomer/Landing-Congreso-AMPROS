@@ -104,6 +104,13 @@
 }
 
 @media (max-width: 500px) {
+    #Actividades {
+        height: fit-content;
+    }
+    #Actividades .fondo{
+        display: none;
+    }
+
     #Actividades .flag_container {
         flex-direction: column;
         align-items: center;

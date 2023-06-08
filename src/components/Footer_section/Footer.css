@@ -30,6 +30,8 @@
    width: 200px;
    border-radius: 50px;
 
+  color: var(--Celeste);
+
    background-color: rgb(49, 49, 49);
 }
 
@@ -45,7 +47,7 @@
    border-radius: 50px;
 
    background-color: rgb(49, 49, 49);
-   color: white;
+   color: var(--Celeste);
 
    display: flex;
    align-items: center;
