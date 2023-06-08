@@ -51,6 +51,10 @@
     background-color: var(--Acento);
 }
 
+.css-180lpz9.Mui-selected {
+    background-color: var(--Acento);
+}
+
 .franja_horaria {
     display: flex;
     align-items: center;
