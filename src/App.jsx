@@ -11,6 +11,7 @@ import Entrada from './components/Entrada/Entrada';
 import Footer from './components/Footer/Footer';
 import FooterSection from './components/Footer_section/Footer';
 import Salon from './components/donde/salon/Salon';
+import Disertantes from './components/Disertantes/Disertantes';
 
 function App() {
   return (
@@ -22,6 +23,8 @@ function App() {
       <Autoridades/>
 
       <Tematica/>
+
+      <Disertantes/>
 
       <Cronograma/>
 

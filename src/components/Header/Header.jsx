@@ -10,6 +10,9 @@ import APSIM from "./imgs/Logos/APSIM..png"
 import EOL from "./imgs/Logos/EOL.png"
 import SPM from "./imgs/Logos/SPM.png"
 
+import AASM from "./imgs/Logos/Asociación Argentina de Salud Mental.png"
+import ACEP from "./imgs/Logos/Asociación Cuyana de Estudios Psicoanálisis.jpg"
+
 
 import Fondo from "./imgs/fondo_lineas.svg"
 import Fondo_card_1 from "./imgs/pexels-1.jpg"
@@ -52,6 +55,8 @@ export default function Header() {
                 <div className="logos izquierda">
                     <img src={APREM} alt="" />
                     <img src={APSIM} alt="" />
+                    {/* <img src={AASM} alt="" />
+                    <img src={ACEP} alt="" /> */}
                 </div>
                 <div className="ampros">
                     <a href="https://www.ampros.org.ar/">
