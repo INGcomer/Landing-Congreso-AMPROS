@@ -50,6 +50,20 @@
 .MuiTabs-indicator.css-11yukd5-MuiTabs-indicator {
     background-color: var(--Acento);
 }
+.MuiTabs-indicator.css-axpu1l {
+    background-color: var(--Acento);
+}
+
+.MuiButtonBase-root.MuiTab-root.MuiTab-textColorSecondary.MuiTab-fullWidth.Mui-selected.css-180lpz9{
+    color: var(--Acento);
+}
+.MuiTouchRipple-root.css-w0pj6f{
+    color: var(--Acento);
+}
+
+.css-180lpz9.Mui-selected {
+    color: var(--Acento);
+}
 
 .franja_horaria {
     display: flex;
@@ -125,7 +139,7 @@
     }
 
     .franja_horaria {
-        font-size: 0.7rem;
+        font-size: 0.5rem;
 
         text-align: center;
     }
@@ -135,5 +149,9 @@
 
         margin-left: 5px;
         margin-right: 5px;
+    }
+
+    .MuiButtonBase-root.MuiTab-root {
+        font-size: 1rem;
     }
 }
