@@ -2,7 +2,8 @@ import { motion } from "framer-motion"
 // CSS
 import "./Salon.css"
 // img
-import salon from "./imgs/pexels-steven-hylands-1650904.jpg"
+// import salon from "./imgs/pexels-steven-hylands-1650904.jpg"
+import salon from "./imgs/salon chico.jpg"
 // ICONS
 
 export default function Salon() {
