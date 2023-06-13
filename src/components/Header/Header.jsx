@@ -10,8 +10,14 @@ import APSIM from "./imgs/Logos/APSIM..png"
 import EOL from "./imgs/Logos/EOL.png"
 import SPM from "./imgs/Logos/SPM.png"
 
-import AASM from "./imgs/Logos/Asociación Argentina de Salud Mental.png"
+import AASM from "./imgs/Logos/AASM.jpg"
 import ACEP from "./imgs/Logos/Asociación Cuyana de Estudios Psicoanálisis.jpg"
+import TS from "./imgs/Logos/trabajo social.png"
+
+
+import APP from "./imgs/Logos/Asociación de Psicoanálisis de Pareja, Familia y Grupos de Mendoza.png"
+import COLEGIO from "./imgs/Logos/Colegio de Psicopedagogos.jpg"
+
 
 
 import Fondo from "./imgs/fondo_lineas.svg"
@@ -55,8 +61,9 @@ export default function Header() {
                 <div className="logos izquierda">
                     <img src={APREM} alt="" />
                     <img src={APSIM} alt="" />
-                    {/* <img src={AASM} alt="" />
-                    <img src={ACEP} alt="" /> */}
+                    <img src={AASM} alt="" />
+                    <img src={ACEP} alt="" />
+                    <img src={TS} alt="" />
                 </div>
                 <div className="ampros">
                     <a href="https://www.ampros.org.ar/">
@@ -66,6 +73,8 @@ export default function Header() {
                 <div className="logos derecha">
                     <img src={EOL} alt="" />
                     <img src={SPM} alt="" />
+                    <img src={APP} alt="" />
+                    <img src={COLEGIO} alt="" />
                 </div>
             </div>
             
