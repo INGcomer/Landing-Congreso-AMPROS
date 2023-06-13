@@ -21,17 +21,19 @@ export default function Disertantes() {
 function Evento({tipo, items}) {
     return(
         <div className={"container " + tipo.replaceAll(' ', '_')}>
-            <h2> {tipo} </h2>
-            {items.map(disertante => <Disertante nombre={disertante.nombre} foto={disertante.foto} cv={disertante.cv} asociacion={disertante.asociacion} />)}
+            <h2 className="title"> {tipo} </h2>
+            {items.map(disertante => <Disertante nombre={disertante.nombre} foto={disertante.foto} cv={disertante.cv} cv_link={disertante.cv_link} asociacion={disertante.asociacion} />)}
         </div>
     )
 }
 
 
-function Disertante({ nombre, foto, cv, asociacion }) {
+function Disertante({ nombre, foto, cv, cv_link, asociacion }) {
     return (
-        <motion.div
+        // <a href=""></a>
+        <motion.a
             className="disertante"
+            href={cv_link}
             whileHover={{ scale: 1.2 }}
         >
             <div className="foto">
@@ -44,6 +46,6 @@ function Disertante({ nombre, foto, cv, asociacion }) {
                 {/* <h4> {asociacion} </h4> */}
                 <small> {cv} </small>
             </div>
-        </motion.div>
+        </motion.a>
     )
 }

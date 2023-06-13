@@ -5,72 +5,84 @@
             {
                 "nombre": "Luis Tudanca",
                 "cv": "AME de la Escuela de la orientación Lacaniana y de la Asociación mundial de psicoanálisis.",
+                "cv_link": "CVs/Luis Tudanca.pdf",
                 "foto": "imgs/disertantes/Luis Tudanca.png",
                 "asociacion": "Delegación EOL Mendoza"
             },
             {
                 "nombre": "Lic. Susana Matus",
                 "cv": "Lic en Psicología UBA",
+                "cv_link": "CVs/Lic. Susana Matus.pdf",
                 "foto": "imgs/disertantes/Susana Matus.jpg",
                 "asociacion": "Asociacion Psicoanalisis Pareja Familia y Grupo"
             },
             {
                 "nombre": "Lic. Cristina Rojas",
                 "cv": "psicóloga (UBA); psicoanalista vincular.",
+                "cv_link": "CVs/Lic. Cristina Rojas.pdf",
                 "foto": "",
                 "asociacion": "Asociacion Psicoanalisis Pareja Familia y Grupo"
             },
             {
                 "nombre": "Carina Kaplan",
                 "cv": "Doctora en educación, investigadora principal del CONICET",
+                "cv_link": "CVs/Carina Kaplan.pdf",
                 "foto": "imgs/disertantes/Carina Kaplan.jpg",
                 "asociacion": "Colegio Profesional de Psicopedagogos de Mendoza"
             },
             {
                 "nombre": "Andrea Zelaya",
                 "cv": "Analista practicante de la Escuela de la Orientación Lacaniana. Miembro de la Asociación Mundial de Psicoanálisis.",
+                "cv_link": "CVs/Andrea Zelaya.pdf",
                 "foto": "imgs/disertantes/Andrea Zelaya.jpg",
                 "asociacion": "Asociación Cuyana de Estudios Psicoanalíticos (ACEP)"
             },
             {
                 "nombre": "Dra. Mónica Zac",
                 "cv": "Médica psicoanalista miembro titular de APDEBA. Psicoanalista de Niños y Adolescentes de la Asociación Psicoanalítica Internacional",
+                "cv_link": "CVs/Dra. Mónica Zac.pdf",
                 "foto": "imgs/disertantes/Dra. Mónica Zac.jpeg",
                 "asociacion": "Sociedad Psicoanalítica de Mendoza"
             },
             {
                 "nombre": "Silvina María Malvárez",
                 "cv": "Licenciada en enfermería, doctora en ciencias de la salud y doctora en ciencias, magíster en salud materno infantil.",
+                "cv_link": "CVs/Silvina María Malvárez.pdf",
                 "foto": "imgs/disertantes/Silvina María Malvárez.png",
                 "asociacion": "Sociedad Psicoanalítica de Mendoza"
             },
             {
                 "nombre": "Dra. Mariana Moreno",
-                "cv": "Médica psiquiatra, especialista en psiquiatría infanto juvenil. Actualmente Directora Nacional de Abordaje Integral de Salud Mental y Consumos Problemáticos",
+                "cv": "Directora Nacional de Abordaje Integral de Salud Mental y Consumos Problemáticos",
+                "cv_link": "CVs/Dra. Mariana Moreno.pdf",
                 "foto": "",
                 "asociacion": "La Asociación de Psiquiatras de Mendoza (APSIM)"
             },
             {
                 "nombre": "Dr. Hugo Cohen",
                 "cv": "Médico especialista en psiquiatría (Hosp.Evita, Lanús, 1983); Master en Salud P´blica y Gestión Sanitaria (Granada, España 1997).",
+                "cv_link": "CVs/Dr. Hugo Cohen.pdf",
                 "foto": "imgs/disertantes/Dr. Hugo Cohen.png",
                 "asociacion": ""
             },
             {
                 "nombre": "Dra. Raquel Inés Bianchi",
                 "cv": "Médica y Especialista en Psiquiatría. Es fundadora y directora la Escuela de Psicoterapia Ontológica en Buenos Aires.",
+                "cv_link": "CVs/Dra. Raquel Inés Bianchi.pdf",
                 "foto": "imgs/disertantes/Dra. Raquel Inés Bianchi.jpeg",
                 "asociacion": "Asociación Argentina de Salud Mental (AASM)"
             },
             {
                 "nombre": "Lic. Prof. Marcos Burgos",
                 "cv": "Licenciado en Psicología. Profesor Universitario de Psicología",
+                "cv_link": "CVs/Lic. Prof. Marcos Burgos.pdf",
                 "foto": "imgs/disertantes/Lic. Prof. Marcos Burgos.jpg",
                 "asociacion": "Asociación Argentina de Salud Mental (AASM)"
             },
             {
                 "nombre": "Prof. Lic. Matias Gutawski",
                 "cv": " Profesor y Licenciado en Psicología, Orientador Superior en Teología con especialidad en Teología Práctica",
+                "cv_link": "CVs/Prof. Lic. Matias Gutawski.pdf",
                 "foto": "imgs/disertantes/Prof. Lic. Matias Gutawski.jpg",
                 "asociacion": "Asociación Argentina de Salud Mental (AASM)"
             },
@@ -82,7 +94,8 @@
             },
             {
                 "nombre": "Susana Pendzik",
-                "cv": "descargar pdf",
+                "cv": "",
+                "cv_link": "CVs/Susana Pendzik.pdf",
                 "foto": "",
                 "asociacion": "Asociacion Argentina de Dramaterapia"
             }
@@ -92,76 +105,214 @@
         "tipo": " 3 topic",
         "items": [
             {
-                "nombre": "Luis Tudanca",
-                "cv": "AME de la Escuela de la orientación Lacaniana y de la Asociación mundial de psicoanálisis.",
-                "foto": "imgs/disertantes/Luis Tudanca.png",
-                "asociacion": "Delegación EOL Mendoza"
-            },
-            {
-                "nombre": "Lic. Susana Matus",
-                "cv": "Lic en Psicología UBA",
-                "foto": "imgs/disertantes/Susana Matus.jpg",
-                "asociacion": "Asociacion Psicoanalisis Pareja Familia y Grupo"
-            },
-            {
-                "nombre": "Lic. Cristina Rojas",
-                "cv": "psicóloga (UBA); psicoanalista vincular.",
+                "nombre": "Marta Valero",
+                "cv": "",
+                "cv_link": "",
                 "foto": "",
-                "asociacion": "Asociacion Psicoanalisis Pareja Familia y Grupo"
+                "asociacion": "Aprem"
             },
             {
-                "nombre": "Carina Kaplan",
-                "cv": "Doctora en educación, investigadora principal del CONICET",
-                "foto": "imgs/disertantes/Carina Kaplan.jpg",
-                "asociacion": "Colegio Profesional de Psicopedagogos de Mendoza"
-            },
-            {
-                "nombre": "Andrea Zelaya",
-                "cv": "Analista practicante de la Escuela de la Orientación Lacaniana. Miembro de la Asociación Mundial de Psicoanálisis.",
-                "foto": "imgs/disertantes/Andrea Zelaya.jpg",
-                "asociacion": "Asociación Cuyana de Estudios Psicoanalíticos (ACEP)"
-            },
-            {
-                "nombre": "Dra. Mónica Zac",
-                "cv": "Médica psicoanalista miembro titular de APDEBA. Psicoanalista de Niños y Adolescentes de la Asociación Psicoanalítica Internacional",
-                "foto": "imgs/disertantes/Dra. Mónica Zac.jpeg",
-                "asociacion": "Sociedad Psicoanalítica de Mendoza"
-            },
-            {
-                "nombre": "Silvina María Malvárez",
-                "cv": "Licenciada en enfermería, doctora en ciencias de la salud y doctora en ciencias, magíster en salud materno infantil.",
-                "foto": "imgs/disertantes/Silvina María Malvárez.png",
-                "asociacion": "Sociedad Psicoanalítica de Mendoza"
-            },
-            {
-                "nombre": "Dra. Mariana Moreno",
-                "cv": "Médica psiquiatra, especialista en psiquiatría infanto juvenil. Actualmente Directora Nacional de Abordaje Integral de Salud Mental y Consumos Problemáticos",
+                "nombre": "Mario Vargas",
+                "cv": "",
+                "cv_link": "",
                 "foto": "",
-                "asociacion": "La Asociación de Psiquiatras de Mendoza (APSIM)"
-            },
-            {
-                "nombre": "Dr. Hugo Cohen",
-                "cv": "Médico especialista en psiquiatría (Hosp.Evita, Lanús, 1983); Master en Salud P´blica y Gestión Sanitaria (Granada, España 1997).",
-                "foto": "imgs/disertantes/Dr. Hugo Cohen.png",
                 "asociacion": ""
             },
             {
-                "nombre": "Dra. Raquel Inés Bianchi",
-                "cv": "Médica y Especialista en Psiquiatría. Es fundadora y directora la Escuela de Psicoterapia Ontológica en Buenos Aires.",
-                "foto": "imgs/disertantes/Dra. Raquel Inés Bianchi.jpeg",
-                "asociacion": "Asociación Argentina de Salud Mental (AASM)"
+                "nombre": "Sara Gutierrez",
+                "cv": "",
+                "cv_link": "",
+                "foto": "",
+                "asociacion": ""
             },
             {
-                "nombre": "Lic. Prof. Marcos Burgos",
-                "cv": "Licenciado en Psicología. Profesor Universitario de Psicología",
-                "foto": "imgs/disertantes/Lic. Prof. Marcos Burgos.jpg",
-                "asociacion": "Asociación Argentina de Salud Mental (AASM)"
+                "nombre": "Eleonora Lamm",
+                "cv": "",
+                "cv_link": "",
+                "foto": "",
+                "asociacion": ""
             },
             {
-                "nombre": "Prof. Lic. Matias Gutawski",
-                "cv": " Profesor y Licenciado en Psicología, Orientador Superior en Teología con especialidad en Teología Práctica",
-                "foto": "imgs/disertantes/Prof. Lic. Matias Gutawski.jpg",
-                "asociacion": "Asociación Argentina de Salud Mental (AASM)"
+                "nombre": "Alejandra Cirisa",
+                "cv": "",
+                "cv_link": "",
+                "foto": "",
+                "asociacion": ""
+            },
+            {
+                "nombre": "Cecilia Sangodolce",
+                "cv": "",
+                "cv_link": "",
+                "foto": "",
+                "asociacion": "Ampros"
+            },
+            {
+                "nombre": "Patricia Barbarán",
+                "cv": "",
+                "cv_link": "",
+                "foto": "",
+                "asociacion": "Aprem"
+            },
+            {
+                "nombre": "Ivana Velazquez",
+                "cv": "",
+                "cv_link": "",
+                "foto": "",
+                "asociacion": ""
+            },
+            {
+                "nombre": "Naly Durand",
+                "cv": "",
+                "cv_link": "",
+                "foto": "",
+                "asociacion": "Ampros"
+            },
+            {
+                "nombre": "Adriana Dolongevich",
+                "cv": "",
+                "cv_link": "",
+                "foto": "",
+                "asociacion": "Ampros"
+            },
+            {
+                "nombre": "Manuel Vilapriño",
+                "cv": "",
+                "cv_link": "",
+                "foto": "",
+                "asociacion": ""
+            },
+            {
+                "nombre": "Gustavo Moreno",
+                "cv": "",
+                "cv_link": "",
+                "foto": "",
+                "asociacion": ""
+            },
+            {
+                "nombre": "Daniela Navarro",
+                "cv": "",
+                "cv_link": "",
+                "foto": "",
+                "asociacion": ""
+            },
+            {
+                "nombre": "Ivana Velázquez",
+                "cv": "",
+                "cv_link": "",
+                "foto": "",
+                "asociacion": ""
+            },
+            {
+                "nombre": "Adriana Dolongevich",
+                "cv": "",
+                "cv_link": "",
+                "foto": "",
+                "asociacion": "Ampros"
+            },
+            {
+                "nombre": "Mónica Balada",
+                "cv": "",
+                "cv_link": "",
+                "foto": "",
+                "asociacion": ""
+            },
+            {
+                "nombre": "Patricia Puebla",
+                "cv": "",
+                "cv_link": "",
+                "foto": "",
+                "asociacion": "Appfg"
+            },
+            {
+                "nombre": "Liliana Barg",
+                "cv": "",
+                "cv_link": "",
+                "foto": "",
+                "asociacion": "Trabajo social"
+            },
+            {
+                "nombre": "Isabel Valla",
+                "cv": "",
+                "cv_link": "",
+                "foto": "",
+                "asociacion": "SPM"
+            },
+            {
+                "nombre": "María Nelly Ragonese",
+                "cv": "",
+                "cv_link": "",
+                "foto": "",
+                "asociacion": "Acep"
+            },
+            {
+                "nombre": "Yolanda Pozzo",
+                "cv": "",
+                "cv_link": "",
+                "foto": "",
+                "asociacion": "Aprem"
+            },
+            {
+                "nombre": "Virginia Abihagle",
+                "cv": "",
+                "cv_link": "",
+                "foto": "",
+                "asociacion": "EOL"
+            },
+            {
+                "nombre": "Marcos Burgos ",
+                "cv": "",
+                "cv_link": "",
+                "foto": "",
+                "asociacion": "AASM"
+            },
+            {
+                "nombre": "Laura Prato",
+                "cv": "",
+                "cv_link": "",
+                "foto": "",
+                "asociacion": "SPM"
+            },
+            {
+                "nombre": "Laura Mayorga",
+                "cv": "",
+                "cv_link": "",
+                "foto": "",
+                "asociacion": "Aprem"
+            },
+            {
+                "nombre": "Rene Villegas",
+                "cv": "",
+                "cv_link": "",
+                "foto": "",
+                "asociacion": "Aprem"
+            },
+            {
+                "nombre": "Residentes",
+                "cv": "",
+                "cv_link": "",
+                "foto": "",
+                "asociacion": ""
+            },
+            {
+                "nombre": "Diana Palma",
+                "cv": "",
+                "cv_link": "",
+                "foto": "",
+                "asociacion": ""
+            },
+            {
+                "nombre": "Mari Perrone",
+                "cv": "",
+                "cv_link": "",
+                "foto": "",
+                "asociacion": ""
+            },
+            {
+                "nombre": "Estela Landaburu",
+                "cv": "",
+                "cv_link": "",
+                "foto": "",
+                "asociacion": ""
             }
         ]
     }
