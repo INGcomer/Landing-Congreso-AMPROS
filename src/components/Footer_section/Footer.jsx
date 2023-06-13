@@ -25,10 +25,10 @@ export default function FooterSection() {
                     </Button>
                 </div>
                 <div className="redes">
-                    <a href="">
+                    <a href="https://www.instagram.com/ingcome.c">
                         <InstagramIcon/>
                     </a>
-                    <a href="">
+                    <a href="https://www.linkedin.com/company/ingcome">
                         <LinkedInIcon/>
                     </a>
                 </div>
@@ -51,7 +51,7 @@ export default function FooterSection() {
             <div className='linea'></div>
 
             <div className="ingcome_sofweare">
-                <a href="">
+                <a href="https://www.ing-come.com/software">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 306.4 147.15">
                         <g id="Capa_2" data-name="Capa 2">
                             <g id="Layer_1" data-name="Layer 1">
