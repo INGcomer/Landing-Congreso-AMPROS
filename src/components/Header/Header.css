@@ -245,4 +245,38 @@
         height: 300px;
         width: 230px;
     }
+
+    #header .logos_container{
+        height: 100px;
+        width: 100%;
+    }
+
+    #header .logos_container .ampros{
+        height: 100px;
+        width: 100px;
+    
+        position: relative;
+        top: -60px;
+    }
+
+    #header .logos_container .logos.derecha {
+        position: relative;
+        right: 40px;
+    }
+    #header .logos_container .logos.izquierda {
+        position: relative;
+        right: -40px;
+    }
+
+    #header .logos_container .logos img{
+        height: 35%;
+        width: auto;
+        
+        background-color: white;
+
+        margin-left: 5px;
+        margin-right: 5px;
+    
+        /* border-radius: 50px; */
+    }
 }

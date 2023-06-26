@@ -57,9 +57,7 @@ export default function Header() {
                 <div className="logos izquierda">
                     <img src={APREM} alt="" />
                     <img src={APSIM} alt="" />
-                    {/* <img src={AASM} alt="" /> */}
                     <img src={ACEP} alt="" />
-                    {/* <img src={TS} alt="" /> */}
                     <img src={DAR} alt="" />
                 </div>
                 <div className="ampros">

@@ -140,3 +140,13 @@
 #disertantes ._3_topic .disertante .texto small {
     display: none;
 }
+
+
+@media (max-width: 500px) {
+    #disertantes .disertante {
+        width: 40%;
+        margin-left: 0px;
+        margin-right: 0px;
+        flex-direction: column;
+    }
+}
