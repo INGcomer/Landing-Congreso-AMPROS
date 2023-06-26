@@ -1,24 +1,20 @@
 import { useState, useEffect } from 'react';
-import { motion } from "framer-motion"
+// import { motion } from "framer-motion"
 // CSS
 import "./Header.css"
 // IMGs
-import logo_completo from "./imgs/logo grande.svg"
+// import logo_completo from "./imgs/logo grande.svg"
 import logo_ampros from "./imgs/logo ampros.png"
 import APREM from "./imgs/Logos/APREM.png"
 import APSIM from "./imgs/Logos/APSIM..png"
 import EOL from "./imgs/Logos/EOL.png"
 import SPM from "./imgs/Logos/SPM.png"
-
-import AASM from "./imgs/Logos/AASM.jpg"
+// import AASM from "./imgs/Logos/AASM.jpg"
 import ACEP from "./imgs/Logos/Asociación Cuyana de Estudios Psicoanálisis.jpg"
-import TS from "./imgs/Logos/trabajo social.png"
-
-
+// import TS from "./imgs/Logos/trabajo social.png"
+import DAR from "./imgs/Logos/DAR.jpg"
 import APP from "./imgs/Logos/Asociación de Psicoanálisis de Pareja, Familia y Grupos de Mendoza.png"
 import COLEGIO from "./imgs/Logos/Colegio de Psicopedagogos.jpg"
-
-
 
 import Fondo from "./imgs/fondo_lineas.svg"
 import Fondo_card_1 from "./imgs/pexels-1.jpg"
@@ -61,9 +57,10 @@ export default function Header() {
                 <div className="logos izquierda">
                     <img src={APREM} alt="" />
                     <img src={APSIM} alt="" />
-                    <img src={AASM} alt="" />
+                    {/* <img src={AASM} alt="" /> */}
                     <img src={ACEP} alt="" />
-                    <img src={TS} alt="" />
+                    {/* <img src={TS} alt="" /> */}
+                    <img src={DAR} alt="" />
                 </div>
                 <div className="ampros">
                     <a href="https://www.ampros.org.ar/">
@@ -97,13 +94,13 @@ function Card({text}) {
         if (Position < 0) {
             setPosition(2)
         }
-        if (Position == 0) {
+        if (Position === 0) {
             setClass1("derecha")
         }
-        if (Position == 1) {
+        if (Position === 1) {
             setClass1("centro")
         }
-        if (Position == 2) {
+        if (Position === 2) {
             setClass1("izquierda")
         }
     },[Position]);

@@ -33,7 +33,7 @@ export default function Navbar() {
 					</div>
 				</div>
 				<div class="dropdown">
-					<span className="dropbtn"> Carga de trabajo </span>
+					<span className="dropbtn"> Carga de trabajos libres </span>
 					<div class="dropdown-content">
 						<a href="#Actividades"> Ejes </a>
 						<a href="#"> Reglamento </a>
@@ -44,7 +44,7 @@ export default function Navbar() {
 					<div class="dropdown-content">
 						<a href="#disertantes"> Disertantes </a>
 						<a href="#Cronograma"> Programa </a>
-						<a href="#"> Simpocio </a>
+						<a href="#"> Simposio de la industria </a>
 					</div>
 				</div>
 

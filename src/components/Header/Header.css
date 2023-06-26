@@ -135,12 +135,11 @@
     position: absolute;
     left: 20%;
 
-    /* height: 450px; */
-    height: 300px;
-    width: 800px;
+    /* height: 300px; */
+    /* width: 800px; */
 
-    /* height: 50%; */
-    /* width: 60%; */
+    height: 50%;
+    width: 60%;
 
     transition: all 1s;
     background-color: red;
