@@ -17,13 +17,6 @@
                 "asociacion": "Asociacion Psicoanalisis Pareja Familia y Grupo"
             },
             {
-                "nombre": "Lic. Cristina Rojas",
-                "cv": "psicóloga (UBA); psicoanalista vincular.",
-                "cv_link": "CVs/Lic. Cristina Rojas.pdf",
-                "foto": "",
-                "asociacion": "Asociacion Psicoanalisis Pareja Familia y Grupo"
-            },
-            {
                 "nombre": "Carina Kaplan",
                 "cv": "Doctora en educación, investigadora principal del CONICET",
                 "cv_link": "CVs/Carina Kaplan.pdf",
@@ -83,6 +76,13 @@
                 "cv": "",
                 "cv_link": "CVs/Susana Pendzik.pdf",
                 "foto": "imgs/disertantes/Susana Pendzik.jpg",
+                "asociacion": "Asociacion Argentina de Dramaterapia"
+            },
+            {
+                "nombre": "Manuel Vilapriño",
+                "cv": "Médico Psiquiatra Ex -presidente de APSA. Ex - Director del Hospital Público Especializado en Salud Mental, Carlos Pereyra.",
+                "cv_link": "",
+                "foto": "imgs/disertantes/Manuel Vilapriño.jpg",
                 "asociacion": "Asociacion Argentina de Dramaterapia"
             }
         ]

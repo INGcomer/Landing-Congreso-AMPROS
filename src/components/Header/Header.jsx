@@ -21,6 +21,9 @@ import Fondo_card_1 from "./imgs/pexels-1.jpg"
 import Fondo_card_2 from "./imgs/grupo de amigos.jpg"
 import fondo_log from "./imgs/grupo de amigos con logo.png"
 
+import carrucel1 from "./imgs/carrucel/disertantes-psiquiatras.png"
+import carrucel2 from "./imgs/carrucel/disertantes-psiquiatras2.png"
+
 
 
 export default function Header() {
@@ -181,11 +184,11 @@ function Carrucel(){
             </div>
             {/* <div className={"card " + class2} id='dos' onMouseOver={()=>setIsHovering(true)} onMouseOut={()=>setIsHovering(false)}> */}
             <div className={"card " + class2} id='dos'>
-                <img src={Fondo_card_1} alt="" className='fondo_targeta_1' />
+                <img src={carrucel1} alt="" className='fondo_targeta_1' />
             </div>
             {/* <div className={"card " + class3} id='tres' onMouseOver={()=>setIsHovering(true)} onMouseOut={()=>setIsHovering(false)}> */}
             <div className={"card " + class3} id='tres'>
-                <img src={Fondo_card_2} alt="" className='fondo_targeta_1' />
+                <img src={carrucel2} alt="" className='fondo_targeta_1' />
             </div>
             {/* <div className={"card " + class4} id='cuatro' onMouseOver={()=>setIsHovering(true)} onMouseOut={()=>setIsHovering(false)}> */}
             <div className={"card " + class4} id='cuatro'>

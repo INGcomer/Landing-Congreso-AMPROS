@@ -86,13 +86,12 @@
     /* z-index: 1; */
 }
 
-.fondo_targeta_1{
+/* .fondo_targeta_1{
     position: relative;
     top: -30%;
-    /* width: 100%; */
     height: auto;
     z-index: 1;
-}
+} */
 
 #uno{
     z-index: 4;
@@ -144,6 +143,10 @@
     transition: all 1s;
     background-color: red;
     /* z-index: 3; */
+}
+#header .content .card img{
+    height: 100%;
+    width: auto;
 }
 /* #header .content .cards_container{
     position: absolute;

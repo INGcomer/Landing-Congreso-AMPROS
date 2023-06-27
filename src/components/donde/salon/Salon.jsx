@@ -17,7 +17,7 @@ export default function Salon() {
                 transition={{ duration: 0.5}}
             >
                 <h1> ¿Donde se realizara el evento? </h1>
-                <p> El ampros construllo un salon de eventos buenisimo y quieren que todos lo vean </p>
+                <p> El ampros construyó un salon de eventos buenisimo y quieren que todos lo vean </p>
             </motion.a>
             <div className="mainImg">
                 <img src={salon} alt="" />

@@ -6,7 +6,7 @@ import "./Entrada.css"
 export default function Entrada() {
     return (
         <section id="Entrada">
-            <h1> ¿Que Inclulle mi entrada? </h1>
+            <h1> ¿Qué Incyue mi entrada? </h1>
             <motion.div 
                 className="entrada izquierda"
                 initial={{ x: '-100%' }}
@@ -17,19 +17,23 @@ export default function Entrada() {
                     <h2> Entrada general </h2>
                     <div className="items">
                         <ul>
-                            <li> x Conferencias </li>
-                            <li> x Tres Topic </li>
-                            <li> x Mesas de Trabajos </li>
+                            <li> Conferencias </li>
+                            <li> Foro de debate </li>
+                            <li> Mesas abierta de Trabajos libres </li>
+                            <li> Simposio de la industria </li>
+                            <li> Feria de empresas </li>
                         </ul>
                         <ul>
-                            <li> x Coffes </li>
-                            <li> Coktayl de bienvenida </li>
+                            <li> Coffees break </li>
+                            <li> Cocktail de bienvenida </li>
                             <li> Cena de gala </li>
+                            <li> Actividades culturales </li>
+                            <li> Actividades pre-congreso </li>
                         </ul>
                     </div>
                 </div>
                 <div className="precio">
-                    <h3> $xx.xxx </h3>
+                    <h3> $36.000 </h3>
                 </div>
             </motion.div>
 
