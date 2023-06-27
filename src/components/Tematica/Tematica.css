@@ -1,6 +1,6 @@
 #Tematica {
   position: relative;
-  height: 100vh;
+  height: 97vh;
   /* width: 90vw; */
 
   /* padding-top: 20px; */
@@ -17,10 +17,16 @@
   color: var(--Acento);
 
   font-size: 6rem;
+
+  position: relative;
+  z-index: 5;
 }
 
 #Tematica .container {
   display: flex;
+
+  position: relative;
+  z-index: 5;
 }
 
 #Tematica .container p {
@@ -30,7 +36,7 @@
 
 #Tematica .forma{
   position: relative;
-  top: -65%;
+  top: -55%;
   left: 55%;
 }
 #Tematica img{
@@ -40,6 +46,19 @@
 
   /* left: -40%;
   top: -350px; */
+}
+
+#Tematica .fondo{
+  height: auto;
+  width: 1200px;
+
+  transform: rotate(45deg);
+
+  position: relative;
+  top: -170%;
+  /* left: 10%; */
+
+  z-index: 1;
 }
 
 @media (max-width: 1400px) {

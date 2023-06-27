@@ -1,9 +1,10 @@
 #Entrada {
-    height: 100vh;
+    height: 110vh;
 
     padding-top: 20px;
 
-    background-color: var(--Claro);
+    /* background-color: var(--Claro); */
+    background-color: var(--Oscuro);
 
     display: flex;
     justify-content: space-evenly;
@@ -16,9 +17,11 @@
     width: 100%;
 
     text-align: center;
+
+    color: white;
 }
 
-#Entrada .entrada {
+#Entrada .entrada{
     width: 60%;
     height: 35%;
 
@@ -52,6 +55,8 @@
 
     text-align: center;
     font-size: 2rem;
+
+    color: white;
 }
 
 #Entrada .entrada .texto .items{
@@ -63,6 +68,11 @@
 
 #Entrada .entrada .texto .items li{
    text-align: left;
+
+   color: var(--Acento);
+}
+#Entrada .entrada .texto .items li span{
+   color: white;
 }
 
 #Entrada .entrada .texto ul{
@@ -80,7 +90,28 @@
     justify-content: center;
 }
 #Entrada .entrada .precio h3{
-    font-size: 2.5rem;
+    font-size: 3.5rem;
+
+    color: var(--Acento);
+}
+#Entrada .aclaraciones{
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+}
+
+#Entrada .aclaraciones p{
+    width: 80%;
+    height: 50px;
+
+    background-color: var(--Intermedio_1);
+    color: white;
+    border-radius: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 @media (max-width: 500px) {

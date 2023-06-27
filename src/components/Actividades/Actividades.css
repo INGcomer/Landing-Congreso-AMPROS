@@ -13,10 +13,10 @@
 }
 #Actividades .fondo{
     position: absolute;
-    top: 3200px;
+    top: 3600px;
     /* left: 700px; */
 
-    height: 2000px;
+    height: 2100px;
     left: -200px;
 
     transform: rotate(30deg);

@@ -88,6 +88,11 @@
     justify-content: center;
 }
 
+.franja_horaria .resaltado{
+    border-color: var(--Acento);
+    color: var(--Acento);
+}
+
 .franja_horaria .hora {
     width: 15%;
 }

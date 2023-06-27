@@ -1,0 +1,50 @@
+#Inscribirse {
+    position: relative;
+
+    width: 100%;
+    height: 100px;
+
+    color: white;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+    z-index: 200;
+}
+
+#Inscribirse.oscuro{
+    background-color: var(--Oscuro);
+}
+#Inscribirse.claro{
+    background-color: var(--Claro);
+}
+#Inscribirse.blanco{
+    background-color: white;
+}
+#Inscribirse.blanco h2{
+    color: var(--Oscuro);
+}
+
+#Inscribirse h2{
+    color: white;
+}
+
+#Inscribirse a{
+    height: 50px;
+    width: 250px;
+
+    background-color: var(--Acento);
+    /* color: var(--Oscuro); */
+    color: white;
+    border-radius: 50px;
+
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 600;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

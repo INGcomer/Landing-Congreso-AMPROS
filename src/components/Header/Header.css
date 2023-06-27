@@ -72,6 +72,9 @@
 
 #header .content .card{
     overflow: hidden;
+
+    display: flex;
+    justify-content: center;
 }
 #header .content .card.derecha{
     position: absolute;
@@ -132,13 +135,13 @@
 
 #header .content .card.centro{
     position: absolute;
-    left: 20%;
+    left: 17%;
 
     /* height: 300px; */
     /* width: 800px; */
 
     height: 50%;
-    width: 60%;
+    width: 65%;
 
     transition: all 1s;
     background-color: red;
@@ -219,11 +222,11 @@
 
         margin-bottom: 0%;
     }
-    #header .card img{
+    /* #header .card img{
         height: 200%;
         left: -5%;
         top: -35%;
-    }
+    } */
 }
 
 @media (max-width: 500px) {

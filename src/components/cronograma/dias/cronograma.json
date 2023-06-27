@@ -1,6 +1,13 @@
 [
     [
         {
+            "inicio": "Salones: ",
+            "fin": "",
+            "eventos": [
+                "Salon A", "Salon B", "Salon C"
+            ]
+        },
+        {
             "inicio": "09:00",
             "fin": "12:30",
             "eventos": [
@@ -37,6 +44,13 @@
         }
     ],
     [
+        {
+            "inicio": "Salones: ",
+            "fin": "",
+            "eventos": [
+                "Salon A", "Salon B", "Salon C"
+            ]
+        },
         {
             "inicio": "09:00",
             "fin": "09:30",
@@ -100,8 +114,16 @@
                 "Conferencia A", "Conferencia B", "Conferencia C"
             ]
         }
+        
     ],
     [
+        {
+            "inicio": "Salones: ",
+            "fin": "",
+            "eventos": [
+                "Salon A", "Salon B", "Salon C"
+            ]
+        },
         {
             "inicio": "09:00",
             "fin": "09:30",
