@@ -1,6 +1,6 @@
 #Tematica {
   position: relative;
-  height: 97vh;
+  height: 94vh;
   /* width: 90vw; */
 
   /* padding-top: 20px; */
@@ -52,10 +52,10 @@
   height: auto;
   width: 1200px;
 
-  transform: rotate(45deg);
+  transform: rotate(40deg);
 
   position: relative;
-  top: -170%;
+  top: -177%;
   /* left: 10%; */
 
   z-index: 1;

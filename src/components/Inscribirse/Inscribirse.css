@@ -47,4 +47,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
+
+    transition: all 0.7s;
+}
+#Inscribirse a:hover{
+    color: var(--Oscuro);
+    transition: all 0.7s;
 }

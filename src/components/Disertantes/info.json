@@ -4,86 +4,131 @@
         "items": [
             {
                 "nombre": "Luis Tudanca",
-                "cv": "AME de la Escuela de la orientación Lacaniana y de la Asociación mundial de psicoanálisis.",
+                "cv": ["Analista de la Escuela de Orientación Lacaniana (EOL) y miembro de la Asociación Mundial de Psicoanálisis (AMP).", "Ex Miembro del consejo de la Asociación mundial de psicoanálisis.", "Docente de la Universidad Nacional de San Martín. Docente del Instituto clínico de Buenos Aires (ICDEBA)."],
                 "cv_link": "CVs/Luis Tudanca.pdf",
                 "foto": "imgs/disertantes/Luis Tudanca.png",
                 "asociacion": "Delegación EOL Mendoza"
             },
             {
                 "nombre": "Lic. Susana Matus",
-                "cv": "Lic en Psicología UBA",
+                "cv": ["Lic. en Psicología UBA", "Psicoanalista vincular", "Docente de Posgrado. Miembro Titular de la AAPPG", "Ex presidente de la Institución Psicoterapéutica “Centro Oro”"],
                 "cv_link": "CVs/Lic. Susana Matus.pdf",
                 "foto": "imgs/disertantes/Susana Matus.jpg",
                 "asociacion": "Asociacion Psicoanalisis Pareja Familia y Grupo"
             },
             {
                 "nombre": "Carina Kaplan",
-                "cv": "Doctora en educación, investigadora principal del CONICET",
+                "cv": ["Doctora en Educación.  investigadora Principal de CONICET.", "Profesora titular cátedras de Sociología de la Educación en Universidad Nacional de Buenos Aires y en la Universidad Nacional de la Plata."],
                 "cv_link": "CVs/Carina Kaplan.pdf",
                 "foto": "imgs/disertantes/Carina Kaplan.jpg",
                 "asociacion": "Colegio Profesional de Psicopedagogos de Mendoza"
             },
             {
-                "nombre": "Andrea Zelaya",
-                "cv": "Analista practicante de la Escuela de la Orientación Lacaniana. Miembro de la Asociación Mundial de Psicoanálisis.",
-                "cv_link": "CVs/Andrea Zelaya.pdf",
-                "foto": "imgs/disertantes/Andrea Zelaya.jpg",
-                "asociacion": "Asociación Cuyana de Estudios Psicoanalíticos (ACEP)"
+                "nombre": "Dra. Mariana Moreno",
+                "cv": [
+                    "Médica psiquiatra.",
+                    "Especialista en psiquiatría infanto juvenil.",
+                    "Directora Nacional de Abordaje Integral de Salud Mental y Consumos Problemáticos"
+                ],
+                "cv_link": "CVs/Dra. Mariana Moreno.pdf",
+                "foto": "imgs/disertantes/Dra. Mariana Moreno.jpg",
+                "asociacion": "La Asociación de Psiquiatras de Mendoza (APSIM)"
             },
             {
                 "nombre": "Dra. Mónica Zac",
-                "cv": "Médica psicoanalista miembro titular de APDEBA. Psicoanalista de Niños y Adolescentes de la Asociación Psicoanalítica Internacional",
+                "cv": [
+                    "Médica Psiquiatra Infanto-juvenil.",
+                    "Médica psicoanalista miembro titular de APDEBA.",
+                    "Psicoanalista de Niños y Adolescentes de la Asociación Psicoanalítica Internacional.",
+                    "Médica psiquiatra de Planta en el Hospital de niños Ricardo Gutiérrez.",
+                    "Directora del Departamento de Niños y Adolescentes de APDEBA por adolescencia",
+                    "Miembro enlace en COWAP por APDEBA.",
+                    "Integrante del grupo de Investigación de sexualidad infanto - juvenil de COWAP/FEPAL.",
+                    "Docente de materias UBA Medicina Materia Salud Mental y UBA Psicología Materia Práctica Profesional."
+                ],
                 "cv_link": "CVs/Dra. Mónica Zac.pdf",
                 "foto": "imgs/disertantes/Dra. Mónica Zac.jpeg",
                 "asociacion": "Sociedad Psicoanalítica de Mendoza"
             },
             {
                 "nombre": "Silvina María Malvárez",
-                "cv": "Licenciada en enfermería, doctora en ciencias de la salud y doctora en ciencias, magíster en salud materno infantil.",
+                "cv": [
+                    "Doctora en Ciencias de la Salud y Doctora en Ciencias.",
+                    "Magíster en salud materno infantil.",
+                    "Estudió filosofía en la Universidad Nacional de Córdoba.",
+                    "Consultora a corto plazo de la OPS/OMS en enfermería en Salud Mental y en desarrollo de la enfermería desde 1994 a 2002. Y fue asesora regional de enfermería de la OPS/OMS con sede en Washington DC USA, desde el año 2002 al 2013.",
+                    "Gestora y coordinadora de la profesionalización de auxiliares y técnicos de enfermería en e la República Argentina.",
+                    "Directora de la red Nacional de Enfermeros en Salud Mental de Argentina."
+                ],
                 "cv_link": "CVs/Silvina María Malvárez.pdf",
                 "foto": "imgs/disertantes/Silvina María Malvárez.png",
                 "asociacion": "Sociedad Psicoanalítica de Mendoza"
             },
             {
-                "nombre": "Dra. Mariana Moreno",
-                "cv": "Directora Nacional de Abordaje Integral de Salud Mental y Consumos Problemáticos",
-                "cv_link": "CVs/Dra. Mariana Moreno.pdf",
-                "foto": "imgs/disertantes/Dra. Mariana Moreno.jpg",
-                "asociacion": "La Asociación de Psiquiatras de Mendoza (APSIM)"
+                "nombre": "Susana Pendzik",
+                "cv": [
+                    "M.A. en Psicología Clínica.",
+                    "Ph.D. Literatura Comparada, Universidad de Bar-Ilan, Israel.",
+                    "Consultora del Consejo Israelí de Educación Superior Académica.",
+                    "Instituto Suizo de Dramaterapia; el Programa “Teatro Aplicado para la resiliencia comunitaria” de la Universidad Veracruzana.",
+                    "Diplomatura en Dramaterapia Universidad de Cuyo.",
+                    "Instituto Suizo de Dramaterapia, Formación en Dramaterapia (2000-presente);",
+                    "Instituto de Teatro-Terapia de Berlín, Formación en Dramaterapia (2012-presente);",
+                    "Escuela Naggar de Fotografía y Fototerapia, Jerusalén (2012-presente);",
+                    "Asociación de las Artes Creativas Terapéuticas de Israel (2019-presente)."
+                ],
+                "cv_link": "CVs/Susana Pendzik.pdf",
+                "foto": "imgs/disertantes/Susana Pendzik.jpg",
+                "asociacion": "Asociación Argentina de Salud Mental (AASM)"
             },
             {
                 "nombre": "Dra. Raquel Inés Bianchi",
-                "cv": "Médica y Especialista en Psiquiatría. Es fundadora y directora la Escuela de Psicoterapia Ontológica en Buenos Aires.",
+                "cv": [
+                    "Médica Especialista en Psiquiatría.",
+                    "Fundadora y Directora la Escuela de Psicoterapia Ontológica de Buenos Aires.",
+                    "Presidente de la Sociedad Argentina de Salud y Espiritualidad de la Asociación Médica Argentina (AMA).",
+                    "Presidente Honoraria del Capítulo de Psiquiatría y Espiritualidad de la Asociación de Psiquiatras Argentinos (APSA).",
+                    "Miembro del Tribunal de Ética para el equipo de Salud (TEPLAS) de la Asociación Médica Argentina.",
+                    "Miembro del Consejo Académico de Ética en Medicina, CAEEM.",
+                    "Directora y docente del curso superior “Psicoterapia Ontológica, centrada en el Ser”, en la Asociación Médica Argentina."
+                ],
                 "cv_link": "CVs/Dra. Raquel Inés Bianchi.pdf",
                 "foto": "imgs/disertantes/Dra. Raquel Inés Bianchi.jpeg",
                 "asociacion": "Asociación Argentina de Salud Mental (AASM)"
             },
             {
                 "nombre": "Prof. Lic. Matias Gutawski",
-                "cv": " Profesor y Licenciado en Psicología, Orientador Superior en Teología con especialidad en Teología Práctica",
-                "cv_link": "CVs/Prof. Lic. Matias Gutawski.pdf",
+                "cv": [
+                    "Profesor y Licenciado en Psicología (Universidad del Salvador",
+                    "Doctorando en Psicología (Universidad de Flores).",
+                    "Presidente del Capítulo de Investigación en “Salud Mental y Espiritualidad” de la Asociación Argentina de Salud Mental (AASM) e integra la “Sociedad Argentina de Salud y Espiritualidad” de la Asociación Médica Argentina (AMA). ",
+                    "Miembro de la Asociación de Psicólogas y Psicólogos de Buenos Aires (APBA) y de la Asociación de Psiquiatras de Argentina (APSA)."
+                ],
+                "cv_link": "CVs/Prof. Lic. Matias Gutawski",
                 "foto": "imgs/disertantes/Prof. Lic. Matias Gutawski.jpg",
-                "asociacion": "Asociación Argentina de Salud Mental (AASM)"
-            },
-            {
-                "nombre": "Eleonora Lamm",
-                "cv": "",
-                "foto": "",
-                "asociacion": "Asociacion Argentina de Dramaterapia"
-            },
-            {
-                "nombre": "Susana Pendzik",
-                "cv": "",
-                "cv_link": "CVs/Susana Pendzik.pdf",
-                "foto": "imgs/disertantes/Susana Pendzik.jpg",
                 "asociacion": "Asociacion Argentina de Dramaterapia"
             },
             {
                 "nombre": "Manuel Vilapriño",
-                "cv": "Médico Psiquiatra Ex -presidente de APSA. Ex - Director del Hospital Público Especializado en Salud Mental, Carlos Pereyra.",
+                "cv": [
+                    "Médico Psiquiatra",
+                    "Ex -presidente de APSA.",
+                    "Ex - Director del Hospital Público Especializado en Salud Mental, Carlos Pereyra.",
+                    "Asesoramiento en Psiquiatría y Psicología Laboral.",
+                    "Presidente del Centro de Estudios, Asistencia e Investigación en Neurociencias",
+                    "Docente en el 4° Diplomado en Trastornos del Ánimo para Psiquiatras",
+                    "Especialista en Neurociencias y Neurotecnología."
+                ],
                 "cv_link": "",
                 "foto": "imgs/disertantes/Manuel Vilapriño.jpg",
                 "asociacion": "Asociacion Argentina de Dramaterapia"
+            },
+            {
+                "nombre": "Andrea Zelaya",
+                "cv": ["Analista Practicante de la Escuela de la Orientación Lacaniana.", "Miembro de la Asociación Mundial de Psicoanálisis.", "Docente en la Maestría en Psicoanálisis. UBA.", "Especialista en Psicología Clínica.", "Docente en IOM 2. Presidente de la EOL en el año 2021.", "Autora de numerosas publicaciones."],
+                "cv_link": "CVs/Andrea Zelaya.pdf",
+                "foto": "imgs/disertantes/Andrea Zelaya.jpg",
+                "asociacion": "Asociación Cuyana de Estudios Psicoanalíticos (ACEP)"
             }
         ]
     }

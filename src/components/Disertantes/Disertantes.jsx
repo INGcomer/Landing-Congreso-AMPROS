@@ -3,8 +3,8 @@ import { motion } from "framer-motion"
 import "./Disertantes.css"
 // json
 import JSON from "./info.json"
-
-// import img from "./imgs/Luis Tudanca.png"
+// IMGs
+import fondo from "./fondo_lineas.svg"
 
 export default function Disertantes() {
     return (
@@ -58,6 +58,7 @@ export default function Disertantes() {
                     </ul>
                 </div>
             </div>
+            <img src={fondo} alt="" className="fondo"/>
         </section>
     )
 }
@@ -75,10 +76,10 @@ function Evento({ tipo, items }) {
 function Disertante({ nombre, foto, cv, cv_link, asociacion }) {
     return (
         // <a href=""></a>
-        <motion.a
+        <motion.div
             className="disertante"
-            href={cv_link}
-            whileHover={{ scale: 1.2 }}
+            // href={cv_link}
+            whileHover={{ scale: 1.05 }}
         >
             <div className="foto">
                 <img src={foto} alt="" />
@@ -88,7 +89,35 @@ function Disertante({ nombre, foto, cv, cv_link, asociacion }) {
             <div className="texto">
                 <h2> {nombre} </h2>
                 {/* <h4> {asociacion} </h4> */}
-                <small> {cv} </small>
+                {/* <small> {cv} </small> */}
+                <ul>
+                    {cv.map(item => <li> <span> {item} </span> </li>)}
+                </ul>
+            </div>
+        </motion.div>
+    )
+}
+function _Disertante({ nombre, foto, cv, cv_link, asociacion }) {
+    return (
+        // <a href=""></a>
+        <motion.a
+            className="disertante"
+            href={cv_link}
+            whileHover={{ scale: 1.05 }}
+        >
+            <h2 className="titulo"> {nombre} </h2>
+            <div className="container">
+                <div className="foto">
+                    <img src={foto} alt="" />
+                    {/* <img src="./imgs/Luis Tudanca.png" alt="" /> */}
+                    {/* <img src="imgs/disertantes/Luis Tudanca.png" alt="" /> */}
+                </div>
+                <div className="texto">
+                    {/* <h4> {asociacion} </h4> */}
+                    <ul>
+                        {cv.map(item => <li> <span> {item} </span> </li>)}
+                    </ul>
+                </div>
             </div>
         </motion.a>
     )

@@ -23,7 +23,11 @@
 
 #Entrada .entrada{
     width: 60%;
+    /* width: 1200px; */
+    /* height: 350px; */
     height: 35%;
+
+    margin-bottom: 30px;
 
     background-color: var(--Intermedio_1);
     color: white;
@@ -112,6 +116,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#Entrada .fondo{
+    transform: rotate(50deg);
+
+    position: relative;
+    top: -1400px;
 }
 
 @media (max-width: 500px) {

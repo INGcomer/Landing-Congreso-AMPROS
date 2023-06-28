@@ -1,7 +1,8 @@
 import { motion } from "framer-motion"
 // CSS
 import "./Entrada.css"
-// img
+// IMGs
+import fondo from "./fondo_lineas.svg"
 
 export default function Entrada() {
     return (
@@ -72,6 +73,7 @@ export default function Entrada() {
                     El precio de la entrada aumentara a medida que nos acerquemos a la fecha del congreso
                 </p>
             </div>
+            {/* <img src={fondo} alt="" className="fondo"/> */}
         </section>
     )
 }
