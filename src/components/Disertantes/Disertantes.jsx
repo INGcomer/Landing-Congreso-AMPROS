@@ -27,33 +27,33 @@ export default function Disertantes() {
                 <div className="_3topic ejes">
                     <ul>
                         <li>
-                            <span> DIVERSIDADES. </span>
+                            <span> Diversidades. </span>
                         </li>
                         <li>
-                            <span> GENERO. </span>
+                            <span> Género. </span>
                         </li>
                         <li>
-                            <span> INFANCIAS, ADOLESCENCIAS Y JUVENTUDES. </span>
+                            <span> Infancias, adolescencias y juventudes </span>
                         </li>
                         <li>
-                            <span> PERSPECTIVA DEL CONSUMO HOY. </span>
+                            <span> Perspectiva del consumo hoy. </span>
                         </li>
                         <li>
-                            <span> LAS INSTITUCIONES FRENTE A LA PROBLEMÁTICA DE LA SALUD MENTAL. </span>
+                            <span> Las instituciones frente a la problemática de la salud mental. </span>
                         </li>
                     </ul>
                     <ul>
                         <li>
-                            <span> NUEVAS MODALIDADES VINCULARES. </span>
+                            <span> Nuevas modalidades vinculares. </span>
                         </li>
                         <li>
-                            <span> LA FORMACION DE LOS PROFESIONALES EN LA SALUD MENTAL. NUEVOS DESAFIOS. </span>
+                            <span> La formación de los profesionales en la salud mental. nuevos desafíos </span>
                         </li>
                         <li>
-                            <span> PROFESIONALES DE LA SALUD MENTAL Y DERECHOS LABORALES. </span>
+                            <span> Profesionales de la salud mental y derechos laborales. </span>
                         </li>
                         <li>
-                            <span> LOS EQUIPOS DE SALUD MENTAL Y POLITICAS PÚBLICAS. </span>
+                            <span> Los equipos de salud mental y políticas públicas. </span>
                         </li>
                     </ul>
                 </div>
