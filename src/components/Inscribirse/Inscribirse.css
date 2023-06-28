@@ -54,3 +54,18 @@
     color: var(--Oscuro);
     transition: all 0.7s;
 }
+
+
+@media (max-width: 500px) {
+    #Inscribirse h2{
+        font-size: 1rem;
+
+        width: 50%;
+    }
+
+    #Inscribirse a{
+        font-size: 1.3rem;
+        width: 150px;
+    }
+    
+}

@@ -194,12 +194,37 @@
     z-index: 1;
 }
 
+@media (max-width: 1400px) {
+    #disertantes {
+        height: 500vh;
+    }
+}
+
 
 @media (max-width: 500px) {
+    #disertantes {
+        height: 770vh;
+    }
+    
     #disertantes .disertante {
-        width: 40%;
+        width: 85%;
         margin-left: 0px;
         margin-right: 0px;
         flex-direction: column;
     }
+
+    #disertantes ._3topic.ejes {
+        font-size: 1rem;
+    }
+
+    #disertantes .fondo {
+        height: 1000px;
+        width: 1000px;
+
+        top: -6800px;
+        left: -40%;
+
+        transform: rotate(68deg);
+    }
+
 }
