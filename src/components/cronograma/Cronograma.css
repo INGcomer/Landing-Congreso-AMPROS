@@ -39,7 +39,8 @@
     -webkit-backdrop-filter: blur(5px);
     /* border: 1px solid rgba(255, 255, 255, 0.3); */
 }
-.MuiButtonBase-root.MuiTab-root{
+
+.MuiButtonBase-root.MuiTab-root {
     font-size: 1.5rem;
 }
 
@@ -50,14 +51,16 @@
 .MuiTabs-indicator.css-11yukd5-MuiTabs-indicator {
     background-color: var(--Acento);
 }
+
 .MuiTabs-indicator.css-axpu1l {
     background-color: var(--Acento);
 }
 
-.MuiButtonBase-root.MuiTab-root.MuiTab-textColorSecondary.MuiTab-fullWidth.Mui-selected.css-180lpz9{
+.MuiButtonBase-root.MuiTab-root.MuiTab-textColorSecondary.MuiTab-fullWidth.Mui-selected.css-180lpz9 {
     color: var(--Acento);
 }
-.MuiTouchRipple-root.css-w0pj6f{
+
+.MuiTouchRipple-root.css-w0pj6f {
     color: var(--Acento);
 }
 
@@ -88,7 +91,7 @@
     justify-content: center;
 }
 
-.franja_horaria .resaltado{
+.franja_horaria .resaltado {
     border-color: var(--Acento);
     color: var(--Acento);
 }
@@ -144,10 +147,12 @@
     }
 
     .franja_horaria {
-        font-size: 0.5rem;
+        font-size: 0.7rem;
+        margin-bottom: 10px;
 
         text-align: center;
     }
+
 
     .franja_horaria .eventos .evento {
         width: 100%;
@@ -158,5 +163,10 @@
 
     .MuiButtonBase-root.MuiTab-root {
         font-size: 1rem;
+    }
+
+    .franja_horaria .hora,
+    .franja_horaria .eventos .evento {
+        height: 50px;
     }
 }

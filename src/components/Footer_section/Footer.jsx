@@ -4,6 +4,7 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import FmdGoodOutlinedIcon from '@mui/icons-material/FmdGoodOutlined';
 import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
+import LanguageIcon from '@mui/icons-material/Language';
 
 // css
 import './Footer.css';
@@ -25,11 +26,11 @@ export default function FooterSection() {
                     </Button>
                 </div>
                 <div className="redes">
-                    <a href="https://www.instagram.com/ingcome.c">
+                    <a href="https://www.instagram.com/ampros.mza/">
                         <InstagramIcon/>
                     </a>
-                    <a href="https://www.linkedin.com/company/ingcome">
-                        <LinkedInIcon/>
+                    <a href="https://www.ampros.org.ar/">
+                        <LanguageIcon/>
                     </a>
                 </div>
                 <div className="texto">
@@ -42,7 +43,7 @@ export default function FooterSection() {
                     <div>
                         <EmailOutlinedIcon/>
                         <span>
-                            contacto@incomer.com
+                            congresosaludmental@ampros.org.ar
                         </span>
                     </div>
                 </div>

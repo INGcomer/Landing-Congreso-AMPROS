@@ -23,7 +23,7 @@ export default function Disertantes() {
                     </p>
                 </div>
 
-                <h1 className="title secondary"> 3 Topic: ejes temáticos </h1>
+                {/* <h1 className="title secondary"> 3 Topic: ejes temáticos </h1> */}
                 <div className="_3topic ejes">
                     <ul>
                         <li>

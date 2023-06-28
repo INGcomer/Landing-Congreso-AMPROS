@@ -58,7 +58,7 @@ export default function Actividades() {
 
                 <motion.div
                     className='flag mesas'
-                    initial={{ x: '110%' }}
+                    initial={{ x: '100%' }}
                     whileInView={{ x: '0%' }}
                     transition={{ duration: 0.5}}
 

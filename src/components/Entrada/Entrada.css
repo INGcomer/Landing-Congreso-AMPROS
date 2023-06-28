@@ -1,7 +1,7 @@
 #Entrada {
     height: 110vh;
 
-    padding-top: 20px;
+    padding-top: 100px;
 
     /* background-color: var(--Claro); */
     background-color: var(--Oscuro);
@@ -21,7 +21,7 @@
     color: white;
 }
 
-#Entrada .entrada{
+#Entrada .entrada {
     width: 60%;
     /* width: 1200px; */
     /* height: 350px; */
@@ -35,12 +35,12 @@
     display: flex;
 }
 
-#Entrada .entrada.izquierda{
+#Entrada .entrada.izquierda {
     border-top-right-radius: 100px;
     border-bottom-right-radius: 100px;
 }
 
-#Entrada .entrada.derecha{
+#Entrada .entrada.derecha {
     margin-left: 40%;
 
     border-top-left-radius: 100px;
@@ -51,10 +51,13 @@
 
 #Entrada .entrada .texto {
     height: 100%;
-    width: 70%;
+    width: 60%;
+
+    display: flex;
+    align-items: center;
 }
 
-#Entrada .entrada .texto h2{
+#Entrada .entrada .texto h2 {
     width: 100%;
 
     text-align: center;
@@ -63,20 +66,21 @@
     color: white;
 }
 
-#Entrada .entrada .texto .items{
+#Entrada .entrada .texto .items {
     display: flex;
 
     margin-left: 20px;
     margin-right: 20px;
 }
 
-#Entrada .entrada .texto .items li{
-   text-align: left;
+#Entrada .entrada .texto .items li, #Entrada .info .container li  {
+    text-align: left;
 
-   color: var(--Acento);
+    color: var(--Acento);
 }
-#Entrada .entrada .texto .items li span{
-   color: white;
+
+#Entrada .entrada .texto .items li span,#Entrada .info .container li span {
+    color: white;
 }
 
 #Entrada .entrada .texto ul{
@@ -85,6 +89,11 @@
     text-align: center;
     font-size: 1.3rem;
 }
+#Entrada .info .container ul{
+    width: 100%;
+    font-size: 1.3rem;
+} 
+
 #Entrada .entrada .precio {
     height: 100%;
     width: 30%;
@@ -93,19 +102,21 @@
     align-items: center;
     justify-content: center;
 }
-#Entrada .entrada .precio h3{
+
+#Entrada .entrada .precio h3 {
     font-size: 3.5rem;
 
     color: var(--Acento);
 }
-#Entrada .aclaraciones{
+
+#Entrada .aclaraciones {
     width: 100%;
 
     display: flex;
     justify-content: center;
 }
 
-#Entrada .aclaraciones p{
+#Entrada .aclaraciones p {
     width: 80%;
     height: 50px;
 
@@ -118,45 +129,104 @@
     align-items: center;
 }
 
-#Entrada .fondo{
+#Entrada .fondo {
     transform: rotate(50deg);
 
     position: relative;
     top: -1400px;
 }
 
+#Entrada .info {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 30px;
+}
+
+#Entrada .info .container {
+    width: 70%;
+
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+
+    display: flex;
+    justify-content: space-around;
+}
+
+@media (max-width: 1400px) {
+    #Entrada .entrada {
+        height: 40%;
+    }
+
+    #Entrada .entrada .texto ul {
+        font-size: 1rem;
+    }
+
+    #Entrada {
+        height: 130vh;
+
+        padding-top: 0px;
+    }
+}
+
 @media (max-width: 500px) {
+    #Entrada{
+        height: 100vh;
+    }
     #Entrada .entrada {
         width: 80%;
-        height: 40%;
+        /* height: 10%; */
+        height: fit-content;
 
         flex-direction: column;
+
+        margin-bottom: 0px;
     }
-    #Entrada .entrada.derecha{
+    #Entrada .info .container {
+        width: 90%;
+    }
+    #Entrada .info .container ul {
+        font-size: 1rem;
+    }
+
+    #Entrada .entrada.derecha {
         margin-left: 20%;
         flex-direction: column;
     }
-    #Entrada .entrada .texto h2{
+
+    #Entrada .entrada .texto h2 {
         width: 100%;
-    
+
         text-align: center;
         font-size: 1.5rem;
     }
+
     #Entrada .entrada .texto {
         height: 100%;
         width: 100%;
     }
+
     #Entrada .entrada .precio {
         height: 100%;
         width: 100%;
     }
+
     #Entrada .entrada .precio h3 {
         font-size: 2.5rem;
         margin: 0;
     }
+
     #Entrada .entrada .texto ul {
         font-size: 1.1rem;
     }
+
     #Entrada .entrada .texto li {
         margin-bottom: 5px;
     }

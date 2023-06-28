@@ -79,8 +79,10 @@
     font-size: 1rem;
   }
   #Tematica .forma{
-    top: -70%;
-    left: 60%;
+    top: -55%;
+    left: 65%;
+
+    z-index: 55;
   }
 }
 

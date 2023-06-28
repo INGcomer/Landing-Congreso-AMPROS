@@ -106,6 +106,7 @@
 @media (max-width: 500px) {
     #Actividades {
         height: fit-content;
+        /* height: 300vh; */
     }
     #Actividades .fondo{
         display: none;
