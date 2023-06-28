@@ -16,8 +16,8 @@ export default function Salon() {
                 whileInView={{ x: '0%' }}
                 transition={{ duration: 0.5}}
             >
-                <h1> ¿Donde se realizara el evento? </h1>
-                <p> El ampros construyó un salon de eventos buenisimo y quieren que todos lo vean </p>
+                <h1> ¿Dónde se realizará el evento? </h1>
+                <p> Polo de congresos y exposiciones de AMProS, Cruz de Piedra, Maipú, Mendoza. </p>
             </motion.a>
             <div className="mainImg">
                 <img src={salon} alt="" />

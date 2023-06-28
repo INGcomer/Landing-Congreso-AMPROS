@@ -42,7 +42,7 @@ export default function FooterSection() {
                     <div>
                         <EmailOutlinedIcon/>
                         <span>
-                        contacto@incomer.com.ar
+                            contacto@incomer.com
                         </span>
                     </div>
                 </div>

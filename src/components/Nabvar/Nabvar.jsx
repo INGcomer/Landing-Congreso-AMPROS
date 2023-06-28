@@ -25,7 +25,7 @@ export default function Navbar() {
 
 			<div className="nav_sections">
 				<div class="dropdown">
-					<span className="dropbtn"> Informacion </span>
+					<span className="dropbtn"> Información </span>
 					<div class="dropdown-content">
 						<a href="#Autoridades"> Autoridades </a>
 						<a href="#"> Auspicious </a>
@@ -40,7 +40,7 @@ export default function Navbar() {
 					</div>
 				</div>
 				<div class="dropdown">
-					<span className="dropbtn"> Programa cientifico </span>
+					<span className="dropbtn"> Programa Científico </span>
 					<div class="dropdown-content">
 						<a href="#disertantes"> Disertantes </a>
 						<a href="#Cronograma"> Programa </a>
@@ -51,7 +51,7 @@ export default function Navbar() {
 
 				{/* <a href="#Tematica"> Tematica </a> */}
 				{/* <a href="#Cronograma"> Cronograma </a> */}
-				<a href="#Salon"> Ubicacion </a>
+				<a href="#Salon"> Ubicación  </a>
 				<a href="#Entrada"> Entrada </a>
 			</div>
 

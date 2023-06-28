@@ -1,6 +1,6 @@
 #Tematica {
   position: relative;
-  height: 94vh;
+  height: 100vh;
   /* width: 90vw; */
 
   /* padding-top: 20px; */
@@ -36,7 +36,7 @@
 
 #Tematica .forma{
   position: relative;
-  top: -55%;
+  top: -60%;
   left: 55%;
 }
 #Tematica img{

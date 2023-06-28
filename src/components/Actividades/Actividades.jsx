@@ -12,7 +12,7 @@ import HistoryEduIcon from '@mui/icons-material/HistoryEdu';
 export default function Actividades() {
     return (
         <section id="Actividades">
-            <h1> Ejes tematicos </h1>
+            <h1> Ejes temáticos </h1>
             <div className="flag_container">
                 <motion.div
                     className='flag conferencias'
@@ -21,7 +21,7 @@ export default function Actividades() {
                     transition={{ duration: 0.5}}
                 >
                     {/* <div className="flag conferencias"> */}
-                    <h2> Insituciones y Salud Mental </h2>
+                    <h2> Instituciones y Salud Mental </h2>
                     <p>
                         1) Escenarios Postpandémicos en las instituciones.  <br /> <br />
                         2) Aplicación de la ley de salud mental en las instituciones de la provincia de Mendoza.  <br /><br />
@@ -64,7 +64,7 @@ export default function Actividades() {
 
                 >
                     {/* <div className="flag mesas"> */}
-                    <h2> Profecionales y Salud Mental </h2>
+                    <h2> Profesionales y Salud Mental </h2>
                     <p>
                         1) Prácticas profecionales en el escenario postpandémico.  <br /><br />
                         2) La formación de los profecionales en Salud Mental. Nuevos abordajes.  <br /><br />

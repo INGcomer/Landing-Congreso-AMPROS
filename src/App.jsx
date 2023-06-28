@@ -21,7 +21,7 @@ function App() {
 
       <Header/>
 
-      <Inscribirse texto="¡Se parte del primer congreso de salud mental del AMProS!" variante="blanco"/>
+      <Inscribirse texto="¡Sé parte del primer congreso de salud mental del AMProS!" variante="blanco"/>
 
       {/* <Autoridades/> */}
 
@@ -29,7 +29,7 @@ function App() {
 
       <Disertantes/>
 
-      <Inscribirse texto="¡Hay solo 600 entradas disponibles!" variante="claro"/>
+      <Inscribirse texto="¡Inscríbete ahora! Cupos limitados" variante="claro"/>
 
       <Cronograma/>
 

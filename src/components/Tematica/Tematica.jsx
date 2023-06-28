@@ -7,7 +7,7 @@ import fondo from "./imgs/fondo_lineas.svg"
 export default function Tematica() {
     return (
         <section id="Tematica">
-            <h1> Salud mental <br />despues del SARS-CoV-2 </h1>
+            <h1> Avanzando juntos hacia la salud mental integral: Congreso Nacional Interdisciplinario </h1>
             <div className="container">
                 {/* <div className="izquierda"> */}
                 <p> La emergencia sanitaria ha incrementado la prevalencia de problemas de

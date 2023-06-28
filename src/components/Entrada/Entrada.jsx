@@ -7,7 +7,7 @@ import fondo from "./fondo_lineas.svg"
 export default function Entrada() {
     return (
         <section id="Entrada">
-            <h1> ¿Qué Incyue mi entrada? </h1>
+            <h1> ¿Qué incluye mi entrada? </h1>
             <motion.div
                 className="entrada izquierda"
                 initial={{ x: '-100%' }}
@@ -20,13 +20,13 @@ export default function Entrada() {
                         <ul>
                             <li> <span> Conferencias </span> </li>
                             <li> <span> 3 Topic </span> </li>
-                            <li> <span> Mesas abierta de Trabajos libres </span> </li>
-                            <li> <span> Simposio de la industria </span> </li>
+                            <li> <span> Mesas abierta de trabajos libres </span> </li>
+                            <li> <span> Simposios de la industria </span> </li>
                             <li> <span> Feria de empresas </span> </li>
                         </ul>
                         <ul>
                             <li> <span> Coffees break </span> </li>
-                            <li> <span> Cocktail de bienvenida </span> </li>
+                            <li> <span> Cóctel de bienvenida </span> </li>
                             <li> <span> Cena de gala </span> </li>
                             <li> <span> Actividades culturales </span> </li>
                             <li> <span> Actividades pre-congreso </span> </li>
@@ -70,7 +70,7 @@ export default function Entrada() {
 
             <div className="aclaraciones">
                 <p>
-                    El precio de la entrada aumentara a medida que nos acerquemos a la fecha del congreso
+                    Precio vigente hasta el 30/07.
                 </p>
             </div>
             {/* <img src={fondo} alt="" className="fondo"/> */}
