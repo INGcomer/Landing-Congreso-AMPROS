@@ -17,7 +17,7 @@ import APP from "./imgs/Logos/Asociación de Psicoanálisis de Pareja, Familia y
 import COLEGIO from "./imgs/Logos/Colegio de Psicopedagogos.jpg"
 
 import Fondo from "./imgs/fondo_lineas.svg"
-import Fondo_card_1 from "./imgs/pexels-1.jpg"
+import Fondo_card_1 from "./imgs/pexels-1.png"
 import Fondo_card_2 from "./imgs/grupo de amigos.jpg"
 import fondo_log from "./imgs/grupo de amigos con logo.png"
 

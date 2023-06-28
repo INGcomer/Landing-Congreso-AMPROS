@@ -82,7 +82,7 @@
     height: 40%;
     width: 10%;
 
-    background-color: green;
+    /* background-color: green; */
 
     transition: all 1s;
 
@@ -128,7 +128,7 @@
     width: 50%;
 
     transition: all 1s;
-    background-color: orange;
+    /* background-color: orange; */
 
     /* z-index: 3; */
 }
@@ -144,7 +144,7 @@
     width: 65%;
 
     transition: all 1s;
-    background-color: red;
+    /* background-color: red; */
     /* z-index: 3; */
 }
 #header .content .card img{
