@@ -18,41 +18,25 @@ import COLEGIO from "./imgs/Logos/Colegio de Psicopedagogos.jpg"
 
 import Fondo from "./imgs/fondo_lineas.svg"
 import Fondo_card_1 from "./imgs/pexels-1.png"
-import Fondo_card_2 from "./imgs/grupo de amigos.jpg"
 import fondo_log from "./imgs/grupo de amigos con logo.png"
 
+// imagenes carrucel
 import carrucel1 from "./imgs/carrucel/disertantes-psiquiatras.png"
 import carrucel2 from "./imgs/carrucel/disertantes-psiquiatras2.png"
+
+// imagenes carrucel celular
+import main from "./imgs/carrucel/celular/main.png"
+import carrucel1_cel from "./imgs/carrucel/celular/disertantes-1-mobile.png"
+import carrucel2_cel from "./imgs/carrucel/celular/disertantes-2-mobile.png"
 
 
 
 export default function Header() {
     return (
         <section id='header'>
-
-            {/* <img 
-                src={logo_completo} alt="" 
-                className="logo"
-            /> */}
-
             <div className="content">
-                {/* <motion.div 
-                    className="card activefalse"
-                    whileHover={{
-                        scale: 1.2,
-                        transition: { duration: 1 },
-                      }}
-                      whileTap={{ scale: 0.9 }}
-                ></motion.div> */}
-                {/* <div className="card activetrue"></div> */}
-                {/* <div className={"card active" + clas} onClick={()=> setClas(!clas)}> 1 </div>
-                <div className={"card active" + clas} onClick={()=> setClas(!clas)}> 2 </div>
-                <div className={"card active" + clas} onClick={()=> setClas(!clas)}> 3 </div>
-                <div className={"card active" + clas} onClick={()=> setClas(!clas)}> 4 </div> */}
 
-                <Carrucel/>
-                {/* <Card text={'kk'}/> */}
-
+                <Carrucel />
 
             </div>
 
@@ -75,54 +59,17 @@ export default function Header() {
                     <img src={COLEGIO} alt="" />
                 </div>
             </div>
-            
-            {/* <div className="fondo"></div> */}
 
-            <img src={Fondo} alt="" className='fondo'/>
+            <img src={Fondo} alt="" className='fondo' />
         </section>
     )
 }
 
-function Card({text}) {
+
+function Carrucel() {
     const [Position, setPosition] = useState(0);
 
-    const [class1, setClass1] = useState('');
-
-    useEffect(() => {
-        if (Position > 2) {
-            setPosition(0)
-        }
-        if (Position < 0) {
-            setPosition(2)
-        }
-        if (Position === 0) {
-            setClass1("derecha")
-        }
-        if (Position === 1) {
-            setClass1("centro")
-        }
-        if (Position === 2) {
-            setClass1("izquierda")
-        }
-    },[Position]);
-
-    return(
-        <>
-            <button className='left' onClick={()=> setPosition(Position - 1)}></button>
-            <div className={"card " + class1}> {text} </div>
-            <button className='right' onClick={()=> setPosition(Position + 1)}></button>
-        </>
-    )
-}
-
-
-function Carrucel(){
-    const [Position, setPosition] = useState(0);
-
-    const [display1, setDisplay1] = useState();
-    const [display2, setDisplay2] = useState();
-    const [display3, setDisplay3] = useState();
-    const [display4, setDisplay4] = useState();
+    const [Dispocitivo, SetDispocitivo] = useState("");
 
     const [IsHovering, setIsHovering] = useState(false);
 
@@ -130,6 +77,12 @@ function Carrucel(){
     const [class2, setClass2] = useState("derecha");
     const [class3, setClass3] = useState("derecha");
     const [class4, setClass4] = useState("derecha");
+
+    useEffect(() => {
+        if (window.innerWidth <= 500) {
+            SetDispocitivo("phone")
+        }
+    }, []);
 
     useEffect(() => {
         if (Position == 0) {
@@ -162,39 +115,34 @@ function Carrucel(){
         if (Position < 0) {
             setPosition(3)
         }
-    },[Position]);
+    }, [Position]);
 
     useEffect(() => {
         if (!IsHovering) {
             setTimeout(() => {
                 setPosition(Position + 1)
-                console.log("Delayed for 1 second.");
+                console.log(Position);
             }, "60000");
         }
     });
 
 
-    return(
+    return (
         <div className='carrucel'>
-            <button className='left' onClick={()=> setPosition(Position - 1)}></button>
-            {/* <div className={"card " + class1} id='uno' onMouseOver={()=>setIsHovering(true)} onMouseOut={()=>setIsHovering(false)}>  */}
-            <div className={"card " + class1} id='uno'> 
-                <img src={fondo_log} alt="" className='fondo_targeta_1' />
-                {/* <img src={logo_completo} alt="" className='logo'/> */}
+            <button className='left' onClick={() => setPosition(Position - 1)}></button>
+            <div className={"card " + class1} id='uno'>
+                {Dispocitivo == "phone" ? <img src={main} alt="" className='fondo_targeta_1' /> : <img src={fondo_log} alt="" className='fondo_targeta_1' />}
             </div>
-            {/* <div className={"card " + class2} id='dos' onMouseOver={()=>setIsHovering(true)} onMouseOut={()=>setIsHovering(false)}> */}
             <div className={"card " + class2} id='dos'>
-                <img src={carrucel1} alt="" className='fondo_targeta_1' />
+                {Dispocitivo == "phone" ? <img src={carrucel1_cel} alt="" className='fondo_targeta_1' /> : <img src={carrucel1} alt="" className='fondo_targeta_1' />}
             </div>
-            {/* <div className={"card " + class3} id='tres' onMouseOver={()=>setIsHovering(true)} onMouseOut={()=>setIsHovering(false)}> */}
             <div className={"card " + class3} id='tres'>
-                <img src={carrucel2} alt="" className='fondo_targeta_1' />
+                {Dispocitivo == "phone" ? <img src={carrucel2_cel} alt="" className='fondo_targeta_1' /> : <img src={carrucel2} alt="" className='fondo_targeta_1' />}
             </div>
-            {/* <div className={"card " + class4} id='cuatro' onMouseOver={()=>setIsHovering(true)} onMouseOut={()=>setIsHovering(false)}> */}
             <div className={"card " + class4} id='cuatro'>
-                <img src={Fondo_card_1} alt="" className='fondo_targeta_1' />
+                {Dispocitivo == "phone" ? <img src={Fondo_card_1} alt="" className='fondo_targeta_1' /> : <img src={Fondo_card_1} alt="" className='fondo_targeta_1' />}
             </div>
-            <button className='right' onClick={()=> setPosition(Position + 1)}></button>
+            <button className='right' onClick={() => setPosition(Position + 1)}></button>
         </div>
     )
 }
