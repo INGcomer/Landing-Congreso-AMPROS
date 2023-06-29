@@ -14,34 +14,36 @@ export default function FooterSection() {
         <section id='footer'>
             <div className='menu_container'>
                 <div className="callToAccion">
-                    <Button
-                        type='link'
-                        variant="contained"
-                        color="secondary"
-                        size="large"
-                        sx={{ m: 1, width: '50%' }}
+                    <a href="https://www.withsisa.com/evento/649cf11e8bca586c548f0122">
+                        <Button
+                            type='link'
+                            variant="contained"
+                            color="secondary"
+                            size="large"
+                            sx={{ m: 1, width: '50%' }}
                         // endIcon={<SendIcon />}
-                    >
-                        INSCRIBIRSE
-                    </Button>
+                        >
+                            INSCRIBIRSE
+                        </Button>
+                    </a>
                 </div>
                 <div className="redes">
                     <a href="https://www.instagram.com/ampros.mza/">
-                        <InstagramIcon/>
+                        <InstagramIcon />
                     </a>
                     <a href="https://www.ampros.org.ar/">
-                        <LanguageIcon/>
+                        <LanguageIcon />
                     </a>
                 </div>
                 <div className="texto">
                     <div>
-                        <FmdGoodOutlinedIcon/>
+                        <FmdGoodOutlinedIcon />
                         <span>
                             Mendoza, Argentina
                         </span>
                     </div>
                     <div>
-                        <EmailOutlinedIcon/>
+                        <EmailOutlinedIcon />
                         <span>
                             congresosaludmental@ampros.org.ar
                         </span>

@@ -10,7 +10,7 @@ export default function Inscribirse({ texto, variante }) {
             <h2> {texto} </h2>
 
             <motion.a
-                href=""
+                href="https://www.withsisa.com/evento/649cf11e8bca586c548f0122"
                 whileHover={{ scale: 1.05 }}
             >
                 INSCRIBIRSE

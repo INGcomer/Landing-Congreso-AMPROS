@@ -56,7 +56,7 @@ export default function Navbar() {
 			</div>
 
 			<div className="CallToAccion_container">
-				<a href="" className="CallToAccion"> INSCRIBIRSE </a>
+				<a href="https://www.withsisa.com/evento/649cf11e8bca586c548f0122" className="CallToAccion"> INSCRIBIRSE </a>
 			</div>
 			{/* </nav> */}
 		</motion.nav>
