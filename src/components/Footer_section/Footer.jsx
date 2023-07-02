@@ -1,7 +1,6 @@
 // MUI
 import Button from '@mui/material/Button';
 import InstagramIcon from '@mui/icons-material/Instagram';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import FmdGoodOutlinedIcon from '@mui/icons-material/FmdGoodOutlined';
 import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
 import LanguageIcon from '@mui/icons-material/Language';
