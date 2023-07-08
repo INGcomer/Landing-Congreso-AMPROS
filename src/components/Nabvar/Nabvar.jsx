@@ -36,7 +36,7 @@ export default function Navbar() {
 					<span className="dropbtn"> Carga de trabajos libres </span>
 					<div class="dropdown-content">
 						<a href="#Actividades"> Ejes </a>
-						<a href="#"> Reglamento </a>
+						<a href="Reglamento para presentación de Trabajos Libres. Congreso Salud Mental AMProS 2023.pdf"> Reglamento </a>
 					</div>
 				</div>
 				<div class="dropdown">
