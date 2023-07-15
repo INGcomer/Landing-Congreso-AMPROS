@@ -28,7 +28,7 @@ export default function Navbar() {
 					<span className="dropbtn"> Información </span>
 					<div class="dropdown-content">
 						<a href="#Autoridades"> Autoridades </a>
-						<a href="#"> Auspicious </a>
+						<a href="#"> Auspicios </a>
 						<a href="#Tematica"> Informacion general </a>
 					</div>
 				</div>

@@ -15,7 +15,7 @@ export default function Tematica() {
                     es de gran importancia priorizar la salud mental en todos los grupos etarios y
                     promover una cultura de cuidado de los profesionales de la salud. Producto de esto,
                     nace el <b>Primer Congreso Nacional Interdiciplinario de Salud Mental.</b> Se trata de
-                    un congreso que congrega a <b>600 profesionales de la Salud de diferentes partes
+                    un congreso que congrega a mas de <b>600 profesionales de la Salud de diferentes partes
                     del país.</b>
                 </p>
             </div>

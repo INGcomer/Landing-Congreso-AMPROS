@@ -3,25 +3,48 @@
         "tipo": "Disertantes",
         "items": [
             {
-                "nombre": "Luis Tudanca",
-                "cv": ["Analista de la Escuela de Orientación Lacaniana (EOL) y miembro de la Asociación Mundial de Psicoanálisis (AMP).", "Ex Miembro del consejo de la Asociación mundial de psicoanálisis.", "Docente de la Universidad Nacional de San Martín. Docente del Instituto clínico de Buenos Aires (ICDEBA)."],
-                "cv_link": "CVs/Luis Tudanca.pdf",
-                "foto": "imgs/disertantes/Luis Tudanca.png",
-                "asociacion": "Delegación EOL Mendoza"
+                "nombre": "Manuel Vilapriño",
+                "cv": [
+                    "Médico Psiquiatra",
+                    "Ex -presidente de APSA.",
+                    "Ex - Director del Hospital Público Especializado en Salud Mental, Carlos Pereyra.",
+                    "Asesoramiento en Psiquiatría y Psicología Laboral.",
+                    "Presidente del Centro de Estudios, Asistencia e Investigación en Neurociencias",
+                    "Docente en el 4° Diplomado en Trastornos del Ánimo para Psiquiatras",
+                    "Especialista en Neurociencias y Neurotecnología."
+                ],
+                "cv_link": "",
+                "foto": "imgs/disertantes/Manuel Vilapriño.jpg",
+                "asociacion": "Asociacion Argentina de Dramaterapia"
             },
             {
-                "nombre": "Lic. Susana Matus",
-                "cv": ["Lic. en Psicología UBA", "Psicoanalista vincular", "Docente de Posgrado. Miembro Titular de la AAPPG", "Ex presidente de la Institución Psicoterapéutica “Centro Oro”"],
-                "cv_link": "CVs/Lic. Susana Matus.pdf",
-                "foto": "imgs/disertantes/Susana Matus.jpg",
-                "asociacion": "Asociacion Psicoanalisis Pareja Familia y Grupo"
+                "nombre": "Susana Pendzik",
+                "cv": [
+                    "M.A. en Psicología Clínica.",
+                    "Ph.D. Literatura Comparada, Universidad de Bar-Ilan, Israel.",
+                    "Consultora del Consejo Israelí de Educación Superior Académica.",
+                    "Instituto Suizo de Dramaterapia; el Programa “Teatro Aplicado para la resiliencia comunitaria” de la Universidad Veracruzana.",
+                    "Diplomatura en Dramaterapia Universidad de Cuyo.",
+                    "Instituto Suizo de Dramaterapia, Formación en Dramaterapia (2000-presente);",
+                    "Instituto de Teatro-Terapia de Berlín, Formación en Dramaterapia (2012-presente);",
+                    "Escuela Naggar de Fotografía y Fototerapia, Jerusalén (2012-presente);",
+                    "Asociación de las Artes Creativas Terapéuticas de Israel (2019-presente)."
+                ],
+                "cv_link": "CVs/Susana Pendzik.pdf",
+                "foto": "imgs/disertantes/Susana Pendzik.jpg",
+                "asociacion": "Asociación Argentina de Salud Mental (AASM)"
             },
             {
-                "nombre": "Carina Kaplan",
-                "cv": ["Doctora en Educación.  investigadora Principal de CONICET.", "Profesora titular cátedras de Sociología de la Educación en Universidad Nacional de Buenos Aires y en la Universidad Nacional de la Plata."],
-                "cv_link": "CVs/Carina Kaplan.pdf",
-                "foto": "imgs/disertantes/Carina Kaplan.jpg",
-                "asociacion": "Colegio Profesional de Psicopedagogos de Mendoza"
+                "nombre": "Cecilia del Canto",
+                "cv": [
+                    "MÉDICO PSIQUIATRA. U.N. CUYO",
+                    "MAGISTER EN PSICOINMUNONEUROENDOCRINOLOGÍA. U. FAVALORO.",
+                    "EX JEFE DE SERVICIO DE PSIQUIATRÍA Y SALUD MENTAL DE HOSPITAL LAGOMAGGIORE. MENDOZA.",
+                    "Médico Psiquiatra de la Dirección de Resposabilidad Penal Juvenil (DRPJ) del Ministerio de Desarrollo"
+                ],
+                "cv_link": "CVs/",
+                "foto": "imgs/disertantes/Cecilia del Canto.jpeg",
+                "asociacion": ""
             },
             {
                 "nombre": "Dra. Mariana Moreno",
@@ -65,21 +88,33 @@
                 "asociacion": "Sociedad Psicoanalítica de Mendoza"
             },
             {
-                "nombre": "Susana Pendzik",
+                "nombre": "Carina Kaplan",
+                "cv": ["Doctora en Educación.  investigadora Principal de CONICET.", "Profesora titular cátedras de Sociología de la Educación en Universidad Nacional de Buenos Aires y en la Universidad Nacional de la Plata."],
+                "cv_link": "CVs/Carina Kaplan.pdf",
+                "foto": "imgs/disertantes/Carina Kaplan.jpg",
+                "asociacion": "Colegio Profesional de Psicopedagogos de Mendoza"
+            },
+            {
+                "nombre": "Luis Tudanca",
+                "cv": ["Analista de la Escuela de Orientación Lacaniana (EOL) y miembro de la Asociación Mundial de Psicoanálisis (AMP).", "Ex Miembro del consejo de la Asociación mundial de psicoanálisis.", "Docente de la Universidad Nacional de San Martín. Docente del Instituto clínico de Buenos Aires (ICDEBA)."],
+                "cv_link": "CVs/Luis Tudanca.pdf",
+                "foto": "imgs/disertantes/Luis Tudanca.png",
+                "asociacion": "Delegación EOL Mendoza"
+            },
+            {
+                "nombre": "Fernando Ceballos",
                 "cv": [
-                    "M.A. en Psicología Clínica.",
-                    "Ph.D. Literatura Comparada, Universidad de Bar-Ilan, Israel.",
-                    "Consultora del Consejo Israelí de Educación Superior Académica.",
-                    "Instituto Suizo de Dramaterapia; el Programa “Teatro Aplicado para la resiliencia comunitaria” de la Universidad Veracruzana.",
-                    "Diplomatura en Dramaterapia Universidad de Cuyo.",
-                    "Instituto Suizo de Dramaterapia, Formación en Dramaterapia (2000-presente);",
-                    "Instituto de Teatro-Terapia de Berlín, Formación en Dramaterapia (2012-presente);",
-                    "Escuela Naggar de Fotografía y Fototerapia, Jerusalén (2012-presente);",
-                    "Asociación de las Artes Creativas Terapéuticas de Israel (2019-presente)."
+                    "Enfermero profesional con especialización en salud mental y diplomado en gestión de salud.", 
+                    "Docente titular en la Escuela Superior de Enfermería de Reconquista y tutor en la Residencia Interdisciplinaria en Salud Mental Comunitaria.", 
+                    "Supervisor en el Hospital Nacional en Red Laura Bonaparte.",
+                    "Experiencia laboral en el Servicio de Salud Mental del Hospital Central Reconquista y coordinador del dispositivo ``Patitos en fila``.", 
+                    "Autor de varios libros y participante en compilaciones.",
+                    "Miembro fundador del Movimiento Argentino de Trabajadores de Enfermería (MATE) y miembro de la Agrupación Enfermería Federal.",
+                    "Pro secretario gremial de ATE Seccional Reconquista."
                 ],
-                "cv_link": "CVs/Susana Pendzik.pdf",
-                "foto": "imgs/disertantes/Susana Pendzik.jpg",
-                "asociacion": "Asociación Argentina de Salud Mental (AASM)"
+                "cv_link": "",
+                "foto": "imgs/disertantes/Fernando Ceballos.jpeg",
+                "asociacion": ""
             },
             {
                 "nombre": "Dra. Raquel Inés Bianchi",
@@ -109,19 +144,17 @@
                 "asociacion": "Asociacion Argentina de Dramaterapia"
             },
             {
-                "nombre": "Manuel Vilapriño",
+                "nombre": "Daniel Waisbrot",
                 "cv": [
-                    "Médico Psiquiatra",
-                    "Ex -presidente de APSA.",
-                    "Ex - Director del Hospital Público Especializado en Salud Mental, Carlos Pereyra.",
-                    "Asesoramiento en Psiquiatría y Psicología Laboral.",
-                    "Presidente del Centro de Estudios, Asistencia e Investigación en Neurociencias",
-                    "Docente en el 4° Diplomado en Trastornos del Ánimo para Psiquiatras",
-                    "Especialista en Neurociencias y Neurotecnología."
+                    "psicoanalista y escritor, miembro titular de la Asociación Argentina de Psicología y Psicoterapia de Grupo.", 
+                    "Docente titular en el Instituto de Psicoanálisis de las Configuraciones Vinculares y docente invitado en la Maestría de Familia y Pareja del Instituto Universitario de Salud Mental.", 
+                    "Autor de varios libros y co-compilador de otros.",
+                    "Ha publicado dos novelas y sus obras han sido traducidas al italiano.", 
+                    "Ha dictado seminarios sobre psicoanálisis de pareja en diversas instituciones y ha publicado numerosos artículos en revistas y diarios."
                 ],
                 "cv_link": "",
-                "foto": "imgs/disertantes/Manuel Vilapriño.jpg",
-                "asociacion": "Asociacion Argentina de Dramaterapia"
+                "foto": "imgs/disertantes/Daniel Waisbrot.jpg",
+                "asociacion": ""
             },
             {
                 "nombre": "Andrea Zelaya",
@@ -129,7 +162,28 @@
                 "cv_link": "CVs/Andrea Zelaya.pdf",
                 "foto": "imgs/disertantes/Andrea Zelaya.jpg",
                 "asociacion": "Asociación Cuyana de Estudios Psicoanalíticos (ACEP)"
+            },
+            {
+                "nombre": "Alfredo Manuel Carballeda",
+                "cv": [
+                    "Dr. en Servicio Social, investigador y escritor.", 
+                    "Profesor universitario y conferencista internacional.", 
+                    "Autor de libros y artículos en Ciencias Sociales.",
+                    "Director de Instituto de Investigaciones de Trabajo Social y Sociedad.", 
+                    "Presidente de FAT."
+                ],
+                "cv_link": "",
+                "foto": "",
+                "asociacion": ""
+            },
+            {
+                "nombre": "Lic. Susana Matus",
+                "cv": ["Lic. en Psicología UBA", "Psicoanalista vincular", "Docente de Posgrado. Miembro Titular de la AAPPG", "Ex presidente de la Institución Psicoterapéutica “Centro Oro”"],
+                "cv_link": "CVs/Lic. Susana Matus.pdf",
+                "foto": "imgs/disertantes/Susana Matus.jpg",
+                "asociacion": "Asociacion Psicoanalisis Pareja Familia y Grupo"
             }
+            
         ]
     }
 ]

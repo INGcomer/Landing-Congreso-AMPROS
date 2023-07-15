@@ -1,0 +1,94 @@
+#Actividades2{
+    /* background-color: var(--Oscuro); */
+    background-color: white;
+
+    height: 1300px;
+
+    position: relative;
+
+    z-index: 9999999999;
+
+    padding-top: 10px;
+
+    overflow: hidden;
+}
+
+#Actividades2 h1 {
+    width: 100%;
+
+    /* background-color: rgba(255, 255, 255, 0.87); */
+    /* From https://css.glass */
+background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+
+    text-align: center;
+
+    font-size: 3rem;
+
+    position: relative;
+    z-index: 55;
+}
+
+#Actividades2 .container{
+   width: 100%;
+   display: flex;
+}
+#Actividades2 .container .izquierda,  #Actividades2 .container .derecha{
+   width: 50%;
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   /* align-content: center; */
+   align-content: flex-end;
+}
+#Actividades2 .container .derecha{
+   align-content: flex-start;
+}
+#Actividades2 .container .izquierda .actividad{
+    text-align: right;
+}
+#Actividades2 .container .derecha .actividad{
+    text-align: left;
+    flex-direction: row-reverse;
+}
+
+#Actividades2 .actividad{
+   width: 90%;
+   margin-bottom: 30px;
+   display: flex;
+}
+#Actividades2 .actividad .texto{
+   width: 50%;
+}
+#Actividades2 .izquierda .actividad .texto{
+    margin-right: 20px;
+}
+#Actividades2 .derecha .actividad .texto{
+    margin-left: 20px;
+}
+
+
+#Actividades2 .actividad .imagen{
+  background-color: red;
+
+  height: 200px;
+  width: 200px;
+
+  z-index: 2;
+}
+
+
+
+#Actividades2 .fondo {
+    position: relative;
+    height: 1700px;
+
+    top: -1700px;
+    left: 250px;
+
+    z-index: 1;
+}

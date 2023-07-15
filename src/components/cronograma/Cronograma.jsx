@@ -52,6 +52,7 @@ export default function BasicTabs() {
     return (
         <section id='Cronograma'>
             <div className="fondo arriba"></div>
+            <span> Programa definitivo en proceso de finalización </span>
             <Box sx={{ width: '100%' }} className="cronograma_box">
                 <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
                     <Tabs

@@ -1,0 +1,46 @@
+{
+    "Izquierda":[
+        {
+            "Nombre": "3 Topic",
+            "Descripcion": "Mesa interactiva en la que especialistas presentan tres ideas debatibles sobre un tema especifico. El público participa dando sus opiniones y juntos, se busca generar producciones colectivas que promuevan el avance y la mejora en el campo de la salud mental."
+        },
+        {
+            "Nombre": "Conferencias",
+            "Descripcion": "Reunimos a destacados expertos y profesionales de renombre internacional, en conferencias magistrales de una amplia gama de temas relacionados con la salud mental. Éstas proporcionan a los asistentes una vision actualizada de los avances cientificos, las últimas investigaciones y prácticas clínicas"
+        },
+        {
+            "Nombre": "Conferencias",
+            "Descripcion": "Se ofrecerán pausas para el café y refrigerios, brindando a los asistentes la oportunidad de interactuar informalmente y establecer contactos con colegas, ponentes y representantes de la industria"
+        },
+        {
+            "Nombre": "Cena de Gala",
+            "Descripcion": "Un evento de gala que se celebrará en un ambiente elegante y distinguido, donde los participantes podrán disfrutar de una velada especial, con excelentes comidas, entretenimiento y la oportunidad de estrechar lazos con otros profesionales de la salud."
+        },
+        {
+            "Nombre": "Cocktail de Bienvenida",
+            "Descripcion": "Una recepción de bienvenida que marcará el inicio del congreso, brindando a los asistentes la oportunidad de establecer conexiones y crear una red de contactos desde el comienzo."
+        }
+    ],
+    "Derecha": [
+        {
+            "Nombre": "Mesa abierta de trabajos",
+            "Descripcion": "Una sesión en la que los profesionales de la salud mental podrán presentar sus investigaciones, estudios de caso y experiencias clínicas, fomentando el intercambio de conocimientos y la discusión sobre las mejores prácticas."
+        },
+        {
+            "Nombre": "Actividades culturales",
+            "Descripcion": "Consta de una variedad de actividades artísticas y culturales. Desde exposiciones de artistas plásticos destacados hasta emocionantes presentaciones de orquestas y bandas musicales"
+        },
+        {
+            "Nombre": "Simposio de la industria",
+            "Descripcion": "En colaboración con empresas especializadas en salud mental, se llevarán a cabo simposios centrados en los avances tecnológicos, tratamientos farmacológicos y terapias complementarias para abordar diversas condiciones y promover la salud mental en la comunidad."
+        },
+        {
+            "Nombre": "Feria de empresas",
+            "Descripcion": "Permitir que las mismas exhiban sus productos farmacéuticos, tecnologías y avances en investigación ante un público comprometido. Establezca conexiones clave, interactúe con profesionales destacados y promueva su marca en el ámbito de la salud mental"
+        },
+        {
+            "Nombre": "Actividades Pre-Congreso",
+            "Descripcion": "Es un espacio académico, organizado por las asociaciones colaboradoras, antes del evento principal donde los profesionales de diversas áreas relacionadas con la salud mental pueden presentar temas en línea con los ejes temáticos del congreso."
+        }
+    ]
+}

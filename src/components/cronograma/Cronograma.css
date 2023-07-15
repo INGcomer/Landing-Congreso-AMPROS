@@ -26,6 +26,18 @@
     background-color: var(--Claro);
 }
 
+#Cronograma span {
+    display: block;
+    position: relative;
+
+    width: 100%;
+
+    text-align: center;
+    font-size: 1.5rem;
+
+    z-index: 999999999;
+}
+
 #Cronograma .cronograma_box {
     position: relative;
     margin-top: 50px;

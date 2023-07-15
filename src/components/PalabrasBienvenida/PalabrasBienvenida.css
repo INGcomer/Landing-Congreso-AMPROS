@@ -1,0 +1,58 @@
+#Bienvenida {
+    background-color: var(--Oscuro);
+    
+    text-align: center;
+    color: white;
+
+    position: relative;
+    /* top: -20px; */
+    /* height: 300px; */
+
+    margin-top: 0;
+
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 60px;
+    padding-top: 30px;
+
+    /* margin-bottom: 30px; */
+}
+
+#Bienvenida h1{
+    font-size: 3rem;
+
+    color: white;
+}
+
+#Bienvenida .link{
+    width: 100%;
+
+    margin-top: 50px;
+
+    display: flex;
+    justify-content: center;
+}
+
+#Bienvenida a{
+    height: 50px;
+    width: 300px;
+
+    background-color: var(--Acento);
+    /* color: var(--Oscuro); */
+    color: white;
+    border-radius: 50px;
+
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 600;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: all 0.7s;
+}
+#Bienvenida a:hover{
+    color: var(--Oscuro);
+    transition: all 0.7s;
+}

@@ -14,7 +14,7 @@ export default function Disertantes() {
             {JSON.map(evento => <Evento tipo={evento.tipo} items={evento.items} />)}
             {/* {JSON[0].items.map(disertante => <Disertante nombre={disertante.nombre} foto={disertante.foto} cv={disertante.cv} asociacion={disertante.asociacion} />)} */}
             {/* </div> */}
-            <div className="container ">
+            {/* <div className="container ">
                 <h1 className="title secondary"> 3 Topic </h1>
 
                 <div className="_3topic">
@@ -22,8 +22,6 @@ export default function Disertantes() {
                         Mesa interactiva en la que especialistas presentan 3 ideas debatibles sobre un tema específico. El público participa dando sus opiniones y juntos, se busca generar producciones colectivas que promuevan el avance y la mejora en el campo de la salud mental.
                     </p>
                 </div>
-
-                {/* <h1 className="title secondary"> 3 Topic: ejes temáticos </h1> */}
                 <div className="_3topic ejes">
                     <ul>
                         <li>
@@ -57,7 +55,7 @@ export default function Disertantes() {
                         </li>
                     </ul>
                 </div>
-            </div>
+            </div> */}
             <img src={fondo} alt="" className="fondo"/>
         </section>
     )
