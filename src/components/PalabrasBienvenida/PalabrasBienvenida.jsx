@@ -12,7 +12,7 @@ export default function Bienvenida() {
 
             <div className="link">
                 <motion.a
-                    href="https://www.withsisa.com/evento/649cf11e8bca586c548f0122"
+                    href="PDFs/Palabras de Bienvenida.pdf"
                     whileHover={{ scale: 1.05 }}
                 >
                     Seguir leyendo
