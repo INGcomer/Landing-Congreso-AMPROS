@@ -34,7 +34,7 @@ function Actividad({ actividad }) {
                 <p> {actividad.Descripcion} </p>
             </div>
             <div className="imagen">
-                <img src="" alt="" />
+                <img src={actividad.imagen} alt="" />
             </div>
         </div>
     )

@@ -37,9 +37,30 @@
 
     display: flex;
     justify-content: space-evenly;
+    /* flex-direction: column;
+    align-items: center; */
 }
 #Autoridades .comicion_directiva img{
     height: 300px;
+}
+#Autoridades .comicion_directiva .autoridad{
+    width: 30vw;
+
+    text-align: center;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#Autoridades .comicion_directiva .autoridad h2{
+    font-size: 2rem;
+}
+#Autoridades .comicion_directiva .autoridad p strong{
+    font-size: 1.3rem;
+    color: var(--Oscuro);
+}
+#Autoridades .comicion_directiva .autoridad p{
+    word-break: break-all;
 }
 
 #Autoridades .comicion_cientifica{

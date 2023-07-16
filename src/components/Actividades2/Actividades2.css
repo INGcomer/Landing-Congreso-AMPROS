@@ -65,6 +65,8 @@
     width: 90%;
     margin-bottom: 30px;
     display: flex;
+
+    z-index: 2;
 }
 
 #Actividades2 .actividad .texto {
@@ -81,12 +83,20 @@
 
 
 #Actividades2 .actividad .imagen {
-    background-color: red;
+    /* background-color: red; */
 
     height: 200px;
     width: 200px;
 
     z-index: 2;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#Actividades2 .actividad .imagen img{
+    height: 90%;
+    width: 90%;
 }
 
 
@@ -99,4 +109,21 @@
     left: 250px;
 
     z-index: 1;
+}
+
+
+@media (max-width: 1400px) {
+    #Actividades2 {
+        height: 1500px;
+    }
+
+    #Actividades2 .fondo {
+        position: relative;
+        height: 1800px;
+    
+        top: -1600px;
+        left: 0px;
+    
+        z-index: 1;
+    }
 }

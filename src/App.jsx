@@ -3,7 +3,7 @@ import './App.css';
 // Components
 import Navbar from './components/Nabvar/Nabvar';
 import Header from './components/Header/Header';
-// import Autoridades from './components/Autoridades/Autoridades';
+import Autoridades from './components/Autoridades/Autoridades';
 import Cronograma from './components/cronograma/Cronograma';
 import Tematica from './components/Tematica/Tematica';
 import Actividades from './components/Actividades/Actividades';
@@ -30,7 +30,7 @@ function App() {
 
       <Inscribirse texto="¡Sé parte del primer congreso de salud mental del AMProS!" variante="blanco"/>
 
-      {/* <Autoridades/> */}
+      <Autoridades/>
 
       <Tematica/>
 
