@@ -51,7 +51,7 @@ export default function Entrada() {
                 </div>
                 <div className="precio">
                     <h3> $18.000 </h3>
-                </div>
+                </div>               
             </motion.div>
 
             <div className="aclaraciones">

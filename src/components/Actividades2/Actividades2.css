@@ -6,7 +6,7 @@
 
     position: relative;
 
-    z-index: 9999999999;
+    z-index: 999;
 
     padding-top: 10px;
 
@@ -71,13 +71,20 @@
 
 #Actividades2 .actividad .texto {
     width: 50%;
+
+        /* From https://css.glass */
+background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
-#Actividades2 .izquierda .actividad .texto {
+#Actividades2 .actividad .texto {
+    padding-left: 20px;
+    padding-right: 20px;
     margin-right: 20px;
-}
-
-#Actividades2 .derecha .actividad .texto {
     margin-left: 20px;
 }
 
@@ -125,5 +132,31 @@
         left: 0px;
     
         z-index: 1;
+    }
+}
+
+@media (max-width: 500px) {
+    #Actividades2 {
+        height: 535vh;
+    }
+    #Actividades2 .container {
+        flex-direction: column;
+    }
+    #Actividades2 .container .izquierda, #Actividades2 .container .derecha {
+        width: 100%;
+    }
+    #Actividades2 .actividad {
+        width: 100%;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    #Actividades2 .actividad .texto {
+        width: 80%;
+        margin: 0;
+        margin-top: 20px;
+        text-align: center;
+    }
+    #Actividades2 .container .derecha .actividad {
+        flex-direction: column-reverse;
     }
 }

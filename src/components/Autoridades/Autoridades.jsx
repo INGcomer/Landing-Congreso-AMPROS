@@ -68,77 +68,54 @@ export default function Autoridades() {
                 whileInView={{ y: '0%' }}
                 transition={{ duration: 0.5 }}
             >
+                <h2> Miembros de comisión científica </h2>
+
+                <div className="nombres">
+
                 <div className="pichi">
-                    <img src={placeholder} alt="" />
-                    <p>
-                        <strong> B.B King </strong> <br />
-                        Renombrado músico y compositor
-                    </p>
+                    <strong> B.B King </strong>
                 </div>
                 <div className="pichi">
-                    <img src={placeholder} alt="" />
-                    <p>
-                        <strong> B.B King </strong> <br />
-                        Renombrado músico y compositor
-                    </p>
+                    <strong> B.B King </strong>
                 </div>
                 <div className="pichi">
-                    <img src={placeholder} alt="" />
-                    <p>
-                        <strong> B.B King </strong> <br />
-                        Renombrado músico y compositor
-                    </p>
+                    <strong> B.B King </strong>
                 </div>
                 <div className="pichi">
-                    <img src={placeholder} alt="" />
-                    <p>
-                        <strong> B.B King </strong> <br />
-                        Renombrado músico y compositor
-                    </p>
+                    <strong> B.B King </strong>
                 </div>
                 <div className="pichi">
-                    <img src={placeholder} alt="" />
-                    <p>
-                        <strong> B.B King </strong> <br />
-                        Renombrado músico y compositor
-                    </p>
+                    <strong> B.B King </strong>
                 </div>
                 <div className="pichi">
-                    <img src={placeholder} alt="" />
-                    <p>
-                        <strong> B.B King </strong> <br />
-                        Renombrado músico y compositor
-                    </p>
+                    <strong> B.B King </strong>
                 </div>
                 <div className="pichi">
-                    <img src={placeholder} alt="" />
-                    <p>
-                        <strong> B.B King </strong> <br />
-                        Renombrado músico y compositor
-                    </p>
+                    <strong> B.B King </strong>
                 </div>
                 <div className="pichi">
-                    <img src={placeholder} alt="" />
-                    <p>
-                        <strong> B.B King </strong> <br />
-                        Renombrado músico y compositor
-                    </p>
+                    <strong> B.B King </strong>
                 </div>
                 <div className="pichi">
-                    <img src={placeholder} alt="" />
-                    <p>
-                        <strong> B.B King </strong> <br />
-                        Renombrado músico y compositor
-                    </p>
+                    <strong> B.B King </strong>
                 </div>
                 <div className="pichi">
-                    <img src={placeholder} alt="" />
-                    <p>
-                        <strong> B.B King </strong> <br />
-                        Renombrado músico y compositor
-                    </p>
+                    <strong> B.B King </strong>
+                </div>
+                <div className="pichi">
+                    <strong> B.B King </strong>
+                </div>
+                <div className="pichi">
+                    <strong> B.B King </strong>
+                </div>
+                <div className="pichi">
+                    <strong> B.B King </strong>
+                </div>
+                <div className="pichi">
+                    <strong> B.B King </strong>
                 </div>
 
+                </div>
             </motion.div>
 
             <img src={fondo} alt="" className="fondo" />

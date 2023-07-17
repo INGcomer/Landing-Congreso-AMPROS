@@ -21,13 +21,15 @@ import Fondo_card_1 from "./imgs/pexels-1.png"
 import fondo_log from "./imgs/grupo de amigos con logo.png"
 
 // imagenes carrucel
-import carrucel1 from "./imgs/carrucel/disertantes-psiquiatras.png"
-import carrucel2 from "./imgs/carrucel/disertantes-psiquiatras2.png"
+import carrucel1 from "./imgs/carrucel/placa-1.png"
+import carrucel2 from "./imgs/carrucel/placa-2.png"
+import carrucel3 from "./imgs/carrucel/placa-3.png"
 
 // imagenes carrucel celular
 import main from "./imgs/carrucel/celular/main.png"
-import carrucel1_cel from "./imgs/carrucel/celular/disertantes-1-mobile.png"
-import carrucel2_cel from "./imgs/carrucel/celular/disertantes-2-mobile.png"
+import carrucel1_cel from "./imgs/carrucel/celular/PLACA 1 MOBILE.png"
+import carrucel2_cel from "./imgs/carrucel/celular/PLACA 2 MOBILE.png"
+import carrucel3_cel from "./imgs/carrucel/celular/PLACA 3 MOBILE.png"
 
 
 
@@ -140,7 +142,7 @@ function Carrucel() {
                 {Dispocitivo == "phone" ? <img src={carrucel2_cel} alt="" className='fondo_targeta_1' /> : <img src={carrucel2} alt="" className='fondo_targeta_1' />}
             </div>
             <div className={"card " + class4} id='cuatro'>
-                {Dispocitivo == "phone" ? <img src={Fondo_card_1} alt="" className='fondo_targeta_1' /> : <img src={Fondo_card_1} alt="" className='fondo_targeta_1' />}
+                {Dispocitivo == "phone" ? <img src={carrucel3_cel} alt="" className='fondo_targeta_1' /> : <img src={carrucel3} alt="" className='fondo_targeta_1' />}
             </div>
             <button className='right' onClick={() => setPosition(Position + 1)}></button>
         </div>

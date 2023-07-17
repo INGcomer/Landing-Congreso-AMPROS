@@ -56,3 +56,18 @@
     color: var(--Oscuro);
     transition: all 0.7s;
 }
+
+@media (max-width: 500px) {
+    #Bienvenida {    
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 60px;
+        padding-top: 10px;
+    }
+    
+    #Bienvenida h1{
+        font-size: 2rem;
+    
+        color: white;
+    }
+}

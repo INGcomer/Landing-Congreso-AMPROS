@@ -190,7 +190,7 @@
 
 #disertantes .fondo {
     position: relative;
-    top: -3350px;
+    top: -2700px;
     left: -30%;
 
     height: 3000px;
@@ -210,7 +210,7 @@
 
 @media (max-width: 500px) {
     #disertantes {
-        height: 790vh;
+        height: 985vh;
     }
     
     #disertantes .disertante {
