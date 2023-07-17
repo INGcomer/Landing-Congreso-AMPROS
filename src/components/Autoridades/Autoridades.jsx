@@ -32,7 +32,6 @@ export default function Autoridades() {
                         {/* Maestranda de la Maestría de Salud Pública y Seguridad Social */}
                     </p>
                 </motion.div>
-                {/* <div className="viceprecidente"> */}
                 <motion.div
                     className="autoridad"
                     initial={{ opacity: 0 }}
@@ -67,9 +66,8 @@ export default function Autoridades() {
                         Miembro Titular de la APPFG de Mendoza
                     </p>
                 </motion.div>
-                {/* </div> */}
             </div>
-            <motion.div
+            {/* <motion.div
                 className="comicion_cientifica"
                 initial={{ y: '10%' }}
                 whileInView={{ y: '0%' }}
@@ -123,7 +121,7 @@ export default function Autoridades() {
                     </div>
 
                 </div>
-            </motion.div>
+            </motion.div> */}
 
             <img src={fondo} alt="" className="fondo" />
         </section>
