@@ -54,7 +54,7 @@ export default function Autoridades() {
                     whileInView={{ opacity: 1 }}
                     transition={{ duration: 1 }}
                 >
-                    <h2> Vice Presidente </h2>
+                    <h2> Secretaria Científica </h2>
                     <img src={Paula} alt="" />
                     <p>
                         <strong> Paula Corso </strong> <br />
