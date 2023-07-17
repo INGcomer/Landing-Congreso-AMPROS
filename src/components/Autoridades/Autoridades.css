@@ -33,6 +33,9 @@
 
     text-align: center;
     font-size: 3rem;
+
+    position: relative;
+    z-index: 999;
 }
 
 #Autoridades .comicion_directiva {
@@ -132,6 +135,9 @@
 
 
 @media (max-width: 1400px) {
+    #Autoridades {
+        height: 170vh;
+    }
     #Autoridades .fondo {
         position: relative;
         top: -2000px;
