@@ -14,7 +14,8 @@
 }
 
 #Tematica h1 {
-  color: var(--Acento);
+  /* color: var(--Acento); */
+  color: var(--Oscuro);
 
   font-size: 6rem;
 
@@ -34,12 +35,13 @@
   width: 50%;
 }
 
-#Tematica .forma{
+#Tematica .forma {
   position: relative;
   top: -60%;
   left: 55%;
 }
-#Tematica img{
+
+#Tematica img {
   position: relative;
   height: 700px;
   width: auto;
@@ -48,7 +50,7 @@
   top: -350px; */
 }
 
-#Tematica .fondo{
+#Tematica .fondo {
   height: auto;
   width: 1200px;
 
@@ -59,6 +61,23 @@
   /* left: 10%; */
 
   z-index: 1;
+}
+
+@media (max-width: 1600px) {
+  #Tematica h1 {
+    font-size: 5rem;
+  }
+
+  #Tematica .forma {
+    position: relative;
+    top: -50%;
+    left: 50%;
+  }
+  #Tematica img {
+    position: relative;
+    height: 600px;
+    width: auto;
+}
 }
 
 @media (max-width: 1400px) {
@@ -78,7 +97,8 @@
   #Tematica .container p {
     font-size: 1rem;
   }
-  #Tematica .forma{
+
+  #Tematica .forma {
     top: -55%;
     left: 65%;
 
@@ -87,19 +107,19 @@
 }
 
 @media (max-width: 500px) {
-  #Tematica{
+  #Tematica {
     height: fit-content;
   }
 
   #Tematica h1 {
     font-size: 2rem;
   }
-  
+
   #Tematica img {
     display: none;
   }
 
   #Tematica .container p {
     width: 100%;
-}
+  }
 }

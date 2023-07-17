@@ -17,7 +17,7 @@ export default function Salon() {
                 transition={{ duration: 0.5}}
             >
                 <h1> ¿Dónde se realizará el evento? </h1>
-                <p> Polo de congresos y exposiciones de AMProS, Videla Aranda 2080, Cruz de Piedra, Maipú, Mendoza. </p>
+                <p> Polo de Congresos y Exposiciones AMProS, Videla Aranda 2080, Cruz de Piedra, Maipú, Mendoza. </p>
             </motion.a>
             <div className="mainImg">
                 <img src={salon} alt="" />

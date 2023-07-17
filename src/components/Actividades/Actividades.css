@@ -69,6 +69,18 @@
     height: auto;
 }
 
+@media (max-width: 1600px) {
+    #Actividades .fondo{
+        position: absolute;
+        top: 6850px;
+    
+        height: 1800px;
+        left: -250px;
+    
+        transform: rotate(30deg);
+    }
+}
+
 @media (max-width: 1400px) {
     #Actividades .fondo{
         position: absolute;

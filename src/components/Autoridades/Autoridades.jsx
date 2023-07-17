@@ -7,6 +7,7 @@ import fondo from './img/fondo.svg'
 
 import Norma from "./img/Norma.png"
 import Pablo from "./img/pablo.png"
+import Paula from "./img/Foto Paula Corso.png"
 
 export default function Autoridades() {
     return (
@@ -27,7 +28,8 @@ export default function Autoridades() {
                         Secretaria  General I° Congreso Argentino de Salud Mental AMProS <br />
                         Lic. En Enfermería. Especialista en pediatría. <br />
                         Pro-Secretario de Capacitación Profesional AMProS <br />
-                        Maestría en Administración en Servicios de Salud. Maestranda de la Maestría de Salud Pública y Seguridad Social
+                        Maestría en Administración en Servicios de Salud. 
+                        {/* Maestranda de la Maestría de Salud Pública y Seguridad Social */}
                     </p>
                 </motion.div>
                 {/* <div className="viceprecidente"> */}
@@ -54,10 +56,15 @@ export default function Autoridades() {
                     transition={{ duration: 1 }}
                 >
                     <h2> Vice Presidente </h2>
-                    <img src={placeholder} alt="" />
+                    <img src={Paula} alt="" />
                     <p>
-                        <strong> B.B King </strong> <br />
-                        Renombrado músico y compositor
+                        <strong> Paula Corso </strong> <br />
+                        Secretaria Científica I° Congreso Salud Mental AMProS <br />
+                        Lic. en Psicología USAL <br />
+                        Psicoanalista vincular <br />
+                        Docente de Posgrado de la Asociación Psicoanalítica Pareja, Familia y Grupo (APPFG) <br />
+                        Ex Presidenta de la APPFG <br />
+                        Miembro Titular de la APPFG de Mendoza
                     </p>
                 </motion.div>
                 {/* </div> */}
@@ -72,48 +79,48 @@ export default function Autoridades() {
 
                 <div className="nombres">
 
-                <div className="pichi">
-                    <strong> B.B King </strong>
-                </div>
-                <div className="pichi">
-                    <strong> B.B King </strong>
-                </div>
-                <div className="pichi">
-                    <strong> B.B King </strong>
-                </div>
-                <div className="pichi">
-                    <strong> B.B King </strong>
-                </div>
-                <div className="pichi">
-                    <strong> B.B King </strong>
-                </div>
-                <div className="pichi">
-                    <strong> B.B King </strong>
-                </div>
-                <div className="pichi">
-                    <strong> B.B King </strong>
-                </div>
-                <div className="pichi">
-                    <strong> B.B King </strong>
-                </div>
-                <div className="pichi">
-                    <strong> B.B King </strong>
-                </div>
-                <div className="pichi">
-                    <strong> B.B King </strong>
-                </div>
-                <div className="pichi">
-                    <strong> B.B King </strong>
-                </div>
-                <div className="pichi">
-                    <strong> B.B King </strong>
-                </div>
-                <div className="pichi">
-                    <strong> B.B King </strong>
-                </div>
-                <div className="pichi">
-                    <strong> B.B King </strong>
-                </div>
+                    <div className="pichi">
+                        <strong> B.B King </strong>
+                    </div>
+                    <div className="pichi">
+                        <strong> B.B King </strong>
+                    </div>
+                    <div className="pichi">
+                        <strong> B.B King </strong>
+                    </div>
+                    <div className="pichi">
+                        <strong> B.B King </strong>
+                    </div>
+                    <div className="pichi">
+                        <strong> B.B King </strong>
+                    </div>
+                    <div className="pichi">
+                        <strong> B.B King </strong>
+                    </div>
+                    <div className="pichi">
+                        <strong> B.B King </strong>
+                    </div>
+                    <div className="pichi">
+                        <strong> B.B King </strong>
+                    </div>
+                    <div className="pichi">
+                        <strong> B.B King </strong>
+                    </div>
+                    <div className="pichi">
+                        <strong> B.B King </strong>
+                    </div>
+                    <div className="pichi">
+                        <strong> B.B King </strong>
+                    </div>
+                    <div className="pichi">
+                        <strong> B.B King </strong>
+                    </div>
+                    <div className="pichi">
+                        <strong> B.B King </strong>
+                    </div>
+                    <div className="pichi">
+                        <strong> B.B King </strong>
+                    </div>
 
                 </div>
             </motion.div>

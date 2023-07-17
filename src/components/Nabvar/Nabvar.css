@@ -71,11 +71,13 @@ nav span {
     color: var(--Oscuro);
 
     text-decoration: none;
+    text-align: center;
     font-size: 1.5rem;
 
     cursor: pointer;
 
     transition: all 0.4s;
+    display: flex;
 }
 
 nav a:hover,

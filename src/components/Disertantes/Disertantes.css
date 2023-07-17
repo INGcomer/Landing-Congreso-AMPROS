@@ -129,7 +129,8 @@
    color: var(--Acento);
 }
 #disertantes .disertante .texto ul li span{
-   color: white;
+   /* color: white; */
+   color: black;
 }
 
 #disertantes .disertante .foto {
@@ -199,6 +200,20 @@
     transform: rotate(20deg);
 
     z-index: 1;
+}
+
+@media (max-width: 1600px) {
+    #disertantes {
+        height: 330vh;
+    }
+    #disertantes .fondo {
+        position: relative;
+        top: -3200px;
+        left: -60%;
+
+        height: 3200px;
+        width: 3200px;
+    }
 }
 
 @media (max-width: 1400px) {

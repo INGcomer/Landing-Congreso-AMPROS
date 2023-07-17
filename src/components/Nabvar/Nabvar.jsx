@@ -44,6 +44,7 @@ export default function Navbar() {
 					<div class="dropdown-content">
 						<a href="#disertantes"> Disertantes </a>
 						<a href="#Cronograma"> Programa </a>
+						<a href="#Actividades2"> Actividades </a>
 						<a href="#"> Simposio de la industria </a>
 					</div>
 				</div>
