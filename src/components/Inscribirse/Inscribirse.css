@@ -68,7 +68,9 @@
 
     #Inscribirse a {
         font-size: 1.3rem;
-        width: 150px;
+        width: 200px;
+
+        text-align: center;
     }
 
 }

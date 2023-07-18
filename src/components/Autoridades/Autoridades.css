@@ -174,7 +174,7 @@
 
 @media (max-width: 500px) {
     #Autoridades {
-        height: 230vh;
+        height: 285vh;
     }
 
     #Autoridades .fondo {
@@ -202,7 +202,8 @@
     }
 
     #Autoridades .comicion_cientifica .pichi {
-        margin: 0;
+        margin: 5px;
+        margin-top: 0;
         margin-bottom: 20px;
     }
 }
