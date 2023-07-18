@@ -171,6 +171,8 @@
 
 #cinco.centro .afiliacion {
     display: flex;
+
+    z-index: 99;
 }
 
 #cinco.izquierda .afiliacion {
@@ -257,6 +259,14 @@
 
     #header .content .card.derecha {
         height: 30%;
+    }
+
+    #header .content .card .afiliacion {
+        bottom: 34%;
+    }
+    #header .content .card.centro img {
+        position: relative;
+        top: 10%;
     }
 }
 

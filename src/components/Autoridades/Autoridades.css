@@ -148,10 +148,16 @@
     height: 200px;
 }
 
+@media (max-width: 1600px) {
+    #Autoridades {
+        height: 140vh;
+    }
+}
+
 
 @media (max-width: 1400px) {
     #Autoridades {
-        height: 120vh;
+        height: 200vh;
     }
 
     #Autoridades .fondo {
