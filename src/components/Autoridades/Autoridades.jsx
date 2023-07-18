@@ -25,8 +25,8 @@ export default function Autoridades() {
                     <img src={Norma} alt="" />
                     <p>
                         <strong> Norma Condori </strong> <br />
-                        Secretaria  General I° Congreso Argentino de Salud Mental AMProS <br />
-                        Lic. En Enfermería. Especialista en pediatría. <br />
+                        Secretaria  General Primer Congreso Argentino <br /> de Salud Mental AMProS <br />
+                        Lic. En Enfermería. Especialista en Pediatría. <br />
                         Pro-Secretario de Capacitación Profesional AMProS <br />
                         Maestría en Administración en Servicios de Salud. 
                         {/* Maestranda de la Maestría de Salud Pública y Seguridad Social */}
@@ -42,10 +42,10 @@ export default function Autoridades() {
                     <img src={Pablo} alt="" />
                     <p>
                         <strong> Pablo Melonari </strong> <br />
-                        Presidente I° Congreso Argentino de Salud Mental AMProS <br />
+                        Presidente Primer Congreso Argentino <br /> de Salud Mental AMProS <br />
                         Secretario de Capacitación Profesional AMProS  <br />
-                        Médico pediatra especialista en Infectologia pediatrica <br />
-                        Magister en Infectologia pediátrica
+                        Médico pediatra especialista <br /> en Infectologia Pediatrica <br />
+                        Magister en Infectologia Pediátrica
                     </p>
                 </motion.div>
                 <motion.div
@@ -58,10 +58,10 @@ export default function Autoridades() {
                     <img src={Paula} alt="" />
                     <p>
                         <strong> Paula Corso </strong> <br />
-                        Secretaria Científica I° Congreso Salud Mental AMProS <br />
+                        Secretaria Científica Congreso Argentino <br /> de Salud Mental AMProS <br />
                         Lic. en Psicología USAL <br />
                         Psicoanalista vincular <br />
-                        Docente de Posgrado de la Asociación Psicoanalítica Pareja, Familia y Grupo (APPFG) <br />
+                        Docente de Posgrado de la Asociación <br /> Psicoanalítica Pareja, Familia y Grupo (APPFG) <br />
                         Ex Presidenta de la APPFG <br />
                         Miembro Titular de la APPFG de Mendoza
                     </p>
