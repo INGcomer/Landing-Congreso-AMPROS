@@ -14,29 +14,31 @@
     z-index: 200;
 }
 
-#Inscribirse.oscuro{
+#Inscribirse.oscuro {
     background-color: var(--Oscuro);
 }
-#Inscribirse.claro{
+
+#Inscribirse.claro {
     background-color: var(--Claro);
 }
-#Inscribirse.blanco{
+
+#Inscribirse.blanco {
     background-color: white;
 }
-#Inscribirse.blanco h2{
+
+#Inscribirse.blanco h2 {
     color: var(--Oscuro);
 }
 
-#Inscribirse h2{
+#Inscribirse h2 {
     color: white;
 }
 
-#Inscribirse a{
+#Inscribirse a {
     height: 50px;
     width: 300px;
 
     background-color: var(--Acento);
-    /* color: var(--Oscuro); */
     color: white;
     border-radius: 50px;
 
@@ -50,22 +52,23 @@
 
     transition: all 0.7s;
 }
-#Inscribirse a:hover{
+
+#Inscribirse a:hover {
     color: var(--Oscuro);
     transition: all 0.7s;
 }
 
 
 @media (max-width: 500px) {
-    #Inscribirse h2{
+    #Inscribirse h2 {
         font-size: 1rem;
 
         width: 50%;
     }
 
-    #Inscribirse a{
+    #Inscribirse a {
         font-size: 1.3rem;
         width: 150px;
     }
-    
+
 }

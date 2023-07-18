@@ -66,28 +66,27 @@ export default function BasicTabs() {
                     >
                         <Tab label="20 de septiembre" {...a11yProps(0)} sx={{
                             color: "white"
-                        }}/>
-                        <Tab label="21 de septiembre" {...a11yProps(1)} 
-                        sx={{
-                            color: "white"
-                        }}/>
-                        <Tab label="22 de septiembre" {...a11yProps(2)} 
-                        sx={{
-                            color: "white"
-                        }}/>
+                        }} />
+                        <Tab label="21 de septiembre" {...a11yProps(1)}
+                            sx={{
+                                color: "white"
+                            }} />
+                        <Tab label="22 de septiembre" {...a11yProps(2)}
+                            sx={{
+                                color: "white"
+                            }} />
                     </Tabs>
                 </Box>
                 <TabPanel value={value} index={0}>
-                    <Dias dia={0}/>
+                    <Dias dia={0} />
                 </TabPanel>
                 <TabPanel value={value} index={1}>
-                    <Dias dia={1}/>
+                    <Dias dia={1} />
                 </TabPanel>
                 <TabPanel value={value} index={2}>
-                    <Dias dia={2}/>
+                    <Dias dia={2} />
                 </TabPanel>
             </Box>
-            {/* <div className="fondo abajo"></div> */}
         </section>
     );
 }

@@ -9,7 +9,6 @@ export default function Tematica() {
         <section id="Tematica">
             <h1> Avanzando juntos hacia la salud mental integral: Congreso Nacional Interdisciplinario </h1>
             <div className="container">
-                {/* <div className="izquierda"> */}
                 <p> La emergencia sanitaria ha incrementado la prevalencia de problemas de
                     salud mental debido al miedo, estrés y cambios en la vida cotidiana. Por lo tanto,
                     es de gran importancia priorizar la salud mental en todos los grupos etarios y

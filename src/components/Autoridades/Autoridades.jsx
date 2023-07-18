@@ -2,7 +2,6 @@ import { motion } from "framer-motion"
 // CSS
 import "./Autoridades.css"
 // IMGs
-import placeholder from './img/Blues cover.jpg'
 import fondo from './img/fondo.svg'
 
 import Norma from "./img/Norma.png"
@@ -28,8 +27,7 @@ export default function Autoridades() {
                         Secretaria  General Primer Congreso Argentino <br /> de Salud Mental AMProS <br />
                         Lic. En Enfermería. Especialista en Pediatría. <br />
                         Pro-Secretario de Capacitación Profesional AMProS <br />
-                        Maestría en Administración en Servicios de Salud. 
-                        {/* Maestranda de la Maestría de Salud Pública y Seguridad Social */}
+                        Maestría en Administración en Servicios de Salud.
                     </p>
                 </motion.div>
                 <motion.div
@@ -67,7 +65,7 @@ export default function Autoridades() {
                     </p>
                 </motion.div>
             </div>
-            {/* <motion.div
+            <motion.div
                 className="comicion_cientifica"
                 initial={{ y: '10%' }}
                 whileInView={{ y: '0%' }}
@@ -78,50 +76,72 @@ export default function Autoridades() {
                 <div className="nombres">
 
                     <div className="pichi">
-                        <strong> B.B King </strong>
+                        <strong> Estefanía Roo </strong>
+                        APPFG
                     </div>
                     <div className="pichi">
-                        <strong> B.B King </strong>
+                        <strong> Mariela Riba </strong>
+                        SPM
                     </div>
                     <div className="pichi">
-                        <strong> B.B King </strong>
+                        <strong> María Sol Guerrero </strong>
+                        APSIM
                     </div>
                     <div className="pichi">
-                        <strong> B.B King </strong>
+                        <strong> Silvina Riera </strong>
+                        APSIM
                     </div>
                     <div className="pichi">
-                        <strong> B.B King </strong>
+                        <strong> Catalina Slukich </strong>
+                        ACEP
                     </div>
                     <div className="pichi">
-                        <strong> B.B King </strong>
+                        <strong> Alicia Lucero </strong>
+                        EOL
                     </div>
                     <div className="pichi">
-                        <strong> B.B King </strong>
+                        <strong> Carla Serna </strong>
+                        ACEP
                     </div>
                     <div className="pichi">
-                        <strong> B.B King </strong>
+                        <strong> Johana Quiroga </strong>
+                        APREM
                     </div>
                     <div className="pichi">
-                        <strong> B.B King </strong>
+                        <strong> Mónica Balada </strong>
+                        CPPM
                     </div>
                     <div className="pichi">
-                        <strong> B.B King </strong>
+                        <strong> Estela Landaburu </strong>
+                        EOL
                     </div>
                     <div className="pichi">
-                        <strong> B.B King </strong>
+                        <strong> Mercedes Tolay </strong>
+                        APREM
                     </div>
                     <div className="pichi">
-                        <strong> B.B King </strong>
+                        <strong> Malvina Acosta Bastias </strong>
+                        APREM
                     </div>
                     <div className="pichi">
-                        <strong> B.B King </strong>
+                        <strong> Marcos Burgos </strong>
+                        AASM
                     </div>
                     <div className="pichi">
-                        <strong> B.B King </strong>
+                        <strong> Diana Palma </strong>
+                        EOL
+                    </div>
+                    <div className="pichi">
+                        <strong> García Stella Maris </strong>
+                        APREM
+                    </div>
+                    <div className="pichi">
+                        <strong> Patricia Barbarán </strong>
+                        APREM
                     </div>
 
                 </div>
-            </motion.div> */}
+            </motion.div>
 
             <img src={fondo} alt="" className="fondo" />
         </section>

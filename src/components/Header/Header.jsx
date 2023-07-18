@@ -24,6 +24,7 @@ import fondo_log from "./imgs/grupo de amigos con logo.png"
 import carrucel1 from "./imgs/carrucel/placa-1.png"
 import carrucel2 from "./imgs/carrucel/placa-2.png"
 import carrucel3 from "./imgs/carrucel/placa-3.png"
+import carrucel4 from "./imgs/carrucel/placa-4.jpeg"
 
 // imagenes carrucel celular
 import main from "./imgs/carrucel/celular/main.png"
@@ -79,6 +80,7 @@ function Carrucel() {
     const [class2, setClass2] = useState("derecha");
     const [class3, setClass3] = useState("derecha");
     const [class4, setClass4] = useState("derecha");
+    const [class5, setClass5] = useState("derecha");
 
     useEffect(() => {
         if (window.innerWidth <= 500) {
@@ -92,30 +94,41 @@ function Carrucel() {
             setClass2("derecha")
             setClass3("derecha")
             setClass4("derecha")
+            setClass5("derecha")
         }
         if (Position == 1) {
             setClass1("izquierda")
             setClass2("centro")
             setClass3("derecha")
             setClass4("derecha")
+            setClass5("derecha")
         }
         if (Position == 2) {
             setClass1("izquierda")
             setClass2("izquierda")
             setClass3("centro")
             setClass4("derecha")
+            setClass5("derecha")
         }
         if (Position == 3) {
-            setClass1("derecha")
-            setClass2("derecha")
+            setClass1("izquierda")
+            setClass2("izquierda")
             setClass3("izquierda")
             setClass4("centro")
+            setClass5("derecha")
         }
-        if (Position > 3) {
+        if (Position == 4) {
+            setClass1("izquierda")
+            setClass2("izquierda")
+            setClass3("izquierda")
+            setClass4("izquierda")
+            setClass5("centro")
+        }
+        if (Position > 4) {
             setPosition(0)
         }
         if (Position < 0) {
-            setPosition(3)
+            setPosition(4)
         }
     }, [Position]);
 
@@ -123,7 +136,6 @@ function Carrucel() {
         if (!IsHovering) {
             setTimeout(() => {
                 setPosition(Position + 1)
-                console.log(Position);
             }, "60000");
         }
     });
@@ -143,6 +155,10 @@ function Carrucel() {
             </div>
             <div className={"card " + class4} id='cuatro'>
                 {Dispocitivo == "phone" ? <img src={carrucel3_cel} alt="" className='fondo_targeta_1' /> : <img src={carrucel3} alt="" className='fondo_targeta_1' />}
+            </div>
+            <div className={"card " + class5} id='cinco'>
+                <a href="" className='afiliacion'> AFILIARSE </a>
+                {Dispocitivo == "phone" ? <img src={carrucel3_cel} alt="" className='fondo_targeta_1' /> : <img src={carrucel4} alt="" className='fondo_targeta_1' />}
             </div>
             <button className='right' onClick={() => setPosition(Position + 1)}></button>
         </div>

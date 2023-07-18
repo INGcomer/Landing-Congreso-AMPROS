@@ -7,7 +7,7 @@ export default function Dias({ dia }) {
   return (
     <div className="PrimerDia">
       <div className="cronograma">
-        {actividades.map((actividad) => {
+        {actividades.map((actividad, index) => {
           return (
             <>
               {actividad.inicio == "Salones: " ? <FranjaHoraria actividad={actividad} estatus="resaltado" /> : <FranjaHoraria actividad={actividad} estatus="" />}
@@ -27,28 +27,14 @@ function FranjaHoraria({ actividad, estatus }) {
       
 
       <div className={"eventos " + estatus}>
-        {actividad.eventos.map((evento) => {
+        {actividad.eventos.map((evento, index) => {
           return (
-            <div className="evento">
+            <div key={index} className="evento">
               {evento}
             </div>
           )
         })}
       </div>
-    </div>
-  )
-}
-
-function Evento() {
-  return (
-    <div className="evento">
-      <div className="hora">
-        23:00
-      </div>
-      <div className="evento_nombre">
-
-      </div>
-
     </div>
   )
 }

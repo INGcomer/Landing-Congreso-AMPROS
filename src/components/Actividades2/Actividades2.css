@@ -1,5 +1,4 @@
 #Actividades2 {
-    /* background-color: var(--Oscuro); */
     background-color: white;
 
     height: 1300px;
@@ -16,8 +15,6 @@
 #Actividades2 h1 {
     width: 100%;
 
-    /* background-color: rgba(255, 255, 255, 0.87); */
-    /* From https://css.glass */
     background: rgba(255, 255, 255, 0.2);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -44,7 +41,6 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    /* align-content: center; */
     align-content: flex-end;
 }
 
@@ -72,13 +68,12 @@
 #Actividades2 .actividad .texto {
     width: 50%;
 
-        /* From https://css.glass */
-background: rgba(255, 255, 255, 0.2);
-border-radius: 16px;
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(5px);
--webkit-backdrop-filter: blur(5px);
-border: 1px solid rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 #Actividades2 .actividad .texto {
@@ -90,8 +85,6 @@ border: 1px solid rgba(255, 255, 255, 0.3);
 
 
 #Actividades2 .actividad .imagen {
-    /* background-color: red; */
-
     height: 200px;
     width: 200px;
 
@@ -101,7 +94,8 @@ border: 1px solid rgba(255, 255, 255, 0.3);
     align-items: center;
     justify-content: center;
 }
-#Actividades2 .actividad .imagen img{
+
+#Actividades2 .actividad .imagen img {
     height: 90%;
     width: 90%;
 }
@@ -132,10 +126,10 @@ border: 1px solid rgba(255, 255, 255, 0.3);
     #Actividades2 .fondo {
         position: relative;
         height: 1800px;
-    
+
         top: -1600px;
         left: 0px;
-    
+
         z-index: 1;
     }
 }
@@ -144,23 +138,29 @@ border: 1px solid rgba(255, 255, 255, 0.3);
     #Actividades2 {
         height: 535vh;
     }
+
     #Actividades2 .container {
         flex-direction: column;
     }
-    #Actividades2 .container .izquierda, #Actividades2 .container .derecha {
+
+    #Actividades2 .container .izquierda,
+    #Actividades2 .container .derecha {
         width: 100%;
     }
+
     #Actividades2 .actividad {
         width: 100%;
         flex-direction: column-reverse;
         align-items: center;
     }
+
     #Actividades2 .actividad .texto {
         width: 80%;
         margin: 0;
         margin-top: 20px;
         text-align: center;
     }
+
     #Actividades2 .container .derecha .actividad {
         flex-direction: column-reverse;
     }

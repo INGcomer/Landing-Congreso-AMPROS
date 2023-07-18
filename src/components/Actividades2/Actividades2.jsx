@@ -1,4 +1,3 @@
-import { motion } from "framer-motion"
 // CSS
 import "./Actividades2.css"
 //img

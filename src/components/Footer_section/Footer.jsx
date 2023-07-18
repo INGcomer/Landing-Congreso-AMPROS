@@ -20,7 +20,6 @@ export default function FooterSection() {
                             color="secondary"
                             size="large"
                             sx={{ m: 1, width: '50%' }}
-                        // endIcon={<SendIcon />}
                         >
                             INSCRIBIRSE
                         </Button>

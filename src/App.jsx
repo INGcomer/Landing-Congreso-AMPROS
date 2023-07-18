@@ -28,7 +28,7 @@ function App() {
 
       <Bienvenida/>
 
-      <Inscribirse texto="¡Sé parte del primer congreso de salud mental del AMProS!" variante="blanco"/>
+      {/* <Inscribirse texto="¡Sé parte del primer congreso de salud mental del AMProS!" variante="blanco"/> */}
 
       <Autoridades/>
 

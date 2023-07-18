@@ -5,8 +5,6 @@
     color: white;
 
     position: relative;
-    /* top: -20px; */
-    /* height: 300px; */
 
     margin-top: 0;
 
@@ -14,8 +12,6 @@
     padding-right: 100px;
     padding-bottom: 60px;
     padding-top: 30px;
-
-    /* margin-bottom: 30px; */
 }
 
 #Bienvenida h1{
@@ -38,7 +34,6 @@
     width: 300px;
 
     background-color: var(--Acento);
-    /* color: var(--Oscuro); */
     color: white;
     border-radius: 50px;
 

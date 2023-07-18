@@ -1,10 +1,5 @@
 // animaciones
 import { motion } from "framer-motion"
-
-// MUI
-import Informacion from "./menus/info.jsx"
-import CargaTrabajo from "./menus/Carga.jsx"
-import Programa from "./menus/Programa.jsx"
 // CSS
 import "./Nabvar.css"
 import "./menus/dropdowns/DropDown.css"
@@ -17,7 +12,6 @@ export default function Navbar() {
 			whileInView={{ y: '0%' }}
 			transition={{ duration: 0.3, delay: 0 }}
 		>
-			{/* <nav> */}
 			<a href="#header" className="logo_container">
 				<img src={Logo} alt="" />
 				Inicio
@@ -49,9 +43,6 @@ export default function Navbar() {
 					</div>
 				</div>
 
-
-				{/* <a href="#Tematica"> Tematica </a> */}
-				{/* <a href="#Cronograma"> Cronograma </a> */}
 				<a href="#Salon"> Ubicación  </a>
 				<a href="#Entrada"> Entrada </a>
 			</div>
@@ -59,7 +50,6 @@ export default function Navbar() {
 			<div className="CallToAccion_container">
 				<a href="https://www.withsisa.com/evento/649cf11e8bca586c548f0122" className="CallToAccion"> INSCRIBIRSE </a>
 			</div>
-			{/* </nav> */}
 		</motion.nav>
 	)
 }

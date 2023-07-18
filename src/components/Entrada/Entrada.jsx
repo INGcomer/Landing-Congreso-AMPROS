@@ -1,8 +1,6 @@
 import { motion } from "framer-motion"
 // CSS
 import "./Entrada.css"
-// IMGs
-import fondo from "./fondo_lineas.svg"
 
 export default function Entrada() {
     return (
@@ -59,7 +57,6 @@ export default function Entrada() {
                     Precio vigente hasta el 30/07.
                 </p>
             </div>
-            {/* <img src={fondo} alt="" className="fondo"/> */}
         </section>
     )
 }

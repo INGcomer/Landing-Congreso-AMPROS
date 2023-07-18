@@ -2,7 +2,6 @@ import { motion } from "framer-motion"
 // CSS
 import "./Actividades.css"
 // img
-// import Logo from "./imgs/logo congreso.svg"
 import fondo from "./imgs/fondo_lineas.svg"
 // ICONS
 import Groups2Icon from '@mui/icons-material/Groups2';
@@ -18,12 +17,12 @@ export default function Actividades() {
                     className='flag conferencias'
                     initial={{ x: '100%' }}
                     whileInView={{ x: '0%' }}
-                    transition={{ duration: 0.5}}
+                    transition={{ duration: 0.5 }}
                 >
                     <h2> Instituciones y Salud Mental </h2>
                     <p>
                         1) Escenarios Postpandémicos en las instituciones.  <br /> <br />
-                        2) Aplicación de la ley de salud mental en las instituciones de la provincia de Mendoza.  <br /><br />
+                        2) Aplicación de la Ley de Salud Mental en las instituciones de la provincia de Mendoza.  <br /><br />
                         3) Las instituciones frente a las problemáticas de la salud mental. <br /> <br />
                         4) El desafío de un sistema integrado de Salud.  <br /> <br />
                         5) Prácticas institucionales y Salud Mental.
@@ -35,7 +34,7 @@ export default function Actividades() {
                     className='flag tres_topic'
                     initial={{ x: '100%' }}
                     whileInView={{ x: '0%' }}
-                    transition={{ duration: 0.5}}
+                    transition={{ duration: 0.5 }}
 
                 >
                     <h2> Comunidad y Salud Mental </h2>
@@ -47,7 +46,7 @@ export default function Actividades() {
                         5) Abordaje poblacional en Salud Mental. <br /><br />
                         6) Nuevas Comunidades. <br /><br />
                         7) Perspectivas del consumo hoy.  <br /><br />
-                        8) Implementación de la ley de salud mental en la comunidad.
+                        8) Implementación de la Ley de Salud Mental en la comunidad.
                     </p>
                     <Groups2Icon />
                 </motion.div>
@@ -56,7 +55,7 @@ export default function Actividades() {
                     className='flag mesas'
                     initial={{ x: '100%' }}
                     whileInView={{ x: '0%' }}
-                    transition={{ duration: 0.5}}
+                    transition={{ duration: 0.5 }}
 
                 >
                     <h2> Profesionales y Salud Mental </h2>
@@ -70,7 +69,7 @@ export default function Actividades() {
                 </motion.div>
             </div>
 
-            <img src={fondo} alt="" className="fondo"/>
+            <img src={fondo} alt="" className="fondo" />
         </section>
     )
 }

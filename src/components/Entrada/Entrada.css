@@ -3,7 +3,6 @@
 
     padding-top: 100px;
 
-    /* background-color: var(--Claro); */
     background-color: var(--Oscuro);
 
     display: flex;
@@ -23,8 +22,6 @@
 
 #Entrada .entrada {
     width: 60%;
-    /* width: 1200px; */
-    /* height: 350px; */
     height: 35%;
 
     margin-bottom: 30px;
@@ -73,26 +70,29 @@
     margin-right: 20px;
 }
 
-#Entrada .entrada .texto .items li, #Entrada .info .container li  {
+#Entrada .entrada .texto .items li,
+#Entrada .info .container li {
     text-align: left;
 
     color: var(--Acento);
 }
 
-#Entrada .entrada .texto .items li span,#Entrada .info .container li span {
+#Entrada .entrada .texto .items li span,
+#Entrada .info .container li span {
     color: white;
 }
 
-#Entrada .entrada .texto ul{
+#Entrada .entrada .texto ul {
     width: 100%;
 
     text-align: center;
     font-size: 1.3rem;
 }
-#Entrada .info .container ul{
+
+#Entrada .info .container ul {
     width: 100%;
     font-size: 1.3rem;
-} 
+}
 
 #Entrada .entrada .precio {
     height: 100%;
@@ -148,7 +148,6 @@
 #Entrada .info .container {
     width: 70%;
 
-    /* From https://css.glass */
     background: rgba(255, 255, 255, 0.2);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -177,21 +176,23 @@
 }
 
 @media (max-width: 500px) {
-    #Entrada{
+    #Entrada {
         height: 100vh;
     }
+
     #Entrada .entrada {
         width: 80%;
-        /* height: 10%; */
         height: fit-content;
 
         flex-direction: column;
 
         margin-bottom: 0px;
     }
+
     #Entrada .info .container {
         width: 90%;
     }
+
     #Entrada .info .container ul {
         font-size: 1rem;
     }
