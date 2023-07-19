@@ -61,7 +61,7 @@ export default function Actividades() {
                     <h2> Profesionales y Salud Mental </h2>
                     <p>
                         1) Prácticas profesionales en el escenario postpandémico.  <br /><br />
-                        2) La formación de los profecionales en Salud Mental. Nuevos abordajes.  <br /><br />
+                        2) La formación de los profesionales en Salud Mental. Nuevos abordajes.  <br /><br />
                         3) Los equipos de Salud y políticas públicas.  <br /><br />
                         4) Profesionales de la Salud y derechos laborales.  <br /><br />
                     </p>

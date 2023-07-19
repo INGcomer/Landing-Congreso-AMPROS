@@ -47,10 +47,10 @@
                 "asociacion": ""
             },
             {
-                "nombre": "Dra. Mariana Moreno",
+                "nombre": "Mariana Moreno",
                 "cv": [
-                    "Médica psiquiatra.",
-                    "Especialista en psiquiatría infanto juvenil.",
+                    "Médica Psiquiatra.",
+                    "Especialista en Psiquiatría infanto juvenil.",
                     "Directora Nacional de Abordaje Integral de Salud Mental y Consumos Problemáticos"
                 ],
                 "cv_link": "CVs/Dra. Mariana Moreno.pdf",
@@ -58,12 +58,12 @@
                 "asociacion": "La Asociación de Psiquiatras de Mendoza (APSIM)"
             },
             {
-                "nombre": "Dra. Mónica Zac",
+                "nombre": "Mónica Zac",
                 "cv": [
                     "Médica Psiquiatra Infanto-juvenil.",
-                    "Médica psicoanalista miembro titular de APDEBA.",
+                    "Médica Psicoanalista miembro titular de APDEBA.",
                     "Psicoanalista de Niños y Adolescentes de la Asociación Psicoanalítica Internacional.",
-                    "Médica psiquiatra de Planta en el Hospital de Niños Ricardo Gutiérrez.",
+                    "Médica Psiquiatra de Planta en el Hospital de Niños Ricardo Gutiérrez.",
                     "Directora del Departamento de Niños y Adolescentes de APDEBA por adolescencia",
                     "Miembro enlace en COWAP por APDEBA.",
                     "Integrante del grupo de Investigación de sexualidad infanto - juvenil de COWAP/FEPAL.",
@@ -77,7 +77,7 @@
                 "nombre": "Silvina María Malvárez",
                 "cv": [
                     "Doctora en Ciencias de la Salud y Doctora en Ciencias.",
-                    "Magíster en salud Materno Infantil.",
+                    "Magíster en Salud Materno Infantil.",
                     "Estudió filosofía en la Universidad Nacional de Córdoba.",
                     "Consultora a corto plazo de la OPS/OMS en enfermería en Salud Mental y en desarrollo de la enfermería desde 1994 a 2002. Y fue asesora regional de enfermería de la OPS/OMS con sede en Washington DC USA, desde el año 2002 al 2013.",
                     "Gestora y coordinadora de la profesionalización de auxiliares y técnicos de enfermería en e la República Argentina.",
@@ -89,14 +89,14 @@
             },
             {
                 "nombre": "Carina Kaplan",
-                "cv": ["Doctora en Educación.  investigadora Principal de CONICET.", "Profesora titular cátedras de Sociología de la Educación en Universidad Nacional de Buenos Aires y en la Universidad Nacional de la Plata."],
+                "cv": ["Doctora en Educación.", "Investigadora Principal de CONICET.",  "Profesora titular cátedras de Sociología de la Educación en Universidad Nacional de Buenos Aires y en la Universidad Nacional de la Plata."],
                 "cv_link": "CVs/Carina Kaplan.pdf",
                 "foto": "imgs/disertantes/Carina Kaplan.jpg",
                 "asociacion": "Colegio Profesional de Psicopedagogos de Mendoza"
             },
             {
                 "nombre": "Luis Tudanca",
-                "cv": ["Analista de la Escuela de Orientación Lacaniana (EOL) y miembro de la Asociación Mundial de Psicoanálisis (AMP).", "Ex Miembro del consejo de la Asociación mundial de psicoanálisis.", "Docente de la Universidad Nacional de San Martín. Docente del Instituto clínico de Buenos Aires (ICDEBA)."],
+                "cv": ["Analista de la Escuela de Orientación Lacaniana (EOL) y miembro de la Asociación Mundial de Psicoanálisis (AMP).", "Ex Miembro del consejo de la Asociación Mundial de Psicoanálisis.", "Docente de la Universidad Nacional de San Martín. Docente del Instituto clínico de Buenos Aires (ICDEBA)."],
                 "cv_link": "CVs/Luis Tudanca.pdf",
                 "foto": "imgs/disertantes/Luis Tudanca.png",
                 "asociacion": "Delegación EOL Mendoza"
@@ -104,20 +104,20 @@
             {
                 "nombre": "Fernando Ceballos",
                 "cv": [
-                    "Enfermero profesional con Especialización en salud mental y diplomado en gestión de salud.", 
+                    "Enfermero profesional con Especialización en Salud Mental y diplomado en gestión de salud.", 
                     "Docente titular en la Escuela Superior de Enfermería de Reconquista y tutor en la Residencia Interdisciplinaria en Salud Mental Comunitaria.", 
                     "Supervisor en el Hospital Nacional en Red Laura Bonaparte.",
                     "Experiencia laboral en el Servicio de Salud Mental del Hospital Central Reconquista y coordinador del dispositivo ``Patitos en fila``.", 
                     "Autor de varios libros y participante en compilaciones.",
                     "Miembro fundador del Movimiento Argentino de Trabajadores de Enfermería (MATE) y miembro de la Agrupación Enfermería Federal.",
-                    "Pro secretario gremial de ATE Seccional Reconquista."
+                    "Prosecretario gremial de ATE Seccional Reconquista."
                 ],
                 "cv_link": "",
                 "foto": "imgs/disertantes/Fernando Ceballos.jpeg",
                 "asociacion": ""
             },
             {
-                "nombre": "Dra. Raquel Inés Bianchi",
+                "nombre": "Raquel Inés Bianchi",
                 "cv": [
                     "Médica Especialista en Psiquiatría.",
                     "Fundadora y Directora la Escuela de Psicoterapia Ontológica de Buenos Aires.",
@@ -132,7 +132,7 @@
                 "asociacion": "Asociación Argentina de Salud Mental (AASM)"
             },
             {
-                "nombre": "Prof. Lic. Matias Gutawski",
+                "nombre": "Matias Gutawski",
                 "cv": [
                     "Profesor y Licenciado en Psicología (Universidad del Salvador",
                     "Doctorando en Psicología (Universidad de Flores).",
@@ -177,8 +177,8 @@
                 "asociacion": ""
             },
             {
-                "nombre": "Lic. Susana Matus",
-                "cv": ["Lic. en Psicología UBA", "Psicoanalista vincular", "Docente de Posgrado. Miembro Titular de la AAPPG", "Ex presidente de la Institución Psicoterapéutica “Centro Oro”"],
+                "nombre": "Susana Matus",
+                "cv": ["Lic. en Psicología UBA", "Psicoanalista vincular", "Docente de Posgrado.", "Miembro Titular de la AAPPG.", "Ex presidente de la Institución Psicoterapéutica “Centro Oro”"],
                 "cv_link": "CVs/Lic. Susana Matus.pdf",
                 "foto": "imgs/disertantes/Susana Matus.jpg",
                 "asociacion": "Asociacion Psicoanalisis Pareja Familia y Grupo"

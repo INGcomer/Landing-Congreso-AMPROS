@@ -20,7 +20,7 @@ export default function Entrada() {
                     <li> <span> Cocktail de bienvenida </span> </li>
                     <li> <span> Cena de gala </span> </li>
                     <li> <span> Actividades culturales </span> </li>
-                    <li> <span> Actividades pre-congreso </span> </li>
+                    <li> <span> Actividades Pre Congreso </span> </li>
                 </ul>
                 </div>
             </div>

@@ -25,8 +25,8 @@ export default function Autoridades() {
                     <p>
                         <strong> Norma Condori </strong> <br />
                         Secretaria  General Primer Congreso Argentino <br /> de Salud Mental AMProS <br />
-                        Lic. En Enfermería. Especialista en Pediatría. <br />
-                        Pro-Secretario de Capacitación Profesional AMProS <br />
+                        Lic. en Enfermería. Especialista en Pediatría. <br />
+                        ProSecretaria de Capacitación Profesional AMProS <br />
                         Maestría en Administración en Servicios de Salud.
                     </p>
                 </motion.div>
@@ -42,7 +42,7 @@ export default function Autoridades() {
                         <strong> Pablo Melonari </strong> <br />
                         Presidente Primer Congreso Argentino <br /> de Salud Mental AMProS <br />
                         Secretario de Capacitación Profesional AMProS  <br />
-                        Médico pediatra especialista <br /> en Infectologia Pediatrica <br />
+                        Médico Pediatra especialista <br /> en Infectologia Pediatrica <br />
                         Magister en Infectologia Pediátrica
                     </p>
                 </motion.div>
@@ -71,7 +71,7 @@ export default function Autoridades() {
                 whileInView={{ y: '0%' }}
                 transition={{ duration: 0.5 }}
             >
-                <h2> Miembros de comisión científica </h2>
+                <h2> Miembros de Comisión Científica </h2>
 
                 <div className="nombres">
 

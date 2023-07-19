@@ -28,9 +28,9 @@ import carrucel4 from "./imgs/carrucel/placa-4.jpeg"
 
 // imagenes carrucel celular
 import main from "./imgs/carrucel/celular/main.png"
-import carrucel1_cel from "./imgs/carrucel/celular/PLACA 1 MOBILE.png"
-import carrucel2_cel from "./imgs/carrucel/celular/PLACA 2 MOBILE.png"
-import carrucel3_cel from "./imgs/carrucel/celular/PLACA 3 MOBILE.png"
+import carrucel1_cel from "./imgs/carrucel/celular/placa-1-mobile.png"
+import carrucel2_cel from "./imgs/carrucel/celular/placa-2-mobile.png"
+import carrucel3_cel from "./imgs/carrucel/celular/placa-3-mobile.png"
 
 
 
@@ -157,7 +157,7 @@ function Carrucel() {
                 {Dispocitivo == "phone" ? <img src={carrucel3_cel} alt="" className='fondo_targeta_1' /> : <img src={carrucel3} alt="" className='fondo_targeta_1' />}
             </div>
             <div className={"card " + class5} id='cinco'>
-                <a href="" className='afiliacion'> AFILIARSE </a>
+                <a href="PDFs/DOC-20230405-WA0036..pdf" className='afiliacion'> AFILIARSE </a>
                 {Dispocitivo == "phone" ? <img src={carrucel3_cel} alt="" className='fondo_targeta_1' /> : <img src={carrucel4} alt="" className='fondo_targeta_1' />}
             </div>
             <button className='right' onClick={() => setPosition(Position + 1)}></button>

@@ -7,7 +7,7 @@
         },
         {
             "Nombre": "Conferencias",
-            "Descripcion": "Reunimos a destacados especialestas de orden internacional de una amplia gama de temas relativos a la salud mental. Éstas proporcionan a los asistentes una vision actualizada de los avances cientificos, las últimas investigaciones y prácticas clínicas",
+            "Descripcion": "Reunimos a destacados especialestas de orden internacional de una amplia gama de temas relativos a la salud mental. Éstas proporcionan a los asistentes una visíon actualizada de los avances cientifícos, las últimas investigaciones y prácticas clínicas",
             "imagen": "imgs/Actividades/Conferencias.png"
         },
         {
@@ -28,28 +28,28 @@
     ],
     "Derecha": [
         {
-            "Nombre": "Mesa Abierta de trabajos",
+            "Nombre": "Mesa abierta de trabajos libres",
             "Descripcion": "Una sesión en la que los profesionales de la salud mental podrán presentar sus investigaciones, estudios de caso y experiencias clínicas, fomentando el intercambio de conocimientos y la discusión sobre las mejores prácticas.",
             "imagen": "imgs/Actividades/mesa abiert.png"
         },
         {
             "Nombre": "Actividades culturales",
-            "Descripcion": "Consta de una variedad de actividades artísticas y culturales. Habrá desde de exposiciónes de artistas plásticos, presentaciones de orquestas y bandas musicales.",
+            "Descripcion": "Consta de una variedad de actividades artísticas y culturales. Habrá desde exposiciones de artistas plásticos, presentaciones de orquestas y bandas musicales.",
             "imagen": "imgs/Actividades/actividades culturales.png"
         },
         {
             "Nombre": "Simposio de la industria",
-            "Descripcion": "En colaboración con empresas especializadas en salud mental, para abordar los avances tecnológicos, tratamientos farmacológicos y terapias complementarias para abordar diversas condiciones y promover la salud mental en la comunidad.",
+            "Descripcion": "En colaboración con empresas especializadas, para tratar los avances tecnológicos, tratamientos farmacológicos y terapias complementarias para tratar diversas condiciones y promover la salud mental en la comunidad.",
             "imagen": "imgs/Actividades/simposio.png"
         },
         {
             "Nombre": "Feria de empresas",
-            "Descripcion": "Permitir que las mismas exhiban sus productos farmacéuticos, tecnologías y avances en investigación ante un público comprometido. Establezca conexiones clave, interactúe con profesionales destacados y promueva su marca en el ámbito de la salud mental.",
+            "Descripcion": "Permitir que las mismas exhiban sus productos farmacéuticos, tecnologías y avances en investigación ante un público comprometido. Establecer conexiones claves, interactúar con profesionales destacados y promover su marca en el ámbito de la salud mental.",
             "imagen": "imgs/Actividades/feira de empresas.png"
         },
         {
             "Nombre": "Actividades Pre-Congreso",
-            "Descripcion": "Es un espacio académico, organizado por las asociaciones colaboradoras, antes del evento principal donde los profesionales de diversas áreas relacionadas con la salud mental pueden presentar temas en línea con los ejes temáticos del congreso.",
+            "Descripcion": "Es un espacio académico, organizado por las asociaciones colaboradoras, antes del evento principal donde los profesionales de diversas áreas pueden presentar temas en línea con los ejes temáticos del congreso.",
             "imagen": "imgs/Actividades/actividades pre congreso.png"
         }
     ]
