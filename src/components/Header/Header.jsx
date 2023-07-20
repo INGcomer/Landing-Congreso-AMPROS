@@ -148,7 +148,9 @@ function Carrucel() {
                 {Dispocitivo == "phone" ? <img src={main} alt="" className='fondo_targeta_1' /> : <img src={fondo_log} alt="" className='fondo_targeta_1' />}
             </div>
             <div className={"card " + class2} id='dos'>
-                {Dispocitivo == "phone" ? <img src={carrucel1_cel} alt="" className='fondo_targeta_1' /> : <img src={carrucel1} alt="" className='fondo_targeta_1' />}
+                <a href="PDFs/DOC-20230405-WA0036..pdf" className='afiliacion'> AFILIARSE </a>
+                {Dispocitivo == "phone" ? <img src={carrucel3_cel} alt="" className='fondo_targeta_1' /> : <img src={carrucel4} alt="" className='fondo_targeta_1' />}
+                {/* {Dispocitivo == "phone" ? <img src={carrucel1_cel} alt="" className='fondo_targeta_1' /> : <img src={carrucel1} alt="" className='fondo_targeta_1' />} */}
             </div>
             <div className={"card " + class3} id='tres'>
                 {Dispocitivo == "phone" ? <img src={carrucel2_cel} alt="" className='fondo_targeta_1' /> : <img src={carrucel2} alt="" className='fondo_targeta_1' />}
@@ -157,8 +159,9 @@ function Carrucel() {
                 {Dispocitivo == "phone" ? <img src={carrucel3_cel} alt="" className='fondo_targeta_1' /> : <img src={carrucel3} alt="" className='fondo_targeta_1' />}
             </div>
             <div className={"card " + class5} id='cinco'>
-                <a href="PDFs/DOC-20230405-WA0036..pdf" className='afiliacion'> AFILIARSE </a>
-                {Dispocitivo == "phone" ? <img src={carrucel3_cel} alt="" className='fondo_targeta_1' /> : <img src={carrucel4} alt="" className='fondo_targeta_1' />}
+                {/* <a href="PDFs/DOC-20230405-WA0036..pdf" className='afiliacion'> AFILIARSE </a>
+                {Dispocitivo == "phone" ? <img src={carrucel3_cel} alt="" className='fondo_targeta_1' /> : <img src={carrucel4} alt="" className='fondo_targeta_1' />} */}
+                {Dispocitivo == "phone" ? <img src={carrucel1_cel} alt="" className='fondo_targeta_1' /> : <img src={carrucel1} alt="" className='fondo_targeta_1' />}
             </div>
             <button className='right' onClick={() => setPosition(Position + 1)}></button>
         </div>

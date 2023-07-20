@@ -144,6 +144,8 @@
 
 #dos {
     z-index: 4;
+    flex-direction: column-reverse;
+    justify-content: center;
 }
 
 #tres {
@@ -156,26 +158,24 @@
 
 #cinco {
     z-index: 1;
-    flex-direction: column-reverse;
-    justify-content: center;
 }
 
-#cinco.derecha img {
+#dos.derecha img {
     height: 100%;
     width: 700px;
 }
 
-#cinco.derecha .afiliacion {
+#dos.derecha .afiliacion {
     display: none !important;
 }
 
-#cinco.centro .afiliacion {
+#dos.centro .afiliacion {
     display: flex;
 
     z-index: 99;
 }
 
-#cinco.izquierda .afiliacion {
+#dos.izquierda .afiliacion {
     display: none !important;
 }
 

@@ -34,7 +34,7 @@ export default function Entrada() {
                     <h2> Entrada general </h2>
                 </div>
                 <div className="precio">
-                    <h3> $30.000 </h3>
+                    <h3> $32.000 </h3>
                 </div>
             </motion.div>
 
@@ -48,7 +48,7 @@ export default function Entrada() {
                     <h2> Entrada general afiliados </h2>
                 </div>
                 <div className="precio">
-                    <h3> $15.000 </h3>
+                    <h3> $22.400 </h3>
                 </div>               
             </motion.div>
 
