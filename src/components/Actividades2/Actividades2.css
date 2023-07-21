@@ -136,7 +136,11 @@
 
 @media (max-width: 500px) {
     #Actividades2 {
-        height: 535vh;
+        /* height: 535vh; */
+        height: fit-content;
+    }
+    #Actividades2 .fondo {
+        display: none;
     }
 
     #Actividades2 .container {

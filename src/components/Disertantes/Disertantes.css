@@ -222,7 +222,8 @@
 
 @media (max-width: 500px) {
     #disertantes {
-        height: 1014vh;
+        /* height: 1014vh; */
+        height: fit-content;
     }
     
     #disertantes .disertante {
@@ -247,6 +248,8 @@
         left: -40%;
 
         transform: rotate(68deg);
+
+        display: none;
     }
 
 }

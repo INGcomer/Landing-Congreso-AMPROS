@@ -180,7 +180,8 @@
 
 @media (max-width: 500px) {
     #Autoridades {
-        height: 325vh;
+        /* height: 325vh; */
+        height: fit-content;
     }
 
     #Autoridades .fondo {

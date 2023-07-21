@@ -21,16 +21,21 @@ import Fondo_card_1 from "./imgs/pexels-1.png"
 import fondo_log from "./imgs/grupo de amigos con logo.png"
 
 // imagenes carrucel
-import carrucel1 from "./imgs/carrucel/placa-1.png"
-import carrucel2 from "./imgs/carrucel/placa-2.png"
-import carrucel3 from "./imgs/carrucel/placa-3.png"
-import carrucel4 from "./imgs/carrucel/placa-4.jpeg"
+import beneficios from "./imgs/carrucel/beneficios-afiliado-desktop.png"
+import carrucel1 from "./imgs/carrucel/placa-1-desktop.png"
+import carrucel2 from "./imgs/carrucel/placa-2-desktop.png"
+import carrucel3 from "./imgs/carrucel/placa-3-desktop.png"
+import carrucel4 from "./imgs/carrucel/placa-4-desktop.png"
+import carrucel5 from "./imgs/carrucel/placa-5-desktop.png"
 
 // imagenes carrucel celular
 import main from "./imgs/carrucel/celular/main.png"
+import benficios_mobile from "./imgs/carrucel/celular/beneficios-afiliado-mobile.png"
 import carrucel1_cel from "./imgs/carrucel/celular/placa-1-mobile.png"
 import carrucel2_cel from "./imgs/carrucel/celular/placa-2-mobile.png"
 import carrucel3_cel from "./imgs/carrucel/celular/placa-3-mobile.png"
+import carrucel4_cel from "./imgs/carrucel/celular/placa-4-mobile.png"
+import carrucel5_cel from "./imgs/carrucel/celular/placa-5-mobile.png"
 
 
 
@@ -81,6 +86,8 @@ function Carrucel() {
     const [class3, setClass3] = useState("derecha");
     const [class4, setClass4] = useState("derecha");
     const [class5, setClass5] = useState("derecha");
+    const [class6, setClass6] = useState("derecha");
+    const [class7, setClass7] = useState("derecha");
 
     useEffect(() => {
         if (window.innerWidth <= 500) {
@@ -95,6 +102,8 @@ function Carrucel() {
             setClass3("derecha")
             setClass4("derecha")
             setClass5("derecha")
+            setClass6("derecha")
+            setClass7("derecha")
         }
         if (Position == 1) {
             setClass1("izquierda")
@@ -102,6 +111,8 @@ function Carrucel() {
             setClass3("derecha")
             setClass4("derecha")
             setClass5("derecha")
+            setClass6("derecha")
+            setClass7("derecha")
         }
         if (Position == 2) {
             setClass1("izquierda")
@@ -109,6 +120,8 @@ function Carrucel() {
             setClass3("centro")
             setClass4("derecha")
             setClass5("derecha")
+            setClass6("derecha")
+            setClass7("derecha")
         }
         if (Position == 3) {
             setClass1("izquierda")
@@ -116,6 +129,8 @@ function Carrucel() {
             setClass3("izquierda")
             setClass4("centro")
             setClass5("derecha")
+            setClass6("derecha")
+            setClass7("derecha")
         }
         if (Position == 4) {
             setClass1("izquierda")
@@ -123,22 +138,42 @@ function Carrucel() {
             setClass3("izquierda")
             setClass4("izquierda")
             setClass5("centro")
+            setClass6("derecha")
+            setClass7("derecha")
         }
-        if (Position > 4) {
+        if (Position == 5) {
+            setClass1("izquierda")
+            setClass2("izquierda")
+            setClass3("izquierda")
+            setClass4("izquierda")
+            setClass5("izquierda")
+            setClass6("centro")
+            setClass7("derecha")
+        }
+        if (Position == 6) {
+            setClass1("izquierda")
+            setClass2("izquierda")
+            setClass3("izquierda")
+            setClass4("izquierda")
+            setClass5("izquierda")
+            setClass6("izquierda")
+            setClass7("centro")
+        }
+        if (Position > 6) {
             setPosition(0)
         }
         if (Position < 0) {
-            setPosition(4)
+            setPosition(6)
         }
     }, [Position]);
 
-    useEffect(() => {
-        if (!IsHovering) {
-            setTimeout(() => {
-                setPosition(Position + 1)
-            }, "60000");
-        }
-    });
+    // useEffect(() => {
+    //     if (!IsHovering) {
+    //         setTimeout(() => {
+    //             setPosition(Position + 1)
+    //         }, "60000");
+    //     }
+    // });
 
 
     return (
@@ -149,19 +184,23 @@ function Carrucel() {
             </div>
             <div className={"card " + class2} id='dos'>
                 <a href="PDFs/DOC-20230405-WA0036..pdf" className='afiliacion'> AFILIARSE </a>
-                {Dispocitivo == "phone" ? <img src={carrucel3_cel} alt="" className='fondo_targeta_1' /> : <img src={carrucel4} alt="" className='fondo_targeta_1' />}
+                {Dispocitivo == "phone" ? <img src={benficios_mobile} alt="" className='fondo_targeta_1' /> : <img src={beneficios} alt="" className='fondo_targeta_1' />}
                 {/* {Dispocitivo == "phone" ? <img src={carrucel1_cel} alt="" className='fondo_targeta_1' /> : <img src={carrucel1} alt="" className='fondo_targeta_1' />} */}
             </div>
             <div className={"card " + class3} id='tres'>
-                {Dispocitivo == "phone" ? <img src={carrucel2_cel} alt="" className='fondo_targeta_1' /> : <img src={carrucel2} alt="" className='fondo_targeta_1' />}
+                {Dispocitivo == "phone" ? <img src={carrucel1_cel} alt="" className='fondo_targeta_1' /> : <img src={carrucel1} alt="" className='fondo_targeta_1' />}
             </div>
             <div className={"card " + class4} id='cuatro'>
-                {Dispocitivo == "phone" ? <img src={carrucel3_cel} alt="" className='fondo_targeta_1' /> : <img src={carrucel3} alt="" className='fondo_targeta_1' />}
+                {Dispocitivo == "phone" ? <img src={carrucel2_cel} alt="" className='fondo_targeta_1' /> : <img src={carrucel2} alt="" className='fondo_targeta_1' />}
             </div>
             <div className={"card " + class5} id='cinco'>
-                {/* <a href="PDFs/DOC-20230405-WA0036..pdf" className='afiliacion'> AFILIARSE </a>
-                {Dispocitivo == "phone" ? <img src={carrucel3_cel} alt="" className='fondo_targeta_1' /> : <img src={carrucel4} alt="" className='fondo_targeta_1' />} */}
-                {Dispocitivo == "phone" ? <img src={carrucel1_cel} alt="" className='fondo_targeta_1' /> : <img src={carrucel1} alt="" className='fondo_targeta_1' />}
+                {Dispocitivo == "phone" ? <img src={carrucel3_cel} alt="" className='fondo_targeta_1' /> : <img src={carrucel3} alt="" className='fondo_targeta_1' />}
+            </div>
+            <div className={"card " + class6} id='seis'>
+                {Dispocitivo == "phone" ? <img src={carrucel4_cel} alt="" className='fondo_targeta_1' /> : <img src={carrucel4} alt="" className='fondo_targeta_1' />}
+            </div>
+            <div className={"card " + class7} id='siete'>
+                {Dispocitivo == "phone" ? <img src={carrucel5_cel} alt="" className='fondo_targeta_1' /> : <img src={carrucel5} alt="" className='fondo_targeta_1' />}
             </div>
             <button className='right' onClick={() => setPosition(Position + 1)}></button>
         </div>
