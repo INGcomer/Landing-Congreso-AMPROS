@@ -48,7 +48,7 @@ export default function Navbar() {
 			</div>
 
 			<div className="CallToAccion_container">
-				<a href="https://www.withsisa.com/evento/649cf11e8bca586c548f0122" className="CallToAccion"> INSCRIBIRSE </a>
+				<a href="https://www.withsisa.com/evento/64b9d49f6e8dadd7bc466198" className="CallToAccion"> INSCRIBIRSE </a>
 			</div>
 		</motion.nav>
 	)

@@ -178,7 +178,15 @@
             },
             {
                 "nombre": "Susana Matus",
-                "cv": ["Lic. en Psicología UBA", "Psicoanalista vincular", "Docente de Posgrado.", "Miembro Titular de la AAPPG.", "Ex presidente de la Institución Psicoterapéutica “Centro Oro”"],
+                "cv": [
+                    "Lic. en Psicología UBA", 
+                    "Psicoanalista vincular", 
+                    "Docente de Posgrado.", 
+                    "Miembro Titular de la AAPPG.", 
+                    "Ex presidente de la Institución Psicoterapéutica “Centro Oro”",
+                    "Autora de numerosas publicaciones sobre Familia y Pareja",
+                    "Co-autora de los libros: Entre hermanos. Sentidos y efectos del vinculo fraterno. Alianzas entre pares.Fraternidades,colectivos abiertos,tramas sociales"
+                ],
                 "cv_link": "CVs/Lic. Susana Matus.pdf",
                 "foto": "imgs/disertantes/Susana Matus.jpg",
                 "asociacion": "Asociacion Psicoanalisis Pareja Familia y Grupo"
