@@ -282,7 +282,7 @@
     }
 
     #header .content .card .afiliacion {
-        bottom: 34%;
+        bottom: 16%;
     }
     #dos img {
         position: relative;
@@ -307,6 +307,12 @@
         height: 200px;
 
         margin-bottom: 0%;
+    }
+}
+@media (max-width: 1200px) {
+    #header .content .card .afiliacion {
+        bottom: 12%;
+        height: 35px;
     }
 }
 
@@ -380,7 +386,7 @@
         margin-right: 5px;
     }
     #header .content .card .afiliacion {
-        bottom: 7%;
+        bottom: 16%;
         left: 0%;
     }
     #header .content .card a {
