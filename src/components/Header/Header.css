@@ -406,3 +406,21 @@
         height: 100%;
     }
 }
+
+
+@media (max-width: 400px) {
+    #header .fondo{
+        display: none;
+    }
+    #header .logos_container .ampros img {
+        height: 80%;
+        width: auto;
+
+        position: relative;
+
+        z-index: 10;
+    }
+    #header .logos_container .logos {
+        flex-wrap: wrap;
+    }
+}
