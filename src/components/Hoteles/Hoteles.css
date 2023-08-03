@@ -75,7 +75,7 @@
     background: #F8F8F8;
 }
 
-.title {
+.fl-table .title {
     /* color: var(--Acento) !important; */
     color: var(--Oscuro) !important;
     /* background: var(--Oscuro) !important; */
