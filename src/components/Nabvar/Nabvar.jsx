@@ -44,6 +44,7 @@ export default function Navbar() {
 				</div>
 
 				<a href="#Salon"> Ubicación  </a>
+				<a href="#Hoteles"> Hoteles  </a>
 				<a href="#Entrada"> Entrada </a>
 			</div>
 

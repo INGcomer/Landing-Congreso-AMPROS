@@ -14,6 +14,7 @@ import Disertantes from './components/Disertantes/Disertantes';
 import Inscribirse from './components/Inscribirse/Inscribirse';
 import Actividades2 from './components/Actividades2/Actividades2';
 import Bienvenida from './components/PalabrasBienvenida/PalabrasBienvenida';
+import Hoteles from './components/Hoteles/Hoteles';
 // Analytics
 // import ReactGA from 'react-ga';
 // ReactGA.initialize('UA-000000-01');
@@ -47,6 +48,8 @@ function App() {
       <Inscribirse texto="¡No te quedes sin entrada!" variante="oscuro"/>
 
       <Salon/> 
+
+      <Hoteles/>
 
       <Entrada/>   
 
