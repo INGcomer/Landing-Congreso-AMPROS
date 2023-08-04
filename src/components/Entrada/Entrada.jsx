@@ -24,7 +24,55 @@ export default function Entrada() {
                 </ul>
                 </div>
             </div>
-            <motion.div
+
+
+            <div className="NuevasEntradas">
+                <div className="container">
+                <div className="fila">
+                    <div className="nombre destacado">
+                        Entrada General
+                    </div>
+                    <div className="precio">
+                        $32.000
+                    </div>
+                </div>
+                <div className="fila">
+                <div className="nombre">
+                        Afiliado AMProS
+                    </div>
+                    <div className="precio">
+                        $22.400
+                    </div>
+                </div>
+                <div className="fila">
+                <div className="nombre">
+                        Asociaciones
+                    </div>
+                    <div className="precio">
+                        $27.200
+                    </div>
+                </div>
+                <div className="fila">
+                <div className="nombre">
+                        Afiliado <br />
+                        <small> AMProS + Asociación </small>
+                    </div>
+                    <div className="precio">
+                        $18.900
+                    </div>
+                </div>
+                <div className="fila">
+                <div className="nombre">
+                        <small> Residentes de especialidades asociadas a salud mental </small>
+                    </div>
+                    <div className="precio">
+                        $16.000
+                    </div>
+                </div>
+                </div>
+            </div>
+
+            {/* <motion.div
                 className="entrada izquierda"
                 initial={{ x: '-100%' }}
                 whileInView={{ x: '0%' }}
@@ -50,13 +98,13 @@ export default function Entrada() {
                 <div className="precio">
                     <h3> $22.400 </h3>
                 </div>               
-            </motion.div>
+            </motion.div> */}
 
-            <div className="aclaraciones">
+            {/* <div className="aclaraciones">
                 <p>
                     Precio vigente hasta el 30/07.
                 </p>
-            </div>
+            </div> */}
         </section>
     )
 }

@@ -139,6 +139,10 @@ export default function Autoridades() {
                         <strong> Patricia Barbarán </strong>
                         APREM
                     </div>
+                    <div className="pichi">
+                        <strong> Carla Colombo </strong>
+                        APPFG
+                    </div>
 
                 </div>
             </motion.div>
