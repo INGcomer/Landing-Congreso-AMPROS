@@ -147,7 +147,74 @@ export default function Autoridades() {
                 </div>
             </motion.div>
 
-            <img src={fondo} alt="" className="fondo" />
+            <motion.div
+                className="comicion_cientifica"
+                initial={{ y: '10%' }}
+                whileInView={{ y: '0%' }}
+                transition={{ duration: 0.5 }}
+            >
+                <h2> Miembros de Comité Organizador </h2>
+
+                <div className="nombres">
+
+                    <div className="pichi">
+                        <strong> Josefina Silvano </strong>
+                        APPFG
+                    </div>
+                    <div className="pichi">
+                        <strong> Yolanda Pozzo </strong>
+                        APREM
+                    </div>
+                    <div className="pichi">
+                        <strong> Luciana Lucero </strong>
+                        SPM
+                    </div>
+                    <div className="pichi">
+                        <strong> Silvio Jara </strong>
+                        AMProS
+                    </div>
+                    <div className="pichi">
+                        <strong> Valentina Gattas </strong>
+                        AMProS
+                    </div>
+                    <div className="pichi">
+                        <strong> Claudia Iturbe </strong>
+                        AMProS
+                    </div>
+                    <div className="pichi">
+                        <strong> Leonardo Sturniolo </strong>
+                        AMProS
+                    </div>
+                    <div className="pichi">
+                        <strong> Maria Valentina Vida </strong>
+                        AMProS
+                    </div>
+                    <div className="pichi">
+                        <strong> Tomas Horacio Garignani Colombi </strong>
+                        INGcome
+                    </div>
+                    <div className="pichi">
+                        <strong> Lucas O'Donnell Riba </strong>
+                        INGcome
+                    </div>
+                    <div className="pichi">
+                        <strong> Alexis Antonio Parada Beltran </strong>
+                        INGcome
+                    </div>
+                    <div className="pichi">
+                        <strong> Santiago Russó </strong>
+                        INGcome
+                    </div>
+                    <div className="pichi">
+                        <strong> Augusto Nevio Antonelli Pol </strong>
+                        INGcome
+                    </div>
+                    
+
+                </div>
+            </motion.div>
+
+            {/* <img src={fondo} alt="" className="fondo" /> */}
         </section>
     );
 }

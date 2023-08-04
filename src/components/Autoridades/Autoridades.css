@@ -1,7 +1,7 @@
 #Autoridades {
     position: relative;
 
-    height: 130vh;
+    /* height: 130vh; */
 
     background-color: var(--Claro);
 
@@ -149,16 +149,16 @@
 }
 
 @media (max-width: 1600px) {
-    #Autoridades {
+    /* #Autoridades {
         height: 140vh;
-    }
+    } */
 }
 
 
 @media (max-width: 1400px) {
-    #Autoridades {
+    /* #Autoridades {
         height: 200vh;
-    }
+    } */
 
     #Autoridades .fondo {
         position: relative;
