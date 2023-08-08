@@ -139,51 +139,54 @@
 }
 
 #uno {
-    z-index: 7;
+    z-index: 8;
 }
 
 #dos {
+    z-index: 7;
+}
+
+#tres {
     z-index: 6;
     flex-direction: column-reverse;
     justify-content: center;
 }
 
-#tres {
+#cuatro {
     z-index: 5;
 }
 
-#cuatro {
+#cinco {
     z-index: 4;
 }
 
-#cinco {
+#seis{
     z-index: 3;
 }
 
-#seis{
+#siete{
     z-index: 2;
 }
-
-#siete{
+#ocho{
     z-index: 1;
 }
 
-#dos.derecha img {
+#tres.derecha img {
     height: 100%;
     width: 700px;
 }
 
-#dos.derecha .afiliacion {
+#tres.derecha .afiliacion {
     display: none !important;
 }
 
-#dos.centro .afiliacion {
+#tres.centro .afiliacion {
     display: flex;
 
     z-index: 99;
 }
 
-#dos.izquierda .afiliacion {
+#tres.izquierda .afiliacion {
     display: none !important;
 }
 
@@ -213,6 +216,9 @@
 
 #siete.izquierda{
     z-index: 7;
+}
+#ocho.izquierda{
+    z-index: 8;
 }
 
 #header .content .card.centro img {
