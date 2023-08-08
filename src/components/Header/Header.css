@@ -278,7 +278,7 @@
         height: 30%;
         width: 60%;
     }
-    #header .content #dos.izquierda {
+    #header .content #tres.izquierda {
         height: 30%;
         width: 49%;
     }
@@ -288,9 +288,9 @@
     }
 
     #header .content .card .afiliacion {
-        bottom: 16%;
+        bottom: 27%;
     }
-    #dos img {
+    #tres img {
         position: relative;
         top: 10%;
     }
@@ -401,11 +401,11 @@
         background-color: transparent;
         color: transparent;
     }
-    #header .content #dos.izquierda {
+    #header .content #tres.izquierda {
         height: 50%;
         width: 49%;
     }
-    #dos img {
+    #tres img {
         position: relative;
         top: 0%;
 

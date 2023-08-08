@@ -12,7 +12,9 @@ export default function Disertantes() {
 
             {JSON.map((evento, index) => <Evento key={index} tipo={evento.tipo} items={evento.items} />)}
 
-            <img src={fondo} alt="" className="fondo" />
+            {/* <img src={fondo} alt="" className="fondo" /> */}
+            <img src={fondo} alt="" className="newfondo" />
+            <img src={fondo} alt="" className="newfondo2" />
         </section>
     )
 }
