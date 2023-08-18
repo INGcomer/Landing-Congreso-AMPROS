@@ -1,6 +1,8 @@
 import { motion } from "framer-motion"
 // CSS
 import "./Entrada.css"
+// img
+import cocter from "./coctel blanco.png"
 
 export default function Entrada() {
     return (
@@ -17,7 +19,10 @@ export default function Entrada() {
                     </ul>
                     <ul>
                         <li> <span> Coffees break </span> </li>
-                        <li> <span> Cocktail de bienvenida </span> </li>
+                        <li> 
+                            {/* <img src={cocter} alt="" /> */}
+                            <span> Cocktail de bienvenida </span> 
+                        </li>
                         <li> <span> Cena de gala </span> </li>
                         <li> <span> Actividades culturales </span> </li>
                         <li> <span> Actividades Pre Congreso </span> </li>
@@ -31,6 +36,11 @@ export default function Entrada() {
                     <div className="fila">
                         <div className="nombre destacado">
                             Entrada General
+                        </div>
+                    </div>
+                    <div className="fila">
+                        <div className="nombre ">
+                            Precio Base
                         </div>
                         <div className="precio">
                             $32.000
@@ -61,12 +71,45 @@ export default function Entrada() {
                             $18.900
                         </div>
                     </div>
+                </div>
+
+                <div className="container">
+                    <div className="fila">
+                        <div className="nombre destacado">
+                            Entrada Basica
+                        </div>
+                    </div>
                     <div className="fila">
                         <div className="nombre">
-                            <small> Residentes de especialidades asociadas a salud mental </small>
+                            Precio Base
                         </div>
                         <div className="precio">
-                            $16.000
+                            $18.000
+                        </div>
+                    </div>
+                    <div className="fila">
+                        <div className="nombre">
+                            Afiliado AMProS
+                        </div>
+                        <div className="precio">
+                            $14.000
+                        </div>
+                    </div>
+                    <div className="fila">
+                        <div className="nombre">
+                            Asociaciones
+                        </div>
+                        <div className="precio">
+                            $15.300
+                        </div>
+                    </div>
+                    <div className="fila">
+                        <div className="nombre">
+                            Afiliado <br />
+                            <small> AMProS + Asociación </small>
+                        </div>
+                        <div className="precio">
+                            $10.000
                         </div>
                     </div>
                     <div className="fila">
@@ -79,40 +122,6 @@ export default function Entrada() {
                     </div>
                 </div>
             </div>
-
-            {/* <motion.div
-                className="entrada izquierda"
-                initial={{ x: '-100%' }}
-                whileInView={{ x: '0%' }}
-                transition={{ duration: 0.5 }}
-            >
-                <div className="texto">
-                    <h2> Entrada general </h2>
-                </div>
-                <div className="precio">
-                    <h3> $32.000 </h3>
-                </div>
-            </motion.div>
-
-            <motion.div
-                className="entrada derecha"
-                initial={{ x: '100%' }}
-                whileInView={{ x: '0%' }}
-                transition={{ duration: 0.5 }}
-            >
-                <div className="texto">
-                    <h2> Entrada general afiliados </h2>
-                </div>
-                <div className="precio">
-                    <h3> $22.400 </h3>
-                </div>               
-            </motion.div> */}
-
-            {/* <div className="aclaraciones">
-                <p>
-                    Precio vigente hasta el 30/07.
-                </p>
-            </div> */}
         </section>
     )
 }

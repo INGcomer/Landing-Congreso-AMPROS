@@ -94,6 +94,11 @@
     font-size: 1.3rem;
 }
 
+#Entrada .info .container img {
+    height: 50px;
+    width: 50px;
+}
+
 #Entrada .entrada .precio {
     height: 100%;
     width: 30%;
@@ -163,17 +168,19 @@
     width: 100%;
 
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
+    align-items: flex-start;
 }
-#Entrada .NuevasEntradas .container{
+
+#Entrada .NuevasEntradas .container {
     width: 80%;
 
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-#Entrada .NuevasEntradas .container .fila{
+
+#Entrada .NuevasEntradas .container .fila {
     width: 100%;
 
     margin-bottom: 30px;
@@ -181,7 +188,9 @@
     display: flex;
     justify-content: space-evenly;
 }
-#Entrada .NuevasEntradas .container .fila .nombre, #Entrada .NuevasEntradas .container .fila .precio{
+
+#Entrada .NuevasEntradas .container .fila .nombre,
+#Entrada .NuevasEntradas .container .fila .precio {
     color: black;
 
     font-weight: bold;
@@ -200,18 +209,23 @@
     align-items: center;
     flex-direction: column;
 }
-#Entrada .NuevasEntradas .container .fila .nombre small, #Entrada .NuevasEntradas .container .fila .precio small{
+
+#Entrada .NuevasEntradas .container .fila .nombre small,
+#Entrada .NuevasEntradas .container .fila .precio small {
     font-size: 0.8rem;
 }
-#Entrada .NuevasEntradas .container .fila .nombre{
+
+#Entrada .NuevasEntradas .container .fila .nombre {
     background-color: var(--Claro);
 
     width: 200px;
 }
-#Entrada .NuevasEntradas .container .fila .nombre.destacado{
+
+#Entrada .NuevasEntradas .container .fila .nombre.destacado {
     background-color: var(--Intermedio_1);
 }
-#Entrada .NuevasEntradas .container .fila .precio{
+
+#Entrada .NuevasEntradas .container .fila .precio {
     background-color: var(--Acento);
 
     width: 100px;
