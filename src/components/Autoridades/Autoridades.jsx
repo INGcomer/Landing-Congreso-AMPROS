@@ -182,7 +182,7 @@ export default function Autoridades() {
                         AMProS
                     </div>
                     <div className="pichi">
-                        <strong> Leonardo Sturniolo </strong>
+                        <strong> Leandro Sturniolo </strong>
                         AMProS
                     </div>
                     <div className="pichi">

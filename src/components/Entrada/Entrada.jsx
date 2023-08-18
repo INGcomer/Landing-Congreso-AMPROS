@@ -2,7 +2,7 @@ import { motion } from "framer-motion"
 // CSS
 import "./Entrada.css"
 // img
-import cocter from "./coctel blanco.png"
+// import cocter from "./coctel blanco.png"
 
 export default function Entrada() {
     return (
