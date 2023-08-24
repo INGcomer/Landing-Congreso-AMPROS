@@ -143,6 +143,10 @@ export default function Autoridades() {
                         <strong> Carla Colombo </strong>
                         APPFG
                     </div>
+                    <div className="pichi">
+                        <strong> Gustavo Reig </strong>
+                        SPM
+                    </div>
 
                 </div>
             </motion.div>
@@ -167,6 +171,10 @@ export default function Autoridades() {
                     </div>
                     <div className="pichi">
                         <strong> Luciana Lucero </strong>
+                        SPM
+                    </div>
+                    <div className="pichi">
+                        <strong> Laura Prato </strong>
                         SPM
                     </div>
                     <div className="pichi">

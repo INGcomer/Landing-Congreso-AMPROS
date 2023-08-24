@@ -249,7 +249,8 @@
 
 @media (max-width: 500px) {
     #Entrada {
-        height: 100vh;
+        /* height: 100vh; */
+        height: fit-content;
     }
 
     #Entrada .entrada {
@@ -302,5 +303,16 @@
 
     #Entrada .entrada .texto li {
         margin-bottom: 5px;
+    }
+
+    #Entrada .NuevasEntradas {
+        width: 100%;
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #Entrada .NuevasEntradas .container{
+        margin-bottom: 50px;
     }
 }
