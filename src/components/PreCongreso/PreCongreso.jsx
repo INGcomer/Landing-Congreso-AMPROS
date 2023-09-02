@@ -29,7 +29,7 @@ export default function PreCongreso() {
                     href="https://forms.gle/PNMioAsMywG6Ab3g8"
                     whileHover={{ scale: 1.05 }}
                 >
-                    Conversaciones con Carina Kaplan: Salud Mental y Espiritualidad
+                    Conversaciones con Carina Kaplan. La salud mental: Afectividad y Educación
                 </motion.a>
             </div>
         </div>

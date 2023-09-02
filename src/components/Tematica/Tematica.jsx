@@ -13,7 +13,7 @@ export default function Tematica() {
                     salud mental debido al miedo, estrés y cambios en la vida cotidiana. Por lo tanto,
                     es de gran importancia priorizar la salud mental en todos los grupos etarios y
                     promover una cultura de cuidado de los profesionales de la salud. Producto de esto,
-                    nace el <b>Primer Congreso Nacional Interdiciplinario de Salud Mental.</b> Se trata de
+                    nace el <b>Primer Congreso Nacional Interdisciplinario de Salud Mental.</b> Se trata de
                     un congreso que congrega a mas de <b>600 profesionales de la Salud de diferentes partes
                     del país.</b>
                 </p>
