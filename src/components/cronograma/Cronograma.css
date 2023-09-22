@@ -81,12 +81,23 @@
     justify-content: space-evenly;
 
     margin-bottom: 30px;
-    font-size: 1.5rem;
+    /* font-size: 1.5rem; */
+
+    font-size: smaller !important;
+    text-align: center;
+}
+
+.franja_horaria .eventos .evento {
+    padding: 30px;
 }
 
 .franja_horaria .hora,
 .franja_horaria .eventos .evento {
-    height: 45px;
+    /* height: 45px; */
+    height: fit-content;
+
+    padding-top: 15px;
+    padding-bottom: 15px;
 
     border-radius: 50px;
     border-style: solid;

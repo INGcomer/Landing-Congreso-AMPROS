@@ -2,37 +2,88 @@
     [
         {
             "inicio": "09:00",
-            "fin": "12:30",
+            "fin": "10:00",
             "eventos": [
-                "Pre-congreso"
+                "Encuentro de la Red Argentina de Enfermería en Salud Mental"
             ]
         },
         {
-            "inicio": "12:30",
-            "fin": "14:30",
+            "inicio": "10:00",
+            "fin": "10:30",
             "eventos": [
-                "Almuerzo"
+                "Encuentro de la Red Argentina de Enfermería en Salud Mental"
             ]
         },
         {
-            "inicio": "14:30",
+            "inicio": "10:30",
+            "fin": "11:00",
+            "eventos": [
+                "Encuentro de la Red Argentina de Enfermería en Salud Mental", 
+                "Encuentro Argentino de Salud Mental y Espiritualidad"
+            ]
+        },
+        {
+            "inicio": "11:00",
+            "fin": "11:30",
+            "eventos": [
+                "Encuentro de la Red Argentina de Enfermería en Salud Mental", 
+                "Encuentro Argentino de Salud Mental y Espiritualidad",
+                "Conversaciones con Carina Kaplan. La Salud Mental: Afectividad y Educación"
+            ]
+        },
+        {
+            "inicio": "11:30",
+            "fin": "12:00",
+            "eventos": [
+                "Encuentro de la Red Argentina de Enfermería en Salud Mental", 
+                "Encuentro Provincial Interdisciplinario de Residentes en Salud Mental", 
+                "Encuentro Argentino de Salud Mental y Espiritualidad",
+                "Conversaciones con Carina Kaplan. La Salud Mental: Afectividad y Educación"
+            ]
+        },
+        {
+            "inicio": "12:00",
+            "fin": "13:00",
+            "eventos": [
+                "Encuentro de la Red Argentina de Enfermería en Salud Mental", 
+                "Encuentro Provincial Interdisciplinario de Residentes en Salud Mental",
+                "Encuentro Argentino de Salud Mental y Espiritualidad",
+                "Conversaciones con Carina Kaplan. La Salud Mental: Afectividad y Educación"
+            ]
+        },
+        {
+            "inicio": "13:00",
+            "fin": "14:00",
+            "eventos": [
+                "Encuentro de la Red Argentina de Enfermería en Salud Mental", "Encuentro Provincial Interdisciplinario de Residentes en Salud Mental"
+            ]
+        },
+        {
+            "inicio": "14:00",
+            "fin": "15:00",
+            "eventos": [
+                "Encuentro de la Red Argentina de Enfermería en Salud Mental"
+            ]
+        },
+        {
+            "inicio": "15:00",
+            "fin": "16:00",
+            "eventos": [
+                "Encuentro de la Red Argentina de Enfermería en Salud Mental"
+            ]
+        },
+        {
+            "inicio": "17:00",
             "fin": "18:00",
             "eventos": [
-                "Feria de empresas", "Acreditaciones", "Coffee break"
+                "Encuentro de la Red Argentina de Enfermería en Salud Mental"
             ]
         },
         {
             "inicio": "18:00",
-            "fin": "19:30",
+            "fin": "19:00",
             "eventos": [
                 "Acto de Apertura"
-            ]
-        },
-        {
-            "inicio": "19:30",
-            "fin": "23:00",
-            "eventos": [
-                "Cóctel de Bienvenida"
             ]
         }
     ],

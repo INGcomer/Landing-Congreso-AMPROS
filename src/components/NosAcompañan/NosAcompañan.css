@@ -1,0 +1,30 @@
+#NosAcompañan{
+    height: 300px;
+
+    padding-top: 50px;
+
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#NosAcompañan h2{ 
+    width: 80%;
+
+    font-size: 2rem;
+
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+#NosAcompañan div{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#NosAcompañan img {
+    height: 100px;
+    width: auto;
+}

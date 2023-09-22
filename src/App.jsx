@@ -16,6 +16,8 @@ import Actividades2 from './components/Actividades2/Actividades2';
 import Bienvenida from './components/PalabrasBienvenida/PalabrasBienvenida';
 import Hoteles from './components/Hoteles/Hoteles';
 import PreCongreso from './components/PreCongreso/PreCongreso';
+import Simpocio from './components/Simpocio/Simpocio';
+import NosAcompañan from './components/NosAcompañan/NosAcompañan';
 // Analytics
 // import ReactGA from 'react-ga';
 // ReactGA.initialize('UA-000000-01');
@@ -45,6 +47,10 @@ function App() {
       <Actividades/>  
 
       <Actividades2/>
+
+      <NosAcompañan/>
+
+      <Simpocio/>
 
       <Inscribirse texto="¡No te quedes sin entrada!" variante="oscuro"/>
 
