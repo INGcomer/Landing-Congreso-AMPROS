@@ -1,5 +1,5 @@
 #NosAcompañan{
-    height: 300px;
+    /* height: 300px; */
 
     padding-top: 50px;
 
@@ -22,9 +22,12 @@
     width: 100%;
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 #NosAcompañan img {
     height: 100px;
     width: auto;
+
+    margin-bottom: 50px;
 }

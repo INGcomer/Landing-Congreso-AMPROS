@@ -83,3 +83,9 @@
     align-items: center;
     justify-content: center;
 }
+
+@media (max-width: 500px) {
+    #Simpocio .imgs {
+        flex-direction: column-reverse;
+    }
+}

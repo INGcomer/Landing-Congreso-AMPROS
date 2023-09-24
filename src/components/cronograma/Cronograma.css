@@ -187,4 +187,8 @@
     .franja_horaria .eventos .evento {
         height: 50px;
     }
+
+    #Cronograma {
+        display: none;
+    }
 }
