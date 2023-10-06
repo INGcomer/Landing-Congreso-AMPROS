@@ -18,6 +18,7 @@ import Hoteles from './components/Hoteles/Hoteles';
 import PreCongreso from './components/PreCongreso/PreCongreso';
 import Simpocio from './components/Simpocio/Simpocio';
 import NosAcompañan from './components/NosAcompañan/NosAcompañan';
+import Fotos from './components/Fotos/Fotos';
 // Analytics
 // import ReactGA from 'react-ga';
 // ReactGA.initialize('UA-000000-01');
@@ -31,6 +32,8 @@ function App() {
       <Header/>
 
       <Bienvenida/>
+
+      {/* <Fotos/> */}
 
       {/* <Inscribirse texto="¡Sé parte del primer congreso de salud mental del AMProS!" variante="blanco"/> */}
 

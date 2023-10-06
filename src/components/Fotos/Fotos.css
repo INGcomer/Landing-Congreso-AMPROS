@@ -1,0 +1,13 @@
+#Fotos {
+    background-color: var(--Oscuro);
+}
+#Fotos h1, #Fotos h2{
+    color: white;
+
+    width: 100%;
+    margin: 0;
+}
+
+#Fotos h1{
+    text-align: center;
+}
