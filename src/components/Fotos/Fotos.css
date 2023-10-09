@@ -1,14 +1,18 @@
 #Fotos {
+    position: relative;
     background-color: var(--Oscuro);
 
     height: fit-content;
 
     padding-bottom: 50px;
+
+    z-index: 2;
 }
 #Fotos li{
     color: #FFBB4E;
     margin-left: 30px;
     margin-bottom: 30px;
+    margin-top: 100px;
 }
 
 #Fotos h1, #Fotos h2{

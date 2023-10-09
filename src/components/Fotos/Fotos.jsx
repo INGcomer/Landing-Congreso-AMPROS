@@ -18,6 +18,7 @@ import { motion } from "framer-motion"
 import "./Fotos.css"
 // Sponsos
 import ingcome from './img/ingcome.png'
+import PlaceHolder from './img/PlaceHolder.png'
 
 export default function Fotos() {
     return (
@@ -31,8 +32,8 @@ export default function Fotos() {
             </ul>
 
             <Swiper
-                slidesPerView={3}
-                spaceBetween={30}
+                slidesPerView={4}
+                spaceBetween={15}
                 loop={true}
                 // pagination={{
                 //     clickable: true,
@@ -44,15 +45,15 @@ export default function Fotos() {
                     disableOnInteraction: false,
                 }}
             >
+                <SwiperSlide> <img src={PlaceHolder} alt="" /> </SwiperSlide>
                 <SwiperSlide> <img src={ingcome} alt="" /> </SwiperSlide>
+                <SwiperSlide> <img src={PlaceHolder} alt="" /> </SwiperSlide>
                 <SwiperSlide> <img src={ingcome} alt="" /> </SwiperSlide>
+                <SwiperSlide> <img src={PlaceHolder} alt="" /> </SwiperSlide>
                 <SwiperSlide> <img src={ingcome} alt="" /> </SwiperSlide>
+                <SwiperSlide> <img src={PlaceHolder} alt="" /> </SwiperSlide>
                 <SwiperSlide> <img src={ingcome} alt="" /> </SwiperSlide>
-                <SwiperSlide> <img src={ingcome} alt="" /> </SwiperSlide>
-                <SwiperSlide> <img src={ingcome} alt="" /> </SwiperSlide>
-                <SwiperSlide> <img src={ingcome} alt="" /> </SwiperSlide>
-                <SwiperSlide> <img src={ingcome} alt="" /> </SwiperSlide>
-                <SwiperSlide> <img src={ingcome} alt="" /> </SwiperSlide>
+                {/* <SwiperSlide> <img src={PlaceHolder} alt="" /> </SwiperSlide> */}
             </Swiper>
 
             <ul>
@@ -62,8 +63,8 @@ export default function Fotos() {
             </ul>
 
             <Swiper
-                slidesPerView={3}
-                spaceBetween={30}
+                slidesPerView={4}
+                spaceBetween={15}
                 loop={true}
                 // pagination={{
                 //     clickable: true,
@@ -75,15 +76,15 @@ export default function Fotos() {
                     disableOnInteraction: false,
                 }}
             >
+                <SwiperSlide> <img src={PlaceHolder} alt="" /> </SwiperSlide>
                 <SwiperSlide> <img src={ingcome} alt="" /> </SwiperSlide>
+                <SwiperSlide> <img src={PlaceHolder} alt="" /> </SwiperSlide>
                 <SwiperSlide> <img src={ingcome} alt="" /> </SwiperSlide>
+                <SwiperSlide> <img src={PlaceHolder} alt="" /> </SwiperSlide>
                 <SwiperSlide> <img src={ingcome} alt="" /> </SwiperSlide>
+                <SwiperSlide> <img src={PlaceHolder} alt="" /> </SwiperSlide>
                 <SwiperSlide> <img src={ingcome} alt="" /> </SwiperSlide>
-                <SwiperSlide> <img src={ingcome} alt="" /> </SwiperSlide>
-                <SwiperSlide> <img src={ingcome} alt="" /> </SwiperSlide>
-                <SwiperSlide> <img src={ingcome} alt="" /> </SwiperSlide>
-                <SwiperSlide> <img src={ingcome} alt="" /> </SwiperSlide>
-                <SwiperSlide> <img src={ingcome} alt="" /> </SwiperSlide>
+                <SwiperSlide> <img src={PlaceHolder} alt="" /> </SwiperSlide>
             </Swiper>
 
 
@@ -95,8 +96,8 @@ export default function Fotos() {
 
 
             <Swiper
-                slidesPerView={3}
-                spaceBetween={30}
+                slidesPerView={4}
+                spaceBetween={15}
                 loop={true}
                 // pagination={{
                 //     clickable: true,
@@ -108,15 +109,47 @@ export default function Fotos() {
                     disableOnInteraction: false,
                 }}
             >
+                <SwiperSlide> <img src={PlaceHolder} alt="" /> </SwiperSlide>
                 <SwiperSlide> <img src={ingcome} alt="" /> </SwiperSlide>
+                <SwiperSlide> <img src={PlaceHolder} alt="" /> </SwiperSlide>
                 <SwiperSlide> <img src={ingcome} alt="" /> </SwiperSlide>
+                <SwiperSlide> <img src={PlaceHolder} alt="" /> </SwiperSlide>
                 <SwiperSlide> <img src={ingcome} alt="" /> </SwiperSlide>
+                <SwiperSlide> <img src={PlaceHolder} alt="" /> </SwiperSlide>
                 <SwiperSlide> <img src={ingcome} alt="" /> </SwiperSlide>
+                <SwiperSlide> <img src={PlaceHolder} alt="" /> </SwiperSlide>
+            </Swiper>
+
+            <ul>
+                <li>
+                    <h2> Cena de cierre </h2>
+                </li>
+            </ul>
+
+
+            <Swiper
+                slidesPerView={4}
+                spaceBetween={15}
+                loop={true}
+                // pagination={{
+                //     clickable: true,
+                // }}
+                modules={[Autoplay, Pagination]}
+                className="mySwiper"
+                autoplay={{
+                    delay: 3000,
+                    disableOnInteraction: false,
+                }}
+            >
+                <SwiperSlide> <img src={PlaceHolder} alt="" /> </SwiperSlide>
                 <SwiperSlide> <img src={ingcome} alt="" /> </SwiperSlide>
+                <SwiperSlide> <img src={PlaceHolder} alt="" /> </SwiperSlide>
                 <SwiperSlide> <img src={ingcome} alt="" /> </SwiperSlide>
+                <SwiperSlide> <img src={PlaceHolder} alt="" /> </SwiperSlide>
                 <SwiperSlide> <img src={ingcome} alt="" /> </SwiperSlide>
+                <SwiperSlide> <img src={PlaceHolder} alt="" /> </SwiperSlide>
                 <SwiperSlide> <img src={ingcome} alt="" /> </SwiperSlide>
-                <SwiperSlide> <img src={ingcome} alt="" /> </SwiperSlide>
+                <SwiperSlide> <img src={PlaceHolder} alt="" /> </SwiperSlide>
             </Swiper>
 
 
