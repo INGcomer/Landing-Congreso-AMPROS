@@ -4,7 +4,7 @@ import "./PreCongreso.css"
 // imgs
 export default function PreCongreso() {
     return (
-        <div id="PreCongreso">
+        <section id="PreCongreso">
             <h1> Si solo querés asistir a una actividad del Pre Congreso, podés inscribirte haciendo click en alguno de los siguientes links: </h1>
             <div className="links">
                 <motion.a
@@ -32,6 +32,6 @@ export default function PreCongreso() {
                     Conversaciones con Carina Kaplan. La salud mental: Afectividad y Educación
                 </motion.a>
             </div>
-        </div>
+        </section>
     )
 }

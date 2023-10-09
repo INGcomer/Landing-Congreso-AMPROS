@@ -1,6 +1,16 @@
 #Fotos {
     background-color: var(--Oscuro);
+
+    height: fit-content;
+
+    padding-bottom: 50px;
 }
+#Fotos li{
+    color: #FFBB4E;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
 #Fotos h1, #Fotos h2{
     color: white;
 
@@ -10,4 +20,74 @@
 
 #Fotos h1{
     text-align: center;
+    font-size: 3rem;
+
+    margin-bottom: 50px;
+}
+#Fotos h2{
+    font-size: 2rem;
+}
+
+#Fotos .swiper {
+    width: 100%;
+
+}
+#Fotos .swiper .swiper-slide{
+    display: flex;
+    justify-content: center;
+}
+#Fotos .swiper img{
+    height: 100px;
+    width: auto;
+
+}
+
+#Fotos .container {
+    width: 100%;
+    height: fit-content;
+
+    margin-top: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Fotos .link{
+    width: 100%;
+
+    margin-top: 50px;
+
+    display: flex;
+    justify-content: center;
+}
+
+#Fotos a{
+    height: 50px;
+    width: 300px;
+
+    background-color: var(--Acento);
+    color: white;
+    border-radius: 50px;
+
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 600;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: all 0.7s;
+}
+#Fotos a:hover{
+    color: var(--Oscuro);
+    transition: all 0.7s;
+}
+
+@media (max-width: 500px) {
+    #Fotos .swiper img{
+        height: 50px;
+        width: auto;
+    }
 }

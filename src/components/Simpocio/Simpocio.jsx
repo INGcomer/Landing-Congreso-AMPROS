@@ -9,7 +9,7 @@ import fondo from './imgs/curvas.svg'
 
 export default function Simpocio() {
     return (
-        <div id="Simpocio">
+        <section id="Simpocio">
             <div className="texto">
                 <h2> *Vorxetil "Buenos Modales" <br /> Cómo poner a trabajar al límite mi creatividad.  </h2>
                 <p> 
@@ -28,6 +28,6 @@ export default function Simpocio() {
             </div>
 
             <img src={fondo} alt="" className="fondo" />
-        </div>
+        </section>
     )
 }
